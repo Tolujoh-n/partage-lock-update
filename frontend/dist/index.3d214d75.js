@@ -27918,41 +27918,38 @@ function SignInPrompt({ greeting, onClick }) {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("main", {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                children: [
-                    "The contract says: ",
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                        className: "greeting",
-                        children: greeting
-                    }, void 0, false, {
-                        fileName: "ui-components.js",
-                        lineNumber: 7,
-                        columnNumber: 28
-                    }, this)
-                ]
-            }, void 0, true, {
+                children: "Welcome to Partage Lock!"
+            }, void 0, false, {
                 fileName: "ui-components.js",
                 lineNumber: 6,
                 columnNumber: 7
             }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                children: "Welcome to NEAR!"
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                children: "A Blockchain-controlled smart lock for Utility NFT owners willing to share physical access to their real-world asset NFTs."
             }, void 0, false, {
                 fileName: "ui-components.js",
                 lineNumber: 9,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                children: "Your contract is storing a greeting message in the NEAR blockchain. To change it you need to sign in using the NEAR Wallet. It is very simple, just use the button below."
+                children: "With the Partage Lock, owners, providers, can remotely manage users' access through to a vault, a garage, or an apartment."
             }, void 0, false, {
                 fileName: "ui-components.js",
                 lineNumber: 12,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                children: 'Do not worry, this app runs in the test network ("testnet"). It works just like the main network ("mainnet"), but using NEAR Tokens that are only for testing!'
+                children: "The Partage Lock is built on the Near Blockchain. The code repository is available at https://github.com/PartageProtocol/partage-lock."
             }, void 0, false, {
                 fileName: "ui-components.js",
-                lineNumber: 17,
+                lineNumber: 15,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                children: "A slides deck presentation is available at https://docs.google.com/presentation/d/1NSlpmjlvIirzLaNsZy6ndhA5ZV40h5ATqszn9FavYn8/edit?usp=sharing"
+            }, void 0, false, {
+                fileName: "ui-components.js",
+                lineNumber: 19,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {

@@ -4,20 +4,20 @@ export function SignInPrompt({greeting, onClick}) {
   return (
     <main>
       <h1>
-        The contract says: <span className="greeting">{greeting}</span>
+      Welcome to Partage Lock!
       </h1>
-      <h3>
-        Welcome to NEAR!
-      </h3>
       <p>
-        Your contract is storing a greeting message in the NEAR blockchain. To
-        change it you need to sign in using the NEAR Wallet. It is very simple,
-        just use the button below.
+      A Blockchain-controlled smart lock for Utility NFT owners willing to share physical access to their real-world asset NFTs. 
       </p>
       <p>
-        Do not worry, this app runs in the test network ("testnet"). It works
-        just like the main network ("mainnet"), but using NEAR Tokens that are
-        only for testing!
+      With the Partage Lock, owners, providers, can remotely manage users' access through to a vault, a garage, or an apartment.
+      </p>
+      <p>
+      The Partage Lock is built on the Near Blockchain. 
+      The code repository is available at https://github.com/PartageProtocol/partage-lock.
+      </p>
+      <p>
+        A slides deck presentation is available at https://docs.google.com/presentation/d/1NSlpmjlvIirzLaNsZy6ndhA5ZV40h5ATqszn9FavYn8/edit?usp=sharing 
       </p>
       <br/>
       <p style={{ textAlign: 'center' }}>
