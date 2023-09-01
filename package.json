@@ -16,5 +16,7 @@
   "devDependencies": {
     "near-cli": "^3.3.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "parcel": "^2.9.3"
+  }
 }

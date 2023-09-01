@@ -1,15 +1,49 @@
 import 'regenerator-runtime/runtime';
-import React from 'react';
+import React, { useEffect } from 'react';
 
-import './assets/global.css';
+
+// import './assets/vendor/purecounter/purecounter_vanilla.js';
+// import './assets/vendor/aos/aos.js';
+// import './assets/vendor/bootstrap/js/bootstrap.bundle.min.js';
+// import './assets/vendor/glightbox/js/glightbox.min.js';
+// import './assets/vendor/swiper/swiper-bundle.min.js';
+// import './assets/js/main.js';
+import GLightbox from 'glightbox'; 
+import Swiper from 'swiper'; 
+import Isotope from 'isotope-layout'; 
+import AOS from 'aos'; 
+
+
+
+// import './assets/global.css';
+import './assets/css/style.css';
+import './assets/vendor/aos/aos.css';
+import './assets/vendor/bootstrap/css/bootstrap.min.css';
+import './assets/vendor/bootstrap-icons/bootstrap-icons.css';
+import './assets/vendor/boxicons/css/boxicons.min.css';
+import './assets/vendor/glightbox/css/glightbox.min.css';
+import './assets/vendor/remixicon/remixicon.css';
+import './assets/vendor/swiper/swiper-bundle.min.css';
 
 import { EducationalText, SignInPrompt, SignOutButton } from './ui-components';
 
 
 export default function App({ isSignedIn, contractId, wallet }) {
+  AOS.init({
+    duration: 1000,
+    easing: 'ease-in-out',
+    once: true,
+    mirror: false
+  });
+  const glightbox = GLightbox({
+    selector: '.glightbox'
+  });
+
+
   const [valueFromBlockchain, setValueFromBlockchain] = React.useState();
 
   const [uiPleaseWait, setUiPleaseWait] = React.useState(true);
+
 
   // Get blockchian state once on component load
   React.useEffect(() => {

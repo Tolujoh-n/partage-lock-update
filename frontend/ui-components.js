@@ -1,28 +1,26 @@
 import React from 'react';
+import Header from './components/header';
+import Footer from './components/footer';
+import Contact from './components/contact';
+import Services from './components/services';
+import About from './components/About';
+
 
 export function SignInPrompt({greeting, onClick}) {
   return (
     <main>
-      <h1>
-      Welcome to Partage Lock!
-      </h1>
-      <p>
-      A Blockchain-controlled smart lock for Utility NFT owners willing to share physical access to their real-world asset NFTs. 
-      </p>
-      <p>
-      With the Partage Lock, owners, providers, can remotely manage users' access through to a vault, a garage, or an apartment.
-      </p>
-      <p>
-      The Partage Lock is built on the Near Blockchain. 
-      The code repository is available at https://github.com/PartageProtocol/partage-lock.
-      </p>
-      <p>
-        A slides deck presentation is available at https://docs.google.com/presentation/d/1NSlpmjlvIirzLaNsZy6ndhA5ZV40h5ATqszn9FavYn8/edit?usp=sharing 
-      </p>
-      <br/>
-      <p style={{ textAlign: 'center' }}>
+      <Header />
+      <About />
+      <Services />
+      <Contact />
+      <Footer />
+
+
+      
+      {/* <p style={{ textAlign: 'center' }}>
         <button onClick={onClick}>Sign in with NEAR Wallet</button>
-      </p>
+      </p>  */}
+
     </main>
   );
 }
