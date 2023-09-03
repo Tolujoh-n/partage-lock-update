@@ -18,7 +18,8 @@ body {
 
 a {
   color: #c5f801;
-  text-decoration: none;
+  cursor: pointer;
+  text-decoration: none !important;
 }
 
 a:hover {

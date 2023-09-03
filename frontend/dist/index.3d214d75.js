@@ -27206,7 +27206,7 @@ function App({ isSignedIn, contractId, wallet }) {
         onClick: ()=>wallet.signIn()
     }, void 0, false, {
         fileName: "App.js",
-        lineNumber: 62,
+        lineNumber: 63,
         columnNumber: 12
     }, this);
     function changeGreeting(e) {
@@ -27240,7 +27240,7 @@ function App({ isSignedIn, contractId, wallet }) {
                 onClick: ()=>wallet.signOut()
             }, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 86,
+                lineNumber: 87,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("main", {
@@ -27254,13 +27254,13 @@ function App({ isSignedIn, contractId, wallet }) {
                                 children: valueFromBlockchain
                             }, void 0, false, {
                                 fileName: "App.js",
-                                lineNumber: 89,
+                                lineNumber: 90,
                                 columnNumber: 30
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "App.js",
-                        lineNumber: 88,
+                        lineNumber: 89,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
@@ -27271,7 +27271,7 @@ function App({ isSignedIn, contractId, wallet }) {
                                 children: "Change greeting:"
                             }, void 0, false, {
                                 fileName: "App.js",
-                                lineNumber: 92,
+                                lineNumber: 93,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27282,7 +27282,7 @@ function App({ isSignedIn, contractId, wallet }) {
                                         id: "greetingInput"
                                     }, void 0, false, {
                                         fileName: "App.js",
-                                        lineNumber: 94,
+                                        lineNumber: 95,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -27291,43 +27291,43 @@ function App({ isSignedIn, contractId, wallet }) {
                                                 children: "Save"
                                             }, void 0, false, {
                                                 fileName: "App.js",
-                                                lineNumber: 100,
+                                                lineNumber: 101,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                 className: "loader"
                                             }, void 0, false, {
                                                 fileName: "App.js",
-                                                lineNumber: 101,
+                                                lineNumber: 102,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "App.js",
-                                        lineNumber: 99,
+                                        lineNumber: 100,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "App.js",
-                                lineNumber: 93,
+                                lineNumber: 94,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "App.js",
-                        lineNumber: 91,
+                        lineNumber: 92,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _uiComponents.EducationalText), {}, void 0, false, {
                         fileName: "App.js",
-                        lineNumber: 105,
+                        lineNumber: 106,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "App.js",
-                lineNumber: 87,
+                lineNumber: 88,
                 columnNumber: 7
             }, this)
         ]
@@ -27958,7 +27958,9 @@ var _aboutDefault = parcelHelpers.interopDefault(_about);
 function SignInPrompt({ greeting, onClick }) {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("main", {
         children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {
+                onClick: onClick
+            }, void 0, false, {
                 fileName: "ui-components.js",
                 lineNumber: 12,
                 columnNumber: 7
@@ -28198,9 +28200,15 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
+var _headerScrolled = require("../assets/js/headerScrolled");
 var _uiComponents = require("../ui-components");
 var _uiComponentsDefault = parcelHelpers.interopDefault(_uiComponents);
+var _s = $RefreshSig$();
 const Header = ({ onClick })=>{
+    _s();
+    (0, _react.useEffect)(()=>{
+        (0, _headerScrolled.initHeaderScrolled)();
+    }, []);
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("header", {
@@ -28219,12 +28227,12 @@ const Header = ({ onClick })=>{
                                 children: "Partage"
                             }, void 0, false, {
                                 fileName: "components/header.js",
-                                lineNumber: 10,
+                                lineNumber: 15,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "components/header.js",
-                            lineNumber: 9,
+                            lineNumber: 14,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
@@ -28240,21 +28248,6 @@ const Header = ({ onClick })=>{
                                                 children: "Home"
                                             }, void 0, false, {
                                                 fileName: "components/header.js",
-                                                lineNumber: 18,
-                                                columnNumber: 17
-                                            }, undefined)
-                                        }, void 0, false, {
-                                            fileName: "components/header.js",
-                                            lineNumber: 17,
-                                            columnNumber: 15
-                                        }, undefined),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                className: "nav-link scrollto",
-                                                href: "#about",
-                                                children: "About"
-                                            }, void 0, false, {
-                                                fileName: "components/header.js",
                                                 lineNumber: 23,
                                                 columnNumber: 17
                                             }, undefined)
@@ -28266,8 +28259,8 @@ const Header = ({ onClick })=>{
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                                 className: "nav-link scrollto",
-                                                href: "#about-boxes",
-                                                children: "Services"
+                                                href: "#about",
+                                                children: "About"
                                             }, void 0, false, {
                                                 fileName: "components/header.js",
                                                 lineNumber: 28,
@@ -28281,8 +28274,8 @@ const Header = ({ onClick })=>{
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                                 className: "nav-link scrollto",
-                                                href: "#portfolio",
-                                                children: "Marketplace"
+                                                href: "#about-boxes",
+                                                children: "Services"
                                             }, void 0, false, {
                                                 fileName: "components/header.js",
                                                 lineNumber: 33,
@@ -28296,8 +28289,8 @@ const Header = ({ onClick })=>{
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                                 className: "nav-link scrollto",
-                                                href: "#team",
-                                                children: "Whitepaper"
+                                                href: "#portfolio",
+                                                children: "Marketplace"
                                             }, void 0, false, {
                                                 fileName: "components/header.js",
                                                 lineNumber: 38,
@@ -28311,8 +28304,8 @@ const Header = ({ onClick })=>{
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                                 className: "nav-link scrollto",
-                                                href: "#contact",
-                                                children: "Contact"
+                                                href: "#team",
+                                                children: "Whitepaper"
                                             }, void 0, false, {
                                                 fileName: "components/header.js",
                                                 lineNumber: 43,
@@ -28325,9 +28318,9 @@ const Header = ({ onClick })=>{
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                onClick: onClick,
-                                                className: "getstarted scrollto",
-                                                children: "Connect Wallet"
+                                                className: "nav-link scrollto",
+                                                href: "#contact",
+                                                children: "Contact"
                                             }, void 0, false, {
                                                 fileName: "components/header.js",
                                                 lineNumber: 48,
@@ -28337,35 +28330,50 @@ const Header = ({ onClick })=>{
                                             fileName: "components/header.js",
                                             lineNumber: 47,
                                             columnNumber: 15
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                onClick: onClick,
+                                                className: "getstarted scrollto",
+                                                children: "Connect Wallet"
+                                            }, void 0, false, {
+                                                fileName: "components/header.js",
+                                                lineNumber: 53,
+                                                columnNumber: 17
+                                            }, undefined)
+                                        }, void 0, false, {
+                                            fileName: "components/header.js",
+                                            lineNumber: 52,
+                                            columnNumber: 15
                                         }, undefined)
                                     ]
                                 }, void 0, true, {
                                     fileName: "components/header.js",
-                                    lineNumber: 16,
+                                    lineNumber: 21,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
                                     className: "bi bi-list mobile-nav-toggle"
                                 }, void 0, false, {
                                     fileName: "components/header.js",
-                                    lineNumber: 53,
+                                    lineNumber: 58,
                                     columnNumber: 13
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "components/header.js",
-                            lineNumber: 15,
+                            lineNumber: 20,
                             columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "components/header.js",
-                    lineNumber: 8,
+                    lineNumber: 13,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "components/header.js",
-                lineNumber: 7,
+                lineNumber: 12,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
@@ -28384,7 +28392,7 @@ const Header = ({ onClick })=>{
                                     children: "Blockchain "
                                 }, void 0, false, {
                                     fileName: "components/header.js",
-                                    lineNumber: 61,
+                                    lineNumber: 66,
                                     columnNumber: 13
                                 }, undefined),
                                 " controlled",
@@ -28396,20 +28404,20 @@ const Header = ({ onClick })=>{
                                     children: "Smart lock"
                                 }, void 0, false, {
                                     fileName: "components/header.js",
-                                    lineNumber: 62,
+                                    lineNumber: 67,
                                     columnNumber: 13
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "components/header.js",
-                            lineNumber: 60,
+                            lineNumber: 65,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                             children: "Partage is a p2p sharing system for Utility NFTs. Providers mint, fractionalize and share supplies and utilities on the Bitcoin blockchain."
                         }, void 0, false, {
                             fileName: "components/header.js",
-                            lineNumber: 64,
+                            lineNumber: 69,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28421,33 +28429,34 @@ const Header = ({ onClick })=>{
                                     children: "Connect Wallet"
                                 }, void 0, false, {
                                     fileName: "components/header.js",
-                                    lineNumber: 71,
+                                    lineNumber: 76,
                                     columnNumber: 15
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "components/header.js",
-                                lineNumber: 70,
+                                lineNumber: 75,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "components/header.js",
-                            lineNumber: 69,
+                            lineNumber: 74,
                             columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "components/header.js",
-                    lineNumber: 59,
+                    lineNumber: 64,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "components/header.js",
-                lineNumber: 58,
+                lineNumber: 63,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true);
 };
+_s(Header, "OD7bBpZva5O2jO+Puf00hKivP7c=");
 _c = Header;
 exports.default = Header;
 var _c;
@@ -28458,7 +28467,7 @@ $RefreshReg$(_c, "Header");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"1OlAz","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"kh41a","../ui-components":"4LIXu"}],"1OlAz":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"1OlAz","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"kh41a","../assets/js/headerScrolled":"gaYUV","../ui-components":"4LIXu"}],"1OlAz":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -28626,7 +28635,38 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"73a6a3361f7f06f4":"6LKJy"}],"4psvf":[function(require,module,exports) {
+},{"73a6a3361f7f06f4":"6LKJy"}],"gaYUV":[function(require,module,exports) {
+// headerScrolled.js
+/**
+ * Easy selector helper function
+ */ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "initHeaderScrolled", ()=>initHeaderScrolled);
+const select = (el, all = false)=>{
+    el = el.trim();
+    if (all) return [
+        ...document.querySelectorAll(el)
+    ];
+    else return document.querySelector(el);
+};
+/**
+   * Easy on scroll event listener
+   */ const onscroll = (el, listener)=>{
+    el.addEventListener("scroll", listener);
+};
+const initHeaderScrolled = ()=>{
+    let selectHeader = select("#header");
+    if (selectHeader) {
+        const headerScrolled = ()=>{
+            if (window.scrollY > 100) selectHeader.classList.add("header-scrolled");
+            else selectHeader.classList.remove("header-scrolled");
+        };
+        window.addEventListener("load", headerScrolled);
+        onscroll(document, headerScrolled);
+    }
+};
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"1OlAz"}],"4psvf":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$a8dc = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;

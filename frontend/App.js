@@ -29,6 +29,7 @@ import { EducationalText, SignInPrompt, SignOutButton } from './ui-components';
 
 
 export default function App({ isSignedIn, contractId, wallet }) {
+  
   AOS.init({
     duration: 1000,
     easing: 'ease-in-out',

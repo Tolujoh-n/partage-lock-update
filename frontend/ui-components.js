@@ -9,7 +9,7 @@ import About from './components/About';
 export function SignInPrompt({greeting, onClick}) {
   return (
     <main>
-      <Header />
+      <Header onClick={onClick} />
       <About />
       <Services />
       <Contact />

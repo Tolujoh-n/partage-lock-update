@@ -1,7 +1,12 @@
-import React from "react";
-import SignOutButton from '../ui-components';
+import React, { useEffect } from "react";
+import { initHeaderScrolled } from "../assets/js/headerScrolled";
+import SignOutButton from "../ui-components";
 
-const Header = ({onClick}) => {
+const Header = ({ onClick }) => {
+  useEffect(() => {
+    initHeaderScrolled();
+  }, []);
+
   return (
     <>
       <header id="header" className="fixed-top">
@@ -73,7 +78,6 @@ const Header = ({onClick}) => {
           </div>
         </div>
       </section>
-      
     </>
   );
 };
