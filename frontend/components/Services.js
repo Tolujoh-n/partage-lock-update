@@ -8,8 +8,7 @@ const Services = () => {
     <section id="about-boxes" className="about-boxes">
       <div className="container" data-aos="fade-up">
         <div className="section-title">
-          <h2>It Works</h2>
-          <p>How It Works</p>
+          <h2>How It Works</h2>
         </div>
 
         <div className="row">
@@ -28,7 +27,7 @@ const Services = () => {
                 <i className="ri-brush-4-line"></i>
               </div>
               <div className="card-body">
-                <h5 className="card-title"><a href="">Setup Your Wallet</a></h5>
+                <h5 className="card-title"><a href="">Connect Your Wallet</a></h5>
                 <p className="card-text">
                   Connect your preferred Near wallet by clicking the Connect
                   Wallet button at the top of this page.
@@ -51,10 +50,9 @@ const Services = () => {
                 <i className="ri-calendar-check-line"></i>
               </div>
               <div className="card-body">
-                <h5 className="card-title"><a href="">Browse Categories</a></h5>
+                <h5 className="card-title"><a href="">Send payment</a></h5>
                 <p className="card-text">
-                  Browse all available items in the marketplace or refine
-                  your search by category.
+                  Browse all available locked Utilities in the Partage Marketplace, and send payment for your desired use time.
                 </p>
               </div>
             </div>
@@ -74,10 +72,9 @@ const Services = () => {
                 <i className="ri-movie-2-line"></i>
               </div>
               <div className="card-body">
-                <h5 className="card-title"><a href="">Purchase NFTs</a></h5>
+                <h5 className="card-title"><a href="">Receive password</a></h5>
                 <p className="card-text">
-                  Purchase timeshares in our selection of utility NFTs and
-                  redeem them from the utility provider.
+                  Receive a secret password in your email and type it on the Partage lock to access the locked utility you chose.
                 </p>
               </div>
             </div>

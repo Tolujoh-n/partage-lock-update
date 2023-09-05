@@ -142,7 +142,7 @@
       this[globalName] = mainExports;
     }
   }
-})({"kXIp0":[function(require,module,exports) {
+})({"5YwMy":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
@@ -2122,7 +2122,7 @@ function indexOf(xs, x) {
     return -1;
 }
 
-},{"896ff8d56553f7a":"d5jf4","16782d660ac22e0c":"1VQLm","9a34f23fa53f83f7":"60BLS","fb95ecaa88342eae":"fCgem","a4a723b7297c7152":"j6g3b","7a14cc1689b8c63e":"hf3P2","efa8155386cc4283":"YI8DF","994c984d08c7bbf2":"61BRN","8de60461b822641b":"aJlwj","19affa8ce41f090d":"bRL3M","f1c95f846e94e4eb":"kKNA3","6392acd10886f115":"3vmkr","830c56f840811f05":"k019Y","7451b8c4bf72370":"ak0YH"}],"60BLS":[function(require,module,exports) {
+},{"896ff8d56553f7a":"d5jf4","16782d660ac22e0c":"1VQLm","9a34f23fa53f83f7":"60BLS","fb95ecaa88342eae":"fCgem","a4a723b7297c7152":"6PxzE","7a14cc1689b8c63e":"hf3P2","efa8155386cc4283":"YI8DF","994c984d08c7bbf2":"61BRN","8de60461b822641b":"aJlwj","19affa8ce41f090d":"bRL3M","f1c95f846e94e4eb":"kKNA3","6392acd10886f115":"3vmkr","830c56f840811f05":"k019Y","7451b8c4bf72370":"ak0YH"}],"60BLS":[function(require,module,exports) {
 module.exports = require("ed88fc9aa73f911").EventEmitter;
 
 },{"ed88fc9aa73f911":"1VQLm"}],"hf3P2":[function(require,module,exports) {
@@ -2371,7 +2371,7 @@ module.exports = /*#__PURE__*/ function() {
     return BufferList;
 }();
 
-},{"59f5d0111b7fa075":"fCgem","eef6a677577349b8":"j6g3b"}],"YI8DF":[function(require,module,exports) {
+},{"59f5d0111b7fa075":"fCgem","eef6a677577349b8":"6PxzE"}],"YI8DF":[function(require,module,exports) {
 var process = require("4284522496af5dfb");
 "use strict";
 // undocumented cb() API, needed for core, not for public API
@@ -6416,7 +6416,7 @@ function arrObjKeys(obj, inspect) {
     return xs;
 }
 
-},{"faefcb1694f2ad90":"j6g3b"}],"chmkc":[function(require,module,exports) {
+},{"faefcb1694f2ad90":"6PxzE"}],"chmkc":[function(require,module,exports) {
 "use strict";
 var formats = require("7adf3674f81a2c87");
 var has = Object.prototype.hasOwnProperty;
@@ -6815,6 +6815,6 @@ function validateParams(params) {
     return params;
 }
 
-},{"c0383d0f5be55d6b":"5y8Jo","23c94c23cc2fc416":"7qjc7"}]},["kXIp0"], null, "parcelRequiref931")
+},{"c0383d0f5be55d6b":"5y8Jo","23c94c23cc2fc416":"7qjc7"}]},["5YwMy"], null, "parcelRequiref931")
 
 //# sourceMappingURL=fetch.5aa4d3e3.js.map
