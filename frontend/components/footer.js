@@ -11,45 +11,22 @@ const Footer = () => {
                 <div className="footer-info">
                   <h3>PARTAGE</h3>
                   <p>Shared Utilities on Bitcoin</p>
+                  <p>Join our social medias</p>
                   <div className="social-links mt-3">
-                    <a href="#" className="twitter">
+                    <a href="https://discord.gg/4t4AX9GVUf" className="Discord">
+                      <i className="bx bxl-discord"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@partage_btc" className="Youtube">
+                      <i className="bx bxl-youtube"></i>
+                    </a>
+                    <a href="https://twitter.com/partage_btc" className="twitter">
                       <i className="bx bxl-twitter"></i>
                     </a>
-                    <a href="#" className="facebook">
-                      <i className="bx bxl-facebook"></i>
-                    </a>
-                    <a href="#" className="instagram">
+                    <a href="https://www.instagram.com/partage.btc/" className="instagram">
                       <i className="bx bxl-instagram"></i>
-                    </a>
-                    <a href="#" className="google-plus">
-                      <i className="bx bxl-skype"></i>
-                    </a>
-                    <a href="#" className="linkedin">
-                      <i className="bx bxl-linkedin"></i>
                     </a>
                   </div>
                 </div>
-              </div>
-
-              <div className="col-lg-2 col-md-6 footer-links">
-                <h4>Useful Links</h4>
-                <ul>
-                  <li>
-                    <i className="bx bx-chevron-right"></i> <a href="#">Home</a>
-                  </li>
-                  <li>
-                    <i className="bx bx-chevron-right"></i>{" "}
-                    <a href="#">About us</a>
-                  </li>
-                  <li>
-                    <i className="bx bx-chevron-right"></i>{" "}
-                    <a href="#">Services</a>
-                  </li>
-                  <li>
-                    <i className="bx bx-chevron-right"></i>{" "}
-                    <a href="#">Privacy Policy</a>
-                  </li>
-                </ul>
               </div>
 
               <div className="col-lg-3 col-md-6 footer-links">
@@ -57,15 +34,19 @@ const Footer = () => {
                 <ul>
                   <li>
                     <i className="bx bx-chevron-right"></i>{" "}
-                    <a href="#">Marketplace</a>
+                    <a href="https://hellopartage.xyz/nfts">Marketplace</a>
                   </li>
                   <li>
                     <i className="bx bx-chevron-right"></i>{" "}
-                    <a href="#">White Paper</a>
+                    <a href="https://medium.com/partage-btc/partages-white-paper-347674063de7">White Paper</a>
                   </li>
                   <li>
                     <i className="bx bx-chevron-right"></i>{" "}
-                    <a href="#">Tutorials</a>
+                    <a href="https://medium.com/partage-btc/partage-tutorials-8e1f6868716d">Tutorials</a>
+                  </li>
+                  <li>
+                    <i className="bx bx-chevron-right"></i>{" "}
+                    <a href="https://docs.google.com/document/d/1-ZoP8lExQZ_LDxBG0ZXdbFr7i8Ie0ymcMn6Uh-XfpZc/edit#heading=h.8do1cn1ic47h">Privacy Policy</a>
                   </li>
                 </ul>
               </div>
@@ -84,11 +65,14 @@ const Footer = () => {
 
         <div className="container">
           <div className="copyright">
-            &copy; Copyright{" "}
-            <strong>
-              <span>CivicTech OÜ, 2023</span>
-            </strong>
-            . All Rights Reserved
+          <a
+            className="caption"
+            href="https://ariregister.rik.ee/eng/company/14990229/CivicTech-O%C3%9C?search_id=ed8a0b4&pos=1"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            All rights reserved {` Ⓒ CivicTech OÜ, 2023`}
+          </a>
           </div>
         </div>
       </footer>

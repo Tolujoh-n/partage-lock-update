@@ -1354,7 +1354,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #c5f801;
+  background: #fc5600;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1555,14 +1555,14 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #c5f801;
+  background: #fc5600;
   color: #fff;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
 }
 
 #footer .footer-top .footer-newsletter form input[type=submit]:hover {
-  background: #97bd00;
+  background: #ff6a40;
 }
 
 #footer .copyright {

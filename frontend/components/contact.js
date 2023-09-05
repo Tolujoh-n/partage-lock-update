@@ -15,29 +15,27 @@ const Contact = () => {
               <div className="col-md-12">
                 <div className="info-box">
                   <i className="bx bx-map"></i>
-                  <h3>Our Address</h3>
-                  <p>A108 Adam Street, New York, NY 535022</p>
+                  <h3>Address</h3>
+                  <p>Ahtri tn 12, 10151 Tallinn, Estonia </p>
                 </div>
               </div>
               <div className="col-md-6">
                 <div className="info-box mt-4">
                   <i className="bx bx-envelope"></i>
-                  <h3>Email Us</h3>
+                  <h3>Email</h3>
                   <p>
-                    info@example.com
+                    support@hellopartage.xyz
                     <br />
-                    contact@example.com
                   </p>
                 </div>
               </div>
               <div className="col-md-6">
                 <div className="info-box mt-4">
                   <i className="bx bx-phone-call"></i>
-                  <h3>Call Us</h3>
+                  <h3>Whatsapp</h3>
                   <p>
-                    +1 5589 55488 55
+                    +33 617 98 2358
                     <br />
-                    +1 6678 254445 41
                   </p>
                 </div>
               </div>

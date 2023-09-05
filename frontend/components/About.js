@@ -1,5 +1,5 @@
 import React from 'react';
-import heroImage from '../assets/img/hero-bg.png';
+import heroImage from '../assets/img/partage.png';
 
 const About = () => {
   return (
@@ -24,26 +24,24 @@ const About = () => {
             data-aos="fade-right"
             data-aos-delay="100"
           >
-            <h3>Welcome to Partage Lock!</h3>
-            <p className="fst-italic">
-              A Blockchain-controlled smart lock for Utility NFT owners willing
-              to share physical access to their real-world asset NFTs.
-            </p>
+            <p></p>
+            <br></br>
+            <h3>
+              A Blockchain-controlled smart lock
+            </h3>
+            <br></br>
+            <p>Owners, providers, remotely
+                manage users' access to real-world asset NFTs safely locked in a vault, a garage, or a
+                house.</p>
             <ul>
               <li>
-                <i className="ri-check-double-line"></i> Owners can remotely
-                manage users' access through to a vault, a garage, or an
-                apartment with Partage Lock
+                <i className="ri-check-double-line"></i> <b>Secured:</b> Only the smart contract owner can control the lock. 
               </li>
               <li>
-                <i className="ri-check-double-line"></i> Providers can remotely
-                manage users' access through to a vault, a garage, or an
-                apartment.
+                <i className="ri-check-double-line"></i> <b>Decentralized:</b> The owner is independent from any third party platform.
               </li>
               <li>
-                <i className="ri-check-double-line"></i> With Partage Lock,
-                owners and providers can remotely manage users' access through
-                to a vault, a garage, or an apartment.
+                <i className="ri-check-double-line"></i> <b>Trustworthy:</b> Code is law. Once deployed on blockchain, code is forever.
               </li>
             </ul>
             <p>

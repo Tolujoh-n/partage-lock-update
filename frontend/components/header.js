@@ -13,40 +13,15 @@ const Header = ({ onClick }) => {
         <div className="container d-flex align-items-center justify-content-between">
           <h1 className="logo">
             <a style={{ color: "#c5f801" }} href="">
-              Partage
+              <b>PARTAGE LOCK</b>
             </a>
           </h1>
 
           <nav id="navbar" className="navbar">
             <ul>
               <li>
-                <a className="nav-link scrollto active" href="#hero">
-                  Home
-                </a>
-              </li>
-              <li>
-                <a className="nav-link scrollto" href="#about">
-                  About
-                </a>
-              </li>
-              <li>
-                <a className="nav-link scrollto" href="#about-boxes">
-                  Services
-                </a>
-              </li>
-              <li>
-                <a className="nav-link scrollto" href="#portfolio">
-                  Marketplace
-                </a>
-              </li>
-              <li>
-                <a className="nav-link scrollto" href="#team">
-                  Whitepaper
-                </a>
-              </li>
-              <li>
-                <a className="nav-link scrollto" href="#contact">
-                  Contact
+                <a className="nav-link scrollto" href="https://medium.com/@juliencarbonnell/democratizing-access-to-utilities-blockchain-for-smart-cities-25eefb0348e7">
+                  Documentation
                 </a>
               </li>
               <li>
@@ -60,7 +35,7 @@ const Header = ({ onClick }) => {
           {/* .navbar */}
         </div>
       </header>
-      <section id="hero">
+      {/* <section id="hero">
         <div className="hero-container" data-aos="fade-up" data-aos-delay="150">
           <h1>
             <span style={{ color: "#c5f801" }}>Blockchain </span> controlled{" "}
@@ -77,7 +52,7 @@ const Header = ({ onClick }) => {
             </a>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 };
