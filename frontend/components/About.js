@@ -12,6 +12,8 @@ const About = () => {
             data-aos="fade-left"
             data-aos-delay="100"
           >
+            <p></p>
+            <br></br>
             <img
               id="aboutimg"
               src={heroImage}
