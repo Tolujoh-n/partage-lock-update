@@ -31,6 +31,7 @@ const Header = ({ onClick }) => {
               </li>
             </ul>
             <i className="bi bi-list mobile-nav-toggle"></i>
+            <br></br>
           </nav>
           {/* .navbar */}
         </div>

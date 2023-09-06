@@ -1,7 +1,7 @@
 import React from 'react';
-import boxImage1 from '../assets/img/about-boxes-1.jpg';
-import boxImage2 from '../assets/img/about-boxes-2.jpg';
-import boxImage3 from '../assets/img/about-boxes-3.jpg';
+import boxImage1 from '../assets/img/connect-wallet.jpg';
+import boxImage2 from '../assets/img/send-payment.jpg';
+import boxImage3 from '../assets/img/receive-password.jpg';
 
 const Services = () => {
   return (

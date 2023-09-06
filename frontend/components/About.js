@@ -1,5 +1,5 @@
 import React from 'react';
-import heroImage from '../assets/img/partage.png';
+import heroImage from '../assets/img/arduino-lock.jpg';
 
 const About = () => {
   return (
@@ -29,6 +29,7 @@ const About = () => {
             <h3>
               A Blockchain-controlled smart lock
             </h3>
+            <br></br>
             <br></br>
             <p>Owners, providers, remotely
                 manage users' access to real-world asset NFTs safely locked in a vault, a garage, or a

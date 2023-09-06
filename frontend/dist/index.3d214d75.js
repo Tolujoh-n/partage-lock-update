@@ -36071,6 +36071,11 @@ const Header = ({ onClick })=>{
                                 fileName: "components/header.js",
                                 lineNumber: 33,
                                 columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "components/header.js",
+                                lineNumber: 34,
+                                columnNumber: 13
                             }, undefined)
                         ]
                     }, void 0, true, {
@@ -36671,23 +36676,14 @@ const Contact = ()=>{
             children: [
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                     className: "section-title",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                            children: "Contact"
-                        }, void 0, false, {
-                            fileName: "components/contact.js",
-                            lineNumber: 8,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                            children: "Contact Us"
-                        }, void 0, false, {
-                            fileName: "components/contact.js",
-                            lineNumber: 9,
-                            columnNumber: 11
-                        }, undefined)
-                    ]
-                }, void 0, true, {
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                        children: "Contact Us"
+                    }, void 0, false, {
+                        fileName: "components/contact.js",
+                        lineNumber: 8,
+                        columnNumber: 11
+                    }, undefined)
+                }, void 0, false, {
                     fileName: "components/contact.js",
                     lineNumber: 7,
                     columnNumber: 9
@@ -36709,32 +36705,32 @@ const Contact = ()=>{
                                                     className: "bx bx-map"
                                                 }, void 0, false, {
                                                     fileName: "components/contact.js",
-                                                    lineNumber: 17,
+                                                    lineNumber: 16,
                                                     columnNumber: 19
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
                                                     children: "Address"
                                                 }, void 0, false, {
                                                     fileName: "components/contact.js",
-                                                    lineNumber: 18,
+                                                    lineNumber: 17,
                                                     columnNumber: 19
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                                     children: "Ahtri tn 12, 10151 Tallinn, Estonia "
                                                 }, void 0, false, {
                                                     fileName: "components/contact.js",
-                                                    lineNumber: 19,
+                                                    lineNumber: 18,
                                                     columnNumber: 19
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "components/contact.js",
-                                            lineNumber: 16,
+                                            lineNumber: 15,
                                             columnNumber: 17
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "components/contact.js",
-                                        lineNumber: 15,
+                                        lineNumber: 14,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -36746,14 +36742,14 @@ const Contact = ()=>{
                                                     className: "bx bx-envelope"
                                                 }, void 0, false, {
                                                     fileName: "components/contact.js",
-                                                    lineNumber: 24,
+                                                    lineNumber: 23,
                                                     columnNumber: 19
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
                                                     children: "Email"
                                                 }, void 0, false, {
                                                     fileName: "components/contact.js",
-                                                    lineNumber: 25,
+                                                    lineNumber: 24,
                                                     columnNumber: 19
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -36761,24 +36757,24 @@ const Contact = ()=>{
                                                         "support@hellopartage.xyz",
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                                             fileName: "components/contact.js",
-                                                            lineNumber: 28,
+                                                            lineNumber: 27,
                                                             columnNumber: 21
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "components/contact.js",
-                                                    lineNumber: 26,
+                                                    lineNumber: 25,
                                                     columnNumber: 19
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "components/contact.js",
-                                            lineNumber: 23,
+                                            lineNumber: 22,
                                             columnNumber: 17
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "components/contact.js",
-                                        lineNumber: 22,
+                                        lineNumber: 21,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -36790,14 +36786,14 @@ const Contact = ()=>{
                                                     className: "bx bx-phone-call"
                                                 }, void 0, false, {
                                                     fileName: "components/contact.js",
-                                                    lineNumber: 34,
+                                                    lineNumber: 33,
                                                     columnNumber: 19
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
                                                     children: "Whatsapp"
                                                 }, void 0, false, {
                                                     fileName: "components/contact.js",
-                                                    lineNumber: 35,
+                                                    lineNumber: 34,
                                                     columnNumber: 19
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -36805,35 +36801,35 @@ const Contact = ()=>{
                                                         "+33 617 98 2358",
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                                             fileName: "components/contact.js",
-                                                            lineNumber: 38,
+                                                            lineNumber: 37,
                                                             columnNumber: 21
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "components/contact.js",
-                                                    lineNumber: 36,
+                                                    lineNumber: 35,
                                                     columnNumber: 19
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "components/contact.js",
-                                            lineNumber: 33,
+                                            lineNumber: 32,
                                             columnNumber: 17
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "components/contact.js",
-                                        lineNumber: 32,
+                                        lineNumber: 31,
                                         columnNumber: 15
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "components/contact.js",
-                                lineNumber: 14,
+                                lineNumber: 13,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "components/contact.js",
-                            lineNumber: 13,
+                            lineNumber: 12,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -36858,12 +36854,12 @@ const Contact = ()=>{
                                                     required: true
                                                 }, void 0, false, {
                                                     fileName: "components/contact.js",
-                                                    lineNumber: 54,
+                                                    lineNumber: 53,
                                                     columnNumber: 19
                                                 }, undefined)
                                             }, void 0, false, {
                                                 fileName: "components/contact.js",
-                                                lineNumber: 53,
+                                                lineNumber: 52,
                                                 columnNumber: 17
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -36877,18 +36873,18 @@ const Contact = ()=>{
                                                     required: true
                                                 }, void 0, false, {
                                                     fileName: "components/contact.js",
-                                                    lineNumber: 64,
+                                                    lineNumber: 63,
                                                     columnNumber: 19
                                                 }, undefined)
                                             }, void 0, false, {
                                                 fileName: "components/contact.js",
-                                                lineNumber: 63,
+                                                lineNumber: 62,
                                                 columnNumber: 17
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "components/contact.js",
-                                        lineNumber: 52,
+                                        lineNumber: 51,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -36902,12 +36898,12 @@ const Contact = ()=>{
                                             required: true
                                         }, void 0, false, {
                                             fileName: "components/contact.js",
-                                            lineNumber: 75,
+                                            lineNumber: 74,
                                             columnNumber: 17
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "components/contact.js",
-                                        lineNumber: 74,
+                                        lineNumber: 73,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -36920,12 +36916,12 @@ const Contact = ()=>{
                                             required: true
                                         }, void 0, false, {
                                             fileName: "components/contact.js",
-                                            lineNumber: 85,
+                                            lineNumber: 84,
                                             columnNumber: 17
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "components/contact.js",
-                                        lineNumber: 84,
+                                        lineNumber: 83,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -36936,14 +36932,14 @@ const Contact = ()=>{
                                                 children: "Loading"
                                             }, void 0, false, {
                                                 fileName: "components/contact.js",
-                                                lineNumber: 94,
+                                                lineNumber: 93,
                                                 columnNumber: 17
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                 className: "error-message"
                                             }, void 0, false, {
                                                 fileName: "components/contact.js",
-                                                lineNumber: 95,
+                                                lineNumber: 94,
                                                 columnNumber: 17
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -36951,13 +36947,13 @@ const Contact = ()=>{
                                                 children: "Your message has been sent. Thank you!"
                                             }, void 0, false, {
                                                 fileName: "components/contact.js",
-                                                lineNumber: 96,
+                                                lineNumber: 95,
                                                 columnNumber: 17
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "components/contact.js",
-                                        lineNumber: 93,
+                                        lineNumber: 92,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -36967,29 +36963,29 @@ const Contact = ()=>{
                                             children: "Send Message"
                                         }, void 0, false, {
                                             fileName: "components/contact.js",
-                                            lineNumber: 101,
+                                            lineNumber: 100,
                                             columnNumber: 17
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "components/contact.js",
-                                        lineNumber: 100,
+                                        lineNumber: 99,
                                         columnNumber: 15
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "components/contact.js",
-                                lineNumber: 46,
+                                lineNumber: 45,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "components/contact.js",
-                            lineNumber: 45,
+                            lineNumber: 44,
                             columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "components/contact.js",
-                    lineNumber: 12,
+                    lineNumber: 11,
                     columnNumber: 9
                 }, undefined)
             ]
@@ -37026,12 +37022,12 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-var _aboutBoxes1Jpg = require("../assets/img/about-boxes-1.jpg");
-var _aboutBoxes1JpgDefault = parcelHelpers.interopDefault(_aboutBoxes1Jpg);
-var _aboutBoxes2Jpg = require("../assets/img/about-boxes-2.jpg");
-var _aboutBoxes2JpgDefault = parcelHelpers.interopDefault(_aboutBoxes2Jpg);
-var _aboutBoxes3Jpg = require("../assets/img/about-boxes-3.jpg");
-var _aboutBoxes3JpgDefault = parcelHelpers.interopDefault(_aboutBoxes3Jpg);
+var _connectWalletJpg = require("../assets/img/connect-wallet.jpg");
+var _connectWalletJpgDefault = parcelHelpers.interopDefault(_connectWalletJpg);
+var _sendPaymentJpg = require("../assets/img/send-payment.jpg");
+var _sendPaymentJpgDefault = parcelHelpers.interopDefault(_sendPaymentJpg);
+var _receivePasswordJpg = require("../assets/img/receive-password.jpg");
+var _receivePasswordJpgDefault = parcelHelpers.interopDefault(_receivePasswordJpg);
 const Services = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         id: "about-boxes",
@@ -37042,23 +37038,14 @@ const Services = ()=>{
             children: [
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                     className: "section-title",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                            children: "It Works"
-                        }, void 0, false, {
-                            fileName: "components/services.js",
-                            lineNumber: 11,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                            children: "How It Works"
-                        }, void 0, false, {
-                            fileName: "components/services.js",
-                            lineNumber: 12,
-                            columnNumber: 11
-                        }, undefined)
-                    ]
-                }, void 0, true, {
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                        children: "How It Works"
+                    }, void 0, false, {
+                        fileName: "components/services.js",
+                        lineNumber: 11,
+                        columnNumber: 11
+                    }, undefined)
+                }, void 0, false, {
                     fileName: "components/services.js",
                     lineNumber: 10,
                     columnNumber: 9
@@ -37074,12 +37061,12 @@ const Services = ()=>{
                                 className: "card",
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                        src: (0, _aboutBoxes1JpgDefault.default),
+                                        src: (0, _connectWalletJpgDefault.default),
                                         className: "card-img-top",
                                         alt: "..."
                                     }, void 0, false, {
                                         fileName: "components/services.js",
-                                        lineNumber: 22,
+                                        lineNumber: 21,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -37088,12 +37075,12 @@ const Services = ()=>{
                                             className: "ri-brush-4-line"
                                         }, void 0, false, {
                                             fileName: "components/services.js",
-                                            lineNumber: 28,
+                                            lineNumber: 27,
                                             columnNumber: 17
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "components/services.js",
-                                        lineNumber: 27,
+                                        lineNumber: 26,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -37103,15 +37090,15 @@ const Services = ()=>{
                                                 className: "card-title",
                                                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                                     href: "",
-                                                    children: "Setup Your Wallet"
+                                                    children: "Connect Your Wallet"
                                                 }, void 0, false, {
                                                     fileName: "components/services.js",
-                                                    lineNumber: 31,
+                                                    lineNumber: 30,
                                                     columnNumber: 44
                                                 }, undefined)
                                             }, void 0, false, {
                                                 fileName: "components/services.js",
-                                                lineNumber: 31,
+                                                lineNumber: 30,
                                                 columnNumber: 17
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -37119,24 +37106,24 @@ const Services = ()=>{
                                                 children: "Connect your preferred Near wallet by clicking the Connect Wallet button at the top of this page."
                                             }, void 0, false, {
                                                 fileName: "components/services.js",
-                                                lineNumber: 32,
+                                                lineNumber: 31,
                                                 columnNumber: 17
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "components/services.js",
-                                        lineNumber: 30,
+                                        lineNumber: 29,
                                         columnNumber: 15
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "components/services.js",
-                                lineNumber: 21,
+                                lineNumber: 20,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "components/services.js",
-                            lineNumber: 16,
+                            lineNumber: 15,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -37147,12 +37134,12 @@ const Services = ()=>{
                                 className: "card",
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                        src: (0, _aboutBoxes2JpgDefault.default),
+                                        src: (0, _sendPaymentJpgDefault.default),
                                         className: "card-img-top",
                                         alt: "..."
                                     }, void 0, false, {
                                         fileName: "components/services.js",
-                                        lineNumber: 45,
+                                        lineNumber: 44,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -37161,12 +37148,12 @@ const Services = ()=>{
                                             className: "ri-calendar-check-line"
                                         }, void 0, false, {
                                             fileName: "components/services.js",
-                                            lineNumber: 51,
+                                            lineNumber: 50,
                                             columnNumber: 17
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "components/services.js",
-                                        lineNumber: 50,
+                                        lineNumber: 49,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -37176,40 +37163,40 @@ const Services = ()=>{
                                                 className: "card-title",
                                                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                                     href: "",
-                                                    children: "Browse Categories"
+                                                    children: "Send payment"
                                                 }, void 0, false, {
                                                     fileName: "components/services.js",
-                                                    lineNumber: 54,
+                                                    lineNumber: 53,
                                                     columnNumber: 44
                                                 }, undefined)
                                             }, void 0, false, {
                                                 fileName: "components/services.js",
-                                                lineNumber: 54,
+                                                lineNumber: 53,
                                                 columnNumber: 17
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                                 className: "card-text",
-                                                children: "Browse all available items in the marketplace or refine your search by category."
+                                                children: "Browse all available locked Utilities in the Partage Marketplace, and send payment for your desired use time."
                                             }, void 0, false, {
                                                 fileName: "components/services.js",
-                                                lineNumber: 55,
+                                                lineNumber: 54,
                                                 columnNumber: 17
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "components/services.js",
-                                        lineNumber: 53,
+                                        lineNumber: 52,
                                         columnNumber: 15
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "components/services.js",
-                                lineNumber: 44,
+                                lineNumber: 43,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "components/services.js",
-                            lineNumber: 39,
+                            lineNumber: 38,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -37220,12 +37207,12 @@ const Services = ()=>{
                                 className: "card",
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                        src: (0, _aboutBoxes3JpgDefault.default),
+                                        src: (0, _receivePasswordJpgDefault.default),
                                         className: "card-img-top",
                                         alt: "..."
                                     }, void 0, false, {
                                         fileName: "components/services.js",
-                                        lineNumber: 68,
+                                        lineNumber: 66,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -37234,12 +37221,12 @@ const Services = ()=>{
                                             className: "ri-movie-2-line"
                                         }, void 0, false, {
                                             fileName: "components/services.js",
-                                            lineNumber: 74,
+                                            lineNumber: 72,
                                             columnNumber: 17
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "components/services.js",
-                                        lineNumber: 73,
+                                        lineNumber: 71,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -37249,46 +37236,46 @@ const Services = ()=>{
                                                 className: "card-title",
                                                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                                     href: "",
-                                                    children: "Purchase NFTs"
+                                                    children: "Receive password"
                                                 }, void 0, false, {
                                                     fileName: "components/services.js",
-                                                    lineNumber: 77,
+                                                    lineNumber: 75,
                                                     columnNumber: 44
                                                 }, undefined)
                                             }, void 0, false, {
                                                 fileName: "components/services.js",
-                                                lineNumber: 77,
+                                                lineNumber: 75,
                                                 columnNumber: 17
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                                 className: "card-text",
-                                                children: "Purchase timeshares in our selection of utility NFTs and redeem them from the utility provider."
+                                                children: "Receive a secret password in your email and type it on the Partage lock to access the locked utility you chose."
                                             }, void 0, false, {
                                                 fileName: "components/services.js",
-                                                lineNumber: 78,
+                                                lineNumber: 76,
                                                 columnNumber: 17
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "components/services.js",
-                                        lineNumber: 76,
+                                        lineNumber: 74,
                                         columnNumber: 15
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "components/services.js",
-                                lineNumber: 67,
+                                lineNumber: 65,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "components/services.js",
-                            lineNumber: 62,
+                            lineNumber: 60,
                             columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "components/services.js",
-                    lineNumber: 15,
+                    lineNumber: 14,
                     columnNumber: 9
                 }, undefined)
             ]
@@ -37313,10 +37300,10 @@ $RefreshReg$(_c, "Services");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../assets/img/about-boxes-1.jpg":"cn5wB","../assets/img/about-boxes-2.jpg":"gkFGX","../assets/img/about-boxes-3.jpg":"8DzKv","@parcel/transformer-js/src/esmodule-helpers.js":"gEEKR","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"iRR7X"}],"cn5wB":[function(require,module,exports) {
-module.exports = require("853fcb2dc0d18a48").getBundleURL("UckoE") + "about-boxes-1.aac71ce4.jpg" + "?" + Date.now();
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../assets/img/connect-wallet.jpg":"359VW","../assets/img/send-payment.jpg":"bI92O","../assets/img/receive-password.jpg":"6syrT","@parcel/transformer-js/src/esmodule-helpers.js":"gEEKR","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"iRR7X"}],"359VW":[function(require,module,exports) {
+module.exports = require("e81e242a3628a8d").getBundleURL("UckoE") + "connect-wallet.2b771d86.jpg" + "?" + Date.now();
 
-},{"853fcb2dc0d18a48":"aBpZh"}],"aBpZh":[function(require,module,exports) {
+},{"e81e242a3628a8d":"aBpZh"}],"aBpZh":[function(require,module,exports) {
 "use strict";
 var bundleURL = {};
 function getBundleURLCached(id) {
@@ -37351,13 +37338,13 @@ exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
 exports.getOrigin = getOrigin;
 
-},{}],"gkFGX":[function(require,module,exports) {
-module.exports = require("f177ad1d51b4d6c8").getBundleURL("UckoE") + "about-boxes-2.7af17ff3.jpg" + "?" + Date.now();
+},{}],"bI92O":[function(require,module,exports) {
+module.exports = require("4ee771a4df51c25f").getBundleURL("UckoE") + "send-payment.6afce8c8.jpg" + "?" + Date.now();
 
-},{"f177ad1d51b4d6c8":"aBpZh"}],"8DzKv":[function(require,module,exports) {
-module.exports = require("d7d4e483d535ed84").getBundleURL("UckoE") + "about-boxes-3.cd0297c6.jpg" + "?" + Date.now();
+},{"4ee771a4df51c25f":"aBpZh"}],"6syrT":[function(require,module,exports) {
+module.exports = require("95bf72b8b2df7459").getBundleURL("UckoE") + "receive-password.af5862f0.jpg" + "?" + Date.now();
 
-},{"d7d4e483d535ed84":"aBpZh"}],"hGILx":[function(require,module,exports) {
+},{"95bf72b8b2df7459":"aBpZh"}],"hGILx":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$266e = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -37369,8 +37356,8 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-var _partagePng = require("../assets/img/partage.png");
-var _partagePngDefault = parcelHelpers.interopDefault(_partagePng);
+var _arduinoLockJpg = require("../assets/img/arduino-lock.jpg");
+var _arduinoLockJpgDefault = parcelHelpers.interopDefault(_arduinoLockJpg);
 const About = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
@@ -37389,7 +37376,7 @@ const About = ()=>{
                             "data-aos-delay": "100",
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                 id: "aboutimg",
-                                src: (0, _partagePngDefault.default),
+                                src: (0, _arduinoLockJpgDefault.default),
                                 className: "img-fluid",
                                 alt: ""
                             }, void 0, false, {
@@ -37429,11 +37416,16 @@ const About = ()=>{
                                     lineNumber: 32,
                                     columnNumber: 13
                                 }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                    fileName: "components/About.js",
+                                    lineNumber: 33,
+                                    columnNumber: 13
+                                }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                     children: "Owners, providers, remotely manage users' access to real-world asset NFTs safely locked in a vault, a garage, or a house."
                                 }, void 0, false, {
                                     fileName: "components/About.js",
-                                    lineNumber: 33,
+                                    lineNumber: 34,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -37444,7 +37436,7 @@ const About = ()=>{
                                                     className: "ri-check-double-line"
                                                 }, void 0, false, {
                                                     fileName: "components/About.js",
-                                                    lineNumber: 38,
+                                                    lineNumber: 39,
                                                     columnNumber: 17
                                                 }, undefined),
                                                 " ",
@@ -37452,14 +37444,14 @@ const About = ()=>{
                                                     children: "Secured:"
                                                 }, void 0, false, {
                                                     fileName: "components/About.js",
-                                                    lineNumber: 38,
+                                                    lineNumber: 39,
                                                     columnNumber: 58
                                                 }, undefined),
                                                 " Only the smart contract owner can control the lock."
                                             ]
                                         }, void 0, true, {
                                             fileName: "components/About.js",
-                                            lineNumber: 37,
+                                            lineNumber: 38,
                                             columnNumber: 15
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -37468,7 +37460,7 @@ const About = ()=>{
                                                     className: "ri-check-double-line"
                                                 }, void 0, false, {
                                                     fileName: "components/About.js",
-                                                    lineNumber: 41,
+                                                    lineNumber: 42,
                                                     columnNumber: 17
                                                 }, undefined),
                                                 " ",
@@ -37476,14 +37468,14 @@ const About = ()=>{
                                                     children: "Decentralized:"
                                                 }, void 0, false, {
                                                     fileName: "components/About.js",
-                                                    lineNumber: 41,
+                                                    lineNumber: 42,
                                                     columnNumber: 58
                                                 }, undefined),
                                                 " The owner is independent from any third party platform."
                                             ]
                                         }, void 0, true, {
                                             fileName: "components/About.js",
-                                            lineNumber: 40,
+                                            lineNumber: 41,
                                             columnNumber: 15
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -37492,7 +37484,7 @@ const About = ()=>{
                                                     className: "ri-check-double-line"
                                                 }, void 0, false, {
                                                     fileName: "components/About.js",
-                                                    lineNumber: 44,
+                                                    lineNumber: 45,
                                                     columnNumber: 17
                                                 }, undefined),
                                                 " ",
@@ -37500,20 +37492,20 @@ const About = ()=>{
                                                     children: "Trustworthy:"
                                                 }, void 0, false, {
                                                     fileName: "components/About.js",
-                                                    lineNumber: 44,
+                                                    lineNumber: 45,
                                                     columnNumber: 58
                                                 }, undefined),
                                                 " Code is law. Once deployed on blockchain, code is forever."
                                             ]
                                         }, void 0, true, {
                                             fileName: "components/About.js",
-                                            lineNumber: 43,
+                                            lineNumber: 44,
                                             columnNumber: 15
                                         }, undefined)
                                     ]
                                 }, void 0, true, {
                                     fileName: "components/About.js",
-                                    lineNumber: 36,
+                                    lineNumber: 37,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -37528,13 +37520,13 @@ const About = ()=>{
                                             children: "Here"
                                         }, void 0, false, {
                                             fileName: "components/About.js",
-                                            lineNumber: 49,
+                                            lineNumber: 50,
                                             columnNumber: 15
                                         }, undefined)
                                     ]
                                 }, void 0, true, {
                                     fileName: "components/About.js",
-                                    lineNumber: 47,
+                                    lineNumber: 48,
                                     columnNumber: 13
                                 }, undefined)
                             ]
@@ -37571,10 +37563,10 @@ $RefreshReg$(_c, "About");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../assets/img/partage.png":"1IQfi","@parcel/transformer-js/src/esmodule-helpers.js":"gEEKR","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"iRR7X"}],"1IQfi":[function(require,module,exports) {
-module.exports = require("1ec3edf0c05523bc").getBundleURL("UckoE") + "partage.a493f1d7.png" + "?" + Date.now();
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../assets/img/arduino-lock.jpg":"9ZYLb","@parcel/transformer-js/src/esmodule-helpers.js":"gEEKR","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"iRR7X"}],"9ZYLb":[function(require,module,exports) {
+module.exports = require("6ea272ba9799e049").getBundleURL("UckoE") + "arduino-lock.2b1ee7b3.jpg" + "?" + Date.now();
 
-},{"1ec3edf0c05523bc":"aBpZh"}],"dg9wB":[function(require,module,exports) {
+},{"6ea272ba9799e049":"aBpZh"}],"dg9wB":[function(require,module,exports) {
 /* A helper file that simplifies using the wallet selector */ // near api js
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
