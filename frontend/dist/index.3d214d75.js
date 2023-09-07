@@ -37371,28 +37371,28 @@ const About = ()=>{
                     className: "row",
                     children: [
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "col-lg-6 order-1 order-lg-2",
-                            "data-aos": "fade-left",
-                            "data-aos-delay": "100",
                             children: [
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {}, void 0, false, {
                                     fileName: "components/About.js",
-                                    lineNumber: 15,
-                                    columnNumber: 13
+                                    lineNumber: 11,
+                                    columnNumber: 11
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                     fileName: "components/About.js",
-                                    lineNumber: 16,
-                                    columnNumber: 13
+                                    lineNumber: 12,
+                                    columnNumber: 11
                                 }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                    id: "aboutimg",
-                                    src: (0, _arduinoLockJpgDefault.default),
-                                    className: "img-fluid",
-                                    alt: ""
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("iframe", {
+                                    src: "https://docs.google.com/presentation/d/e/2PACX-1vSnHUCBGG0FRNgRNH3WAFI243y7XK6w63WugnmzjhmGW2EKvgHgnmgDtzzismnvsDjPIbjLbjZfsWzm/embed?start=false&loop=false&delayms=3000",
+                                    frameborder: "0",
+                                    width: "960",
+                                    height: "569",
+                                    allowfullscreen: "true",
+                                    mozallowfullscreen: "true",
+                                    webkitallowfullscreen: "true"
                                 }, void 0, false, {
                                     fileName: "components/About.js",
-                                    lineNumber: 17,
+                                    lineNumber: 13,
                                     columnNumber: 13
                                 }, undefined)
                             ]
@@ -37402,42 +37402,87 @@ const About = ()=>{
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content",
-                            "data-aos": "fade-right",
+                            className: "col-lg-6 order-1 order-lg-2",
+                            "data-aos": "fade-left",
                             "data-aos-delay": "100",
                             children: [
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {}, void 0, false, {
                                     fileName: "components/About.js",
-                                    lineNumber: 29,
+                                    lineNumber: 27,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                     fileName: "components/About.js",
-                                    lineNumber: 30,
+                                    lineNumber: 28,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                    id: "aboutimg",
+                                    src: (0, _arduinoLockJpgDefault.default),
+                                    className: "img-fluid",
+                                    alt: ""
+                                }, void 0, false, {
+                                    fileName: "components/About.js",
+                                    lineNumber: 29,
+                                    columnNumber: 13
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/About.js",
+                            lineNumber: 22,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content",
+                            "data-aos": "fade-right",
+                            "data-aos-delay": "100",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                    fileName: "components/About.js",
+                                    lineNumber: 41,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                    fileName: "components/About.js",
+                                    lineNumber: 42,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                    fileName: "components/About.js",
+                                    lineNumber: 43,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "section-title",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                                        children: "What is Partage Lock?"
+                                    }, void 0, false, {
+                                        fileName: "components/About.js",
+                                        lineNumber: 45,
+                                        columnNumber: 13
+                                    }, undefined)
+                                }, void 0, false, {
+                                    fileName: "components/About.js",
+                                    lineNumber: 44,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                    children: "A Blockchain-controlled smart lock"
+                                    children: "A Blockchain-controlled smart lock for Utility NFTs"
                                 }, void 0, false, {
                                     fileName: "components/About.js",
-                                    lineNumber: 31,
+                                    lineNumber: 47,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                     fileName: "components/About.js",
-                                    lineNumber: 34,
-                                    columnNumber: 13
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                                    fileName: "components/About.js",
-                                    lineNumber: 35,
+                                    lineNumber: 50,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                     children: "Owners, providers, remotely manage users' access to real-world asset NFTs safely locked in a vault, a garage, or a house."
                                 }, void 0, false, {
                                     fileName: "components/About.js",
-                                    lineNumber: 36,
+                                    lineNumber: 51,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -37448,7 +37493,7 @@ const About = ()=>{
                                                     className: "ri-check-double-line"
                                                 }, void 0, false, {
                                                     fileName: "components/About.js",
-                                                    lineNumber: 41,
+                                                    lineNumber: 56,
                                                     columnNumber: 17
                                                 }, undefined),
                                                 " ",
@@ -37456,14 +37501,14 @@ const About = ()=>{
                                                     children: "Secured:"
                                                 }, void 0, false, {
                                                     fileName: "components/About.js",
-                                                    lineNumber: 41,
+                                                    lineNumber: 56,
                                                     columnNumber: 58
                                                 }, undefined),
                                                 " Only the smart contract owner can control the lock."
                                             ]
                                         }, void 0, true, {
                                             fileName: "components/About.js",
-                                            lineNumber: 40,
+                                            lineNumber: 55,
                                             columnNumber: 15
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -37472,7 +37517,7 @@ const About = ()=>{
                                                     className: "ri-check-double-line"
                                                 }, void 0, false, {
                                                     fileName: "components/About.js",
-                                                    lineNumber: 44,
+                                                    lineNumber: 59,
                                                     columnNumber: 17
                                                 }, undefined),
                                                 " ",
@@ -37480,14 +37525,14 @@ const About = ()=>{
                                                     children: "Decentralized:"
                                                 }, void 0, false, {
                                                     fileName: "components/About.js",
-                                                    lineNumber: 44,
+                                                    lineNumber: 59,
                                                     columnNumber: 58
                                                 }, undefined),
                                                 " The owner is independent from any third party platform."
                                             ]
                                         }, void 0, true, {
                                             fileName: "components/About.js",
-                                            lineNumber: 43,
+                                            lineNumber: 58,
                                             columnNumber: 15
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -37496,7 +37541,7 @@ const About = ()=>{
                                                     className: "ri-check-double-line"
                                                 }, void 0, false, {
                                                     fileName: "components/About.js",
-                                                    lineNumber: 47,
+                                                    lineNumber: 62,
                                                     columnNumber: 17
                                                 }, undefined),
                                                 " ",
@@ -37504,47 +37549,26 @@ const About = ()=>{
                                                     children: "Trustworthy:"
                                                 }, void 0, false, {
                                                     fileName: "components/About.js",
-                                                    lineNumber: 47,
+                                                    lineNumber: 62,
                                                     columnNumber: 58
                                                 }, undefined),
                                                 " Code is law. Once deployed on blockchain, code is forever."
                                             ]
                                         }, void 0, true, {
                                             fileName: "components/About.js",
-                                            lineNumber: 46,
+                                            lineNumber: 61,
                                             columnNumber: 15
                                         }, undefined)
                                     ]
                                 }, void 0, true, {
                                     fileName: "components/About.js",
-                                    lineNumber: 39,
-                                    columnNumber: 13
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                    children: [
-                                        "A slides deck presentation is available",
-                                        " ",
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                            style: {
-                                                color: "#c8ff00"
-                                            },
-                                            href: "https://docs.google.com/presentation/d/1NSlpmjlvIirzLaNsZy6ndhA5ZV40h5ATqszn9FavYn8/edit?usp=sharing",
-                                            children: "Here"
-                                        }, void 0, false, {
-                                            fileName: "components/About.js",
-                                            lineNumber: 52,
-                                            columnNumber: 15
-                                        }, undefined)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "components/About.js",
-                                    lineNumber: 50,
+                                    lineNumber: 54,
                                     columnNumber: 13
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "components/About.js",
-                            lineNumber: 24,
+                            lineNumber: 36,
                             columnNumber: 11
                         }, undefined)
                     ]

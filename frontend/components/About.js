@@ -7,6 +7,18 @@ const About = () => {
     <section id="about" className="about">
       <div className="container" data-aos="fade-up">
         <div id="aboutmore" className="row">
+          <div>
+          <p></p>
+          <br></br>
+            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSnHUCBGG0FRNgRNH3WAFI243y7XK6w63WugnmzjhmGW2EKvgHgnmgDtzzismnvsDjPIbjLbjZfsWzm/embed?start=false&loop=false&delayms=3000" 
+              frameborder="0" 
+              width="960" 
+              height="569" 
+              allowfullscreen="true" 
+              mozallowfullscreen="true" 
+              webkitallowfullscreen="true">
+            </iframe>
+          </div>
           <div
             className="col-lg-6 order-1 order-lg-2"
             data-aos="fade-left"
@@ -26,12 +38,15 @@ const About = () => {
             data-aos="fade-right"
             data-aos-delay="100"
           >
-            <p></p>
             <br></br>
+            <br></br>
+            <br></br>
+            <div className="section-title">
+            <h2>What is Partage Lock?</h2>
+            </div>
             <h3>
-              A Blockchain-controlled smart lock
+              A Blockchain-controlled smart lock for Utility NFTs
             </h3>
-            <br></br>
             <br></br>
             <p>Owners, providers, remotely
                 manage users' access to real-world asset NFTs safely locked in a vault, a garage, or a
@@ -47,19 +62,10 @@ const About = () => {
                 <i className="ri-check-double-line"></i> <b>Trustworthy:</b> Code is law. Once deployed on blockchain, code is forever.
               </li>
             </ul>
-            <p>
-              A slides deck presentation is available{' '}
-              <a
-                style={{ color: '#c8ff00' }}
-                href="https://docs.google.com/presentation/d/1NSlpmjlvIirzLaNsZy6ndhA5ZV40h5ATqszn9FavYn8/edit?usp=sharing"
-              >
-                Here
-              </a>
-            </p>
           </div>
         </div>
       </div>
-    </section>
+      </section>
     </>
   );
 };
