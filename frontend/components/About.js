@@ -26,12 +26,9 @@ const About = () => {
           >
             <p></p>
             <br></br>
-            <img
-              id="aboutimg"
-              src={heroImage}
-              className="img-fluid"
-              alt=""
-            />
+            <iframe width="420" height="315"
+              src="https://www.youtube.com/embed/MKt_rHBYrPw">
+            </iframe>
           </div>
           <div
             className="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content"

@@ -37416,11 +37416,10 @@ const About = ()=>{
                                     lineNumber: 28,
                                     columnNumber: 13
                                 }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                    id: "aboutimg",
-                                    src: (0, _arduinoLockJpgDefault.default),
-                                    className: "img-fluid",
-                                    alt: ""
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("iframe", {
+                                    width: "420",
+                                    height: "315",
+                                    src: "https://www.youtube.com/embed/MKt_rHBYrPw"
                                 }, void 0, false, {
                                     fileName: "components/About.js",
                                     lineNumber: 29,
@@ -37439,17 +37438,17 @@ const About = ()=>{
                             children: [
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                     fileName: "components/About.js",
-                                    lineNumber: 41,
+                                    lineNumber: 38,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                     fileName: "components/About.js",
-                                    lineNumber: 42,
+                                    lineNumber: 39,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                     fileName: "components/About.js",
-                                    lineNumber: 43,
+                                    lineNumber: 40,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -37458,35 +37457,59 @@ const About = ()=>{
                                         children: "What is Partage Lock?"
                                     }, void 0, false, {
                                         fileName: "components/About.js",
-                                        lineNumber: 45,
+                                        lineNumber: 42,
                                         columnNumber: 13
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "components/About.js",
-                                    lineNumber: 44,
+                                    lineNumber: 41,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
                                     children: "A Blockchain-controlled smart lock for Utility NFTs"
                                 }, void 0, false, {
                                     fileName: "components/About.js",
-                                    lineNumber: 47,
+                                    lineNumber: 44,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                     fileName: "components/About.js",
-                                    lineNumber: 50,
+                                    lineNumber: 47,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                     children: "Owners, providers, remotely manage users' access to real-world asset NFTs safely locked in a vault, a garage, or a house."
                                 }, void 0, false, {
                                     fileName: "components/About.js",
-                                    lineNumber: 51,
+                                    lineNumber: 48,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
                                     children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                            children: [
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                                                    className: "ri-check-double-line"
+                                                }, void 0, false, {
+                                                    fileName: "components/About.js",
+                                                    lineNumber: 53,
+                                                    columnNumber: 17
+                                                }, undefined),
+                                                " ",
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("b", {
+                                                    children: "Secured:"
+                                                }, void 0, false, {
+                                                    fileName: "components/About.js",
+                                                    lineNumber: 53,
+                                                    columnNumber: 58
+                                                }, undefined),
+                                                " Only the smart contract owner can control the lock."
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "components/About.js",
+                                            lineNumber: 52,
+                                            columnNumber: 15
+                                        }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                             children: [
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
@@ -37498,13 +37521,13 @@ const About = ()=>{
                                                 }, undefined),
                                                 " ",
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("b", {
-                                                    children: "Secured:"
+                                                    children: "Decentralized:"
                                                 }, void 0, false, {
                                                     fileName: "components/About.js",
                                                     lineNumber: 56,
                                                     columnNumber: 58
                                                 }, undefined),
-                                                " Only the smart contract owner can control the lock."
+                                                " The owner is independent from any third party platform."
                                             ]
                                         }, void 0, true, {
                                             fileName: "components/About.js",
@@ -37522,53 +37545,29 @@ const About = ()=>{
                                                 }, undefined),
                                                 " ",
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("b", {
-                                                    children: "Decentralized:"
-                                                }, void 0, false, {
-                                                    fileName: "components/About.js",
-                                                    lineNumber: 59,
-                                                    columnNumber: 58
-                                                }, undefined),
-                                                " The owner is independent from any third party platform."
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "components/About.js",
-                                            lineNumber: 58,
-                                            columnNumber: 15
-                                        }, undefined),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                            children: [
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                    className: "ri-check-double-line"
-                                                }, void 0, false, {
-                                                    fileName: "components/About.js",
-                                                    lineNumber: 62,
-                                                    columnNumber: 17
-                                                }, undefined),
-                                                " ",
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("b", {
                                                     children: "Trustworthy:"
                                                 }, void 0, false, {
                                                     fileName: "components/About.js",
-                                                    lineNumber: 62,
+                                                    lineNumber: 59,
                                                     columnNumber: 58
                                                 }, undefined),
                                                 " Code is law. Once deployed on blockchain, code is forever."
                                             ]
                                         }, void 0, true, {
                                             fileName: "components/About.js",
-                                            lineNumber: 61,
+                                            lineNumber: 58,
                                             columnNumber: 15
                                         }, undefined)
                                     ]
                                 }, void 0, true, {
                                     fileName: "components/About.js",
-                                    lineNumber: 54,
+                                    lineNumber: 51,
                                     columnNumber: 13
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "components/About.js",
-                            lineNumber: 36,
+                            lineNumber: 33,
                             columnNumber: 11
                         }, undefined)
                     ]
