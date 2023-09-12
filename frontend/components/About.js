@@ -7,25 +7,13 @@ const About = () => {
     <section id="about" className="about">
       <div className="container" data-aos="fade-up">
         <div id="aboutmore" className="row">
-          <div>
-          <p></p>
-          <br></br>
-            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSnHUCBGG0FRNgRNH3WAFI243y7XK6w63WugnmzjhmGW2EKvgHgnmgDtzzismnvsDjPIbjLbjZfsWzm/embed?start=false&loop=false&delayms=3000" 
-              frameborder="0" 
-              width="960" 
-              height="569" 
-              allowfullscreen="true" 
-              mozallowfullscreen="true" 
-              webkitallowfullscreen="true">
-            </iframe>
-          </div>
+          
           <div
             className="col-lg-6 order-1 order-lg-2"
             data-aos="fade-left"
             data-aos-delay="100"
           >
-            <p></p>
-            <br></br>
+            
             <iframe width="420" height="315"
               src="https://www.youtube.com/embed/MKt_rHBYrPw">
             </iframe>
@@ -35,9 +23,7 @@ const About = () => {
             data-aos="fade-right"
             data-aos-delay="100"
           >
-            <br></br>
-            <br></br>
-            <br></br>
+            
             <div className="section-title">
             <h2>What is Partage Lock?</h2>
             </div>

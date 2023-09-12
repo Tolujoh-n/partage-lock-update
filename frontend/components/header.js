@@ -36,24 +36,17 @@ const Header = ({ onClick }) => {
           {/* .navbar */}
         </div>
       </header>
-      {/* <section id="hero">
+     <section id="hero">
         <div className="hero-container" data-aos="fade-up" data-aos-delay="150">
-          <h1>
-            <span style={{ color: "#c5f801" }}>Blockchain </span> controlled{" "}
-            <span style={{ color: "#c5f801" }}>Smart lock</span>
-          </h1>
-          <h2>
-            Partage is a p2p sharing system for Utility NFTs. Providers mint,
-            fractionalize and share supplies and utilities on the Bitcoin
-            blockchain.
-          </h2>
-          <div className="d-flex">
-            <a onClick={onClick} className="btn-get-started scrollto">
-              <b>Connect Wallet</b>
-            </a>
-          </div>
+          <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSnHUCBGG0FRNgRNH3WAFI243y7XK6w63WugnmzjhmGW2EKvgHgnmgDtzzismnvsDjPIbjLbjZfsWzm/embed?start=false&loop=false&delayms=3000" 
+              frameborder="0"
+              id="heroiframe"
+              allowfullscreen="true" 
+              mozallowfullscreen="true" 
+              webkitallowfullscreen="true">
+            </iframe>
         </div>
-      </section> */}
+      </section> 
     </>
   );
 };
