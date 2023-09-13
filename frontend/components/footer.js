@@ -56,7 +56,7 @@ const Footer = () => {
                 <p>Exclusive insights straight to your inbox.</p>
                 <form action="" method="post">
                   <input type="email" name="email" />
-                  <input type="submit" value="Subscribe" />
+                  <input type="submit" className="getstarted" value="Subscribe" />
                 </form>
               </div>
             </div>

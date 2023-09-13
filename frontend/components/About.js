@@ -14,7 +14,7 @@ const About = () => {
             data-aos-delay="100"
           >
             
-            <iframe width="420" height="315"
+            <iframe height="315"
               src="https://www.youtube.com/embed/MKt_rHBYrPw">
             </iframe>
           </div>

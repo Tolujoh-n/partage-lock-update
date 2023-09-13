@@ -96,7 +96,7 @@ const Contact = () => {
                   Your message has been sent. Thank you!
                 </div>
               </div>
-              <div className="text-center">
+              <div className="getstarted text-center">
                 <button type="submit">Send Message</button>
               </div>
             </form>
