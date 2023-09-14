@@ -142,7 +142,7 @@
       this[globalName] = mainExports;
     }
   }
-})({"hBIir":[function(require,module,exports) {
+})({"4jANy":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
@@ -573,7 +573,7 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
     });
 }
 
-},{}],"bCIGo":[function(require,module,exports) {
+},{}],"7md93":[function(require,module,exports) {
 var Refresh = require("e3daedbd352fccbb");
 var ErrorOverlay = require("5ba6fd152f7c7303");
 Refresh.injectIntoGlobalHook(window);
@@ -594,11 +594,11 @@ window.addEventListener("parcelhmraccept", ()=>{
     ErrorOverlay.dismissRuntimeErrors();
 });
 
-},{"e3daedbd352fccbb":"aJJpO","5ba6fd152f7c7303":"1Xstv"}],"aJJpO":[function(require,module,exports) {
+},{"e3daedbd352fccbb":"6LKJy","5ba6fd152f7c7303":"hpC8F"}],"6LKJy":[function(require,module,exports) {
 "use strict";
 module.exports = require("2031a7b6a954c38");
 
-},{"2031a7b6a954c38":"18009"}],"18009":[function(require,module,exports) {
+},{"2031a7b6a954c38":"aoDze"}],"aoDze":[function(require,module,exports) {
 /** @license React v0.9.0
  * react-refresh-runtime.development.js
  *
@@ -1058,7 +1058,7 @@ module.exports = require("2031a7b6a954c38");
     exports.setSignature = setSignature;
 })();
 
-},{}],"1Xstv":[function(require,module,exports) {
+},{}],"hpC8F":[function(require,module,exports) {
 var process = require("1bf9926b731937f");
 !function(e, t) {
     module.exports = t();
@@ -2977,7 +2977,7 @@ window.onload = async ()=>{
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom":"j6uA9","./App":"2Ew96","./near-wallet":"dg9wB","@parcel/transformer-js/src/esmodule-helpers.js":"gEEKR","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"iRR7X"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom":"j6uA9","./App":"2Ew96","./near-wallet":"dg9wB","@parcel/transformer-js/src/esmodule-helpers.js":"1OlAz","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"kh41a"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("ee51401569654d91");
 
@@ -27343,7 +27343,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","regenerator-runtime/runtime":"dXNgZ","react":"21dqq","glightbox":"kBGcU","swiper":"iM6UL","isotope-layout":"aHntc","aos":"eRzTM","./assets/css/style.css":"8r2D8","./assets/vendor/aos/aos.css":"8LmR1","./assets/vendor/bootstrap/css/bootstrap.min.css":"C1LtY","./assets/vendor/bootstrap-icons/bootstrap-icons.css":"9VyyL","./assets/vendor/boxicons/css/boxicons.min.css":"mlhn4","./assets/vendor/glightbox/css/glightbox.min.css":"irvEs","./assets/vendor/remixicon/remixicon.css":"erQec","./assets/vendor/swiper/swiper-bundle.min.css":"58byD","./ui-components":"4LIXu","@parcel/transformer-js/src/esmodule-helpers.js":"gEEKR","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"iRR7X"}],"dXNgZ":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","regenerator-runtime/runtime":"dXNgZ","react":"21dqq","./ui-components":"4LIXu","@parcel/transformer-js/src/esmodule-helpers.js":"1OlAz","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"kh41a","./assets/css/style.css":"8r2D8","./assets/vendor/aos/aos.css":"8LmR1","./assets/vendor/bootstrap/css/bootstrap.min.css":"C1LtY","./assets/vendor/bootstrap-icons/bootstrap-icons.css":"9VyyL","./assets/vendor/boxicons/css/boxicons.min.css":"mlhn4","./assets/vendor/glightbox/css/glightbox.min.css":"irvEs","./assets/vendor/remixicon/remixicon.css":"erQec","./assets/vendor/swiper/swiper-bundle.min.css":"58byD","glightbox":"kBGcU","swiper":"iM6UL","isotope-layout":"aHntc","aos":"eRzTM"}],"dXNgZ":[function(require,module,exports) {
 /**
  * Copyright (c) 2014-present, Facebook, Inc.
  *
@@ -27930,7 +27930,1901 @@ try {
     else Function("r", "regeneratorRuntime = r")(runtime);
 }
 
-},{}],"kBGcU":[function(require,module,exports) {
+},{}],"4LIXu":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$38d8 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$38d8.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "SignInPrompt", ()=>SignInPrompt);
+parcelHelpers.export(exports, "SignOutButton", ()=>SignOutButton);
+parcelHelpers.export(exports, "EducationalText", ()=>EducationalText);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _header = require("./components/header");
+var _headerDefault = parcelHelpers.interopDefault(_header);
+var _footer = require("./components/footer");
+var _footerDefault = parcelHelpers.interopDefault(_footer);
+var _contact = require("./components/contact");
+var _contactDefault = parcelHelpers.interopDefault(_contact);
+var _services = require("./components/services");
+var _servicesDefault = parcelHelpers.interopDefault(_services);
+var _about = require("./components/About");
+var _aboutDefault = parcelHelpers.interopDefault(_about);
+function SignInPrompt({ greeting, onClick }) {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("main", {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {
+                onClick: onClick
+            }, void 0, false, {
+                fileName: "ui-components.js",
+                lineNumber: 12,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutDefault.default), {}, void 0, false, {
+                fileName: "ui-components.js",
+                lineNumber: 13,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _servicesDefault.default), {}, void 0, false, {
+                fileName: "ui-components.js",
+                lineNumber: 14,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _contactDefault.default), {}, void 0, false, {
+                fileName: "ui-components.js",
+                lineNumber: 15,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerDefault.default), {}, void 0, false, {
+                fileName: "ui-components.js",
+                lineNumber: 16,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "ui-components.js",
+        lineNumber: 11,
+        columnNumber: 5
+    }, this);
+}
+_c = SignInPrompt;
+function SignOutButton({ accountId, onClick }) {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+        style: {
+            float: "right"
+        },
+        onClick: onClick,
+        children: [
+            "Sign out ",
+            accountId
+        ]
+    }, void 0, true, {
+        fileName: "ui-components.js",
+        lineNumber: 30,
+        columnNumber: 5
+    }, this);
+}
+_c1 = SignOutButton;
+function EducationalText() {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                children: "Look at that! A Hello World app! This greeting is stored on the NEAR blockchain. Check it out:"
+            }, void 0, false, {
+                fileName: "ui-components.js",
+                lineNumber: 39,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ol", {
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                        children: [
+                            "Look in ",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("code", {
+                                children: "frontend/App.js"
+                            }, void 0, false, {
+                                fileName: "ui-components.js",
+                                lineNumber: 44,
+                                columnNumber: 19
+                            }, this),
+                            " - you'll see ",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("code", {
+                                children: "getGreeting"
+                            }, void 0, false, {
+                                fileName: "ui-components.js",
+                                lineNumber: 44,
+                                columnNumber: 61
+                            }, this),
+                            " and ",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("code", {
+                                children: "setGreeting"
+                            }, void 0, false, {
+                                fileName: "ui-components.js",
+                                lineNumber: 44,
+                                columnNumber: 90
+                            }, this),
+                            " being called on ",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("code", {
+                                children: "contract"
+                            }, void 0, false, {
+                                fileName: "ui-components.js",
+                                lineNumber: 44,
+                                columnNumber: 131
+                            }, this),
+                            ". What's this?"
+                        ]
+                    }, void 0, true, {
+                        fileName: "ui-components.js",
+                        lineNumber: 43,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                        children: [
+                            "Ultimately, this ",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("code", {
+                                children: "contract"
+                            }, void 0, false, {
+                                fileName: "ui-components.js",
+                                lineNumber: 47,
+                                columnNumber: 28
+                            }, this),
+                            " code is defined in ",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("code", {
+                                children: "./contract"
+                            }, void 0, false, {
+                                fileName: "ui-components.js",
+                                lineNumber: 47,
+                                columnNumber: 69
+                            }, this),
+                            " – this is the source code for your ",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                target: "_blank",
+                                rel: "noreferrer",
+                                href: "https://docs.near.org/docs/develop/contracts/overview",
+                                children: "smart contract"
+                            }, void 0, false, {
+                                fileName: "ui-components.js",
+                                lineNumber: 47,
+                                columnNumber: 128
+                            }, this),
+                            "."
+                        ]
+                    }, void 0, true, {
+                        fileName: "ui-components.js",
+                        lineNumber: 46,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                        children: [
+                            "When you run ",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("code", {
+                                children: "npm run deploy"
+                            }, void 0, false, {
+                                fileName: "ui-components.js",
+                                lineNumber: 49,
+                                columnNumber: 24
+                            }, this),
+                            ", the code in ",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("code", {
+                                children: "./contract"
+                            }, void 0, false, {
+                                fileName: "ui-components.js",
+                                lineNumber: 49,
+                                columnNumber: 65
+                            }, this),
+                            " gets deployed to the NEAR testnet. You can see how this happens by looking in ",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("code", {
+                                children: "package.json"
+                            }, void 0, false, {
+                                fileName: "ui-components.js",
+                                lineNumber: 49,
+                                columnNumber: 167
+                            }, this),
+                            "."
+                        ]
+                    }, void 0, true, {
+                        fileName: "ui-components.js",
+                        lineNumber: 48,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "ui-components.js",
+                lineNumber: 42,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
+                fileName: "ui-components.js",
+                lineNumber: 51,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                children: [
+                    "To keep learning, check out ",
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                        target: "_blank",
+                        rel: "noreferrer",
+                        href: "https://docs.near.org",
+                        children: "the NEAR docs"
+                    }, void 0, false, {
+                        fileName: "ui-components.js",
+                        lineNumber: 53,
+                        columnNumber: 37
+                    }, this),
+                    " or look through some ",
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                        target: "_blank",
+                        rel: "noreferrer",
+                        href: "https://examples.near.org",
+                        children: "example apps"
+                    }, void 0, false, {
+                        fileName: "ui-components.js",
+                        lineNumber: 53,
+                        columnNumber: 141
+                    }, this),
+                    "."
+                ]
+            }, void 0, true, {
+                fileName: "ui-components.js",
+                lineNumber: 52,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true);
+}
+_c2 = EducationalText;
+var _c, _c1, _c2;
+$RefreshReg$(_c, "SignInPrompt");
+$RefreshReg$(_c1, "SignOutButton");
+$RefreshReg$(_c2, "EducationalText");
+
+  $parcel$ReactRefreshHelpers$38d8.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./components/header":"gMwGB","./components/footer":"4psvf","./components/contact":"6sEDB","./components/services":"i4peN","@parcel/transformer-js/src/esmodule-helpers.js":"1OlAz","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"kh41a","./components/About":"hGILx"}],"gMwGB":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$e7c5 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$e7c5.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _headerScrolled = require("../assets/js/headerScrolled");
+var _uiComponents = require("../ui-components");
+var _uiComponentsDefault = parcelHelpers.interopDefault(_uiComponents);
+var _s = $RefreshSig$();
+const Header = ({ onClick })=>{
+    _s();
+    (0, _react.useEffect)(()=>{
+        (0, _headerScrolled.initHeaderScrolled)();
+    }, []);
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("header", {
+            id: "header",
+            className: "fixed-top",
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "container d-flex align-items-center justify-content-between",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                        className: "logo",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                            style: {
+                                color: "#c5f801"
+                            },
+                            href: "",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("b", {
+                                children: "PARTAGE LOCK"
+                            }, void 0, false, {
+                                fileName: "components/header.js",
+                                lineNumber: 16,
+                                columnNumber: 15
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "components/header.js",
+                            lineNumber: 15,
+                            columnNumber: 13
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "components/header.js",
+                        lineNumber: 14,
+                        columnNumber: 11
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
+                        id: "navbar",
+                        className: "navbar",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                            className: "nav-link scrollto",
+                                            href: "https://medium.com/@juliencarbonnell/democratizing-access-to-utilities-blockchain-for-smart-cities-25eefb0348e7",
+                                            children: "Documentation"
+                                        }, void 0, false, {
+                                            fileName: "components/header.js",
+                                            lineNumber: 23,
+                                            columnNumber: 17
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "components/header.js",
+                                        lineNumber: 22,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                            onClick: onClick,
+                                            className: "getstarted scrollto",
+                                            children: "Connect Wallet"
+                                        }, void 0, false, {
+                                            fileName: "components/header.js",
+                                            lineNumber: 31,
+                                            columnNumber: 17
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "components/header.js",
+                                        lineNumber: 30,
+                                        columnNumber: 15
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "components/header.js",
+                                lineNumber: 21,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                                className: "bi bi-list mobile-nav-toggle"
+                            }, void 0, false, {
+                                fileName: "components/header.js",
+                                lineNumber: 36,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "components/header.js",
+                                lineNumber: 37,
+                                columnNumber: 13
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "components/header.js",
+                        lineNumber: 20,
+                        columnNumber: 11
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "components/header.js",
+                lineNumber: 13,
+                columnNumber: 9
+            }, undefined)
+        }, void 0, false, {
+            fileName: "components/header.js",
+            lineNumber: 12,
+            columnNumber: 7
+        }, undefined)
+    }, void 0, false);
+};
+_s(Header, "OD7bBpZva5O2jO+Puf00hKivP7c=");
+_c = Header;
+exports.default = Header;
+var _c;
+$RefreshReg$(_c, "Header");
+
+  $parcel$ReactRefreshHelpers$e7c5.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"1OlAz","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"kh41a","../assets/js/headerScrolled":"gaYUV","../ui-components":"4LIXu"}],"1OlAz":[function(require,module,exports) {
+exports.interopDefault = function(a) {
+    return a && a.__esModule ? a : {
+        default: a
+    };
+};
+exports.defineInteropFlag = function(a) {
+    Object.defineProperty(a, "__esModule", {
+        value: true
+    });
+};
+exports.exportAll = function(source, dest) {
+    Object.keys(source).forEach(function(key) {
+        if (key === "default" || key === "__esModule" || dest.hasOwnProperty(key)) return;
+        Object.defineProperty(dest, key, {
+            enumerable: true,
+            get: function() {
+                return source[key];
+            }
+        });
+    });
+    return dest;
+};
+exports.export = function(dest, destName, get) {
+    Object.defineProperty(dest, destName, {
+        enumerable: true,
+        get: get
+    });
+};
+
+},{}],"kh41a":[function(require,module,exports) {
+"use strict";
+var Refresh = require("73a6a3361f7f06f4");
+function debounce(func, delay) {
+    {
+        let timeout = undefined;
+        let lastTime = 0;
+        return function(args) {
+            // Call immediately if last call was more than the delay ago.
+            // Otherwise, set a timeout. This means the first call is fast
+            // (for the common case of a single update), and subsequent updates
+            // are batched.
+            let now = Date.now();
+            if (now - lastTime > delay) {
+                lastTime = now;
+                func.call(null, args);
+            } else {
+                clearTimeout(timeout);
+                timeout = setTimeout(function() {
+                    timeout = undefined;
+                    lastTime = Date.now();
+                    func.call(null, args);
+                }, delay);
+            }
+        };
+    }
+}
+var enqueueUpdate = debounce(function() {
+    Refresh.performReactRefresh();
+}, 30);
+// Everthing below is either adapted or copied from
+// https://github.com/facebook/metro/blob/61de16bd1edd7e738dd0311c89555a644023ab2d/packages/metro/src/lib/polyfills/require.js
+// MIT License - Copyright (c) Facebook, Inc. and its affiliates.
+module.exports.prelude = function(module1) {
+    window.$RefreshReg$ = function(type, id) {
+        Refresh.register(type, module1.id + " " + id);
+    };
+    window.$RefreshSig$ = Refresh.createSignatureFunctionForTransform;
+};
+module.exports.postlude = function(module1) {
+    if (isReactRefreshBoundary(module1.exports)) {
+        registerExportsForReactRefresh(module1);
+        if (module1.hot) {
+            module1.hot.dispose(function(data) {
+                if (Refresh.hasUnrecoverableErrors()) window.location.reload();
+                data.prevExports = module1.exports;
+            });
+            module1.hot.accept(function(getParents) {
+                var prevExports = module1.hot.data.prevExports;
+                var nextExports = module1.exports;
+                // Since we just executed the code for it, it's possible
+                // that the new exports make it ineligible for being a boundary.
+                var isNoLongerABoundary = !isReactRefreshBoundary(nextExports);
+                // It can also become ineligible if its exports are incompatible
+                // with the previous exports.
+                // For example, if you add/remove/change exports, we'll want
+                // to re-execute the importing modules, and force those components
+                // to re-render. Similarly, if you convert a class component
+                // to a function, we want to invalidate the boundary.
+                var didInvalidate = shouldInvalidateReactRefreshBoundary(prevExports, nextExports);
+                if (isNoLongerABoundary || didInvalidate) {
+                    // We'll be conservative. The only case in which we won't do a full
+                    // reload is if all parent modules are also refresh boundaries.
+                    // In that case we'll add them to the current queue.
+                    var parents = getParents();
+                    if (parents.length === 0) {
+                        // Looks like we bubbled to the root. Can't recover from that.
+                        window.location.reload();
+                        return;
+                    }
+                    return parents;
+                }
+                enqueueUpdate();
+            });
+        }
+    }
+};
+function isReactRefreshBoundary(exports) {
+    if (Refresh.isLikelyComponentType(exports)) return true;
+    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
+    return false;
+    var hasExports = false;
+    var areAllExportsComponents = true;
+    let isESM = "__esModule" in exports;
+    for(var key in exports){
+        hasExports = true;
+        if (key === "__esModule") continue;
+        var desc = Object.getOwnPropertyDescriptor(exports, key);
+        if (desc && desc.get && !isESM) // Don't invoke getters for CJS as they may have side effects.
+        return false;
+        var exportValue = exports[key];
+        if (!Refresh.isLikelyComponentType(exportValue)) areAllExportsComponents = false;
+    }
+    return hasExports && areAllExportsComponents;
+}
+function shouldInvalidateReactRefreshBoundary(prevExports, nextExports) {
+    var prevSignature = getRefreshBoundarySignature(prevExports);
+    var nextSignature = getRefreshBoundarySignature(nextExports);
+    if (prevSignature.length !== nextSignature.length) return true;
+    for(var i = 0; i < nextSignature.length; i++){
+        if (prevSignature[i] !== nextSignature[i]) return true;
+    }
+    return false;
+}
+// When this signature changes, it's unsafe to stop at this refresh boundary.
+function getRefreshBoundarySignature(exports) {
+    var signature = [];
+    signature.push(Refresh.getFamilyByType(exports));
+    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
+    // (This is important for legacy environments.)
+    return signature;
+    let isESM = "__esModule" in exports;
+    for(var key in exports){
+        if (key === "__esModule") continue;
+        var desc = Object.getOwnPropertyDescriptor(exports, key);
+        if (desc && desc.get && !isESM) continue;
+        var exportValue = exports[key];
+        signature.push(key);
+        signature.push(Refresh.getFamilyByType(exportValue));
+    }
+    return signature;
+}
+function registerExportsForReactRefresh(module1) {
+    var exports = module1.exports, id = module1.id;
+    Refresh.register(exports, id + " %exports%");
+    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
+    // (This is important for legacy environments.)
+    return;
+    let isESM = "__esModule" in exports;
+    for(var key in exports){
+        var desc = Object.getOwnPropertyDescriptor(exports, key);
+        if (desc && desc.get && !isESM) continue;
+        var exportValue = exports[key];
+        var typeID = id + " %exports% " + key;
+        Refresh.register(exportValue, typeID);
+    }
+}
+
+},{"73a6a3361f7f06f4":"6LKJy"}],"gaYUV":[function(require,module,exports) {
+// headerScrolled.js
+/**
+ * Easy selector helper function
+ */ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "initHeaderScrolled", ()=>initHeaderScrolled);
+const select = (el, all = false)=>{
+    el = el.trim();
+    if (all) return [
+        ...document.querySelectorAll(el)
+    ];
+    else return document.querySelector(el);
+};
+/**
+   * Easy on scroll event listener
+   */ const onscroll = (el, listener)=>{
+    el.addEventListener("scroll", listener);
+};
+const initHeaderScrolled = ()=>{
+    let selectHeader = select("#header");
+    if (selectHeader) {
+        const headerScrolled = ()=>{
+            if (window.scrollY > 100) selectHeader.classList.add("header-scrolled");
+            else selectHeader.classList.remove("header-scrolled");
+        };
+        window.addEventListener("load", headerScrolled);
+        onscroll(document, headerScrolled);
+    }
+};
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"1OlAz"}],"4psvf":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$a8dc = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$a8dc.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+const Footer = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("footer", {
+                id: "footer",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "footer-top",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "container",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "row",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "col-lg-3 col-md-6",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "footer-info",
+                                            children: [
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                                    children: "PARTAGE"
+                                                }, void 0, false, {
+                                                    fileName: "components/footer.js",
+                                                    lineNumber: 12,
+                                                    columnNumber: 19
+                                                }, undefined),
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                    children: "Shared Utilities on Bitcoin"
+                                                }, void 0, false, {
+                                                    fileName: "components/footer.js",
+                                                    lineNumber: 13,
+                                                    columnNumber: 19
+                                                }, undefined),
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                    children: "Join our social medias"
+                                                }, void 0, false, {
+                                                    fileName: "components/footer.js",
+                                                    lineNumber: 14,
+                                                    columnNumber: 19
+                                                }, undefined),
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                    className: "social-links mt-3",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                            href: "https://discord.gg/4t4AX9GVUf",
+                                                            className: "Discord",
+                                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                                                                className: "bx bxl-discord"
+                                                            }, void 0, false, {
+                                                                fileName: "components/footer.js",
+                                                                lineNumber: 17,
+                                                                columnNumber: 23
+                                                            }, undefined)
+                                                        }, void 0, false, {
+                                                            fileName: "components/footer.js",
+                                                            lineNumber: 16,
+                                                            columnNumber: 21
+                                                        }, undefined),
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                            href: "https://www.youtube.com/@partage_btc",
+                                                            className: "Youtube",
+                                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                                                                className: "bx bxl-youtube"
+                                                            }, void 0, false, {
+                                                                fileName: "components/footer.js",
+                                                                lineNumber: 20,
+                                                                columnNumber: 23
+                                                            }, undefined)
+                                                        }, void 0, false, {
+                                                            fileName: "components/footer.js",
+                                                            lineNumber: 19,
+                                                            columnNumber: 21
+                                                        }, undefined),
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                            href: "https://twitter.com/partage_btc",
+                                                            className: "twitter",
+                                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                                                                className: "bx bxl-twitter"
+                                                            }, void 0, false, {
+                                                                fileName: "components/footer.js",
+                                                                lineNumber: 23,
+                                                                columnNumber: 23
+                                                            }, undefined)
+                                                        }, void 0, false, {
+                                                            fileName: "components/footer.js",
+                                                            lineNumber: 22,
+                                                            columnNumber: 21
+                                                        }, undefined),
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                            href: "https://www.instagram.com/partage.btc/",
+                                                            className: "instagram",
+                                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                                                                className: "bx bxl-instagram"
+                                                            }, void 0, false, {
+                                                                fileName: "components/footer.js",
+                                                                lineNumber: 26,
+                                                                columnNumber: 23
+                                                            }, undefined)
+                                                        }, void 0, false, {
+                                                            fileName: "components/footer.js",
+                                                            lineNumber: 25,
+                                                            columnNumber: 21
+                                                        }, undefined)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "components/footer.js",
+                                                    lineNumber: 15,
+                                                    columnNumber: 19
+                                                }, undefined)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "components/footer.js",
+                                            lineNumber: 11,
+                                            columnNumber: 17
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "components/footer.js",
+                                        lineNumber: 10,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "col-lg-3 col-md-6 footer-links",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                                                children: "Explore"
+                                            }, void 0, false, {
+                                                fileName: "components/footer.js",
+                                                lineNumber: 33,
+                                                columnNumber: 17
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                        children: [
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                                                                className: "bx bx-chevron-right"
+                                                            }, void 0, false, {
+                                                                fileName: "components/footer.js",
+                                                                lineNumber: 36,
+                                                                columnNumber: 21
+                                                            }, undefined),
+                                                            " ",
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                                href: "https://hellopartage.xyz/nfts",
+                                                                children: "Marketplace"
+                                                            }, void 0, false, {
+                                                                fileName: "components/footer.js",
+                                                                lineNumber: 37,
+                                                                columnNumber: 21
+                                                            }, undefined)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "components/footer.js",
+                                                        lineNumber: 35,
+                                                        columnNumber: 19
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                        children: [
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                                                                className: "bx bx-chevron-right"
+                                                            }, void 0, false, {
+                                                                fileName: "components/footer.js",
+                                                                lineNumber: 40,
+                                                                columnNumber: 21
+                                                            }, undefined),
+                                                            " ",
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                                href: "https://medium.com/partage-btc/partages-white-paper-347674063de7",
+                                                                children: "White Paper"
+                                                            }, void 0, false, {
+                                                                fileName: "components/footer.js",
+                                                                lineNumber: 41,
+                                                                columnNumber: 21
+                                                            }, undefined)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "components/footer.js",
+                                                        lineNumber: 39,
+                                                        columnNumber: 19
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                        children: [
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                                                                className: "bx bx-chevron-right"
+                                                            }, void 0, false, {
+                                                                fileName: "components/footer.js",
+                                                                lineNumber: 44,
+                                                                columnNumber: 21
+                                                            }, undefined),
+                                                            " ",
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                                href: "https://medium.com/partage-btc/partage-tutorials-8e1f6868716d",
+                                                                children: "Tutorials"
+                                                            }, void 0, false, {
+                                                                fileName: "components/footer.js",
+                                                                lineNumber: 45,
+                                                                columnNumber: 21
+                                                            }, undefined)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "components/footer.js",
+                                                        lineNumber: 43,
+                                                        columnNumber: 19
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                        children: [
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                                                                className: "bx bx-chevron-right"
+                                                            }, void 0, false, {
+                                                                fileName: "components/footer.js",
+                                                                lineNumber: 48,
+                                                                columnNumber: 21
+                                                            }, undefined),
+                                                            " ",
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                                href: "https://docs.google.com/document/d/1-ZoP8lExQZ_LDxBG0ZXdbFr7i8Ie0ymcMn6Uh-XfpZc/edit#heading=h.8do1cn1ic47h",
+                                                                children: "Privacy Policy"
+                                                            }, void 0, false, {
+                                                                fileName: "components/footer.js",
+                                                                lineNumber: 49,
+                                                                columnNumber: 21
+                                                            }, undefined)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "components/footer.js",
+                                                        lineNumber: 47,
+                                                        columnNumber: 19
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "components/footer.js",
+                                                lineNumber: 34,
+                                                columnNumber: 17
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "components/footer.js",
+                                        lineNumber: 32,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "col-lg-4 col-md-6 footer-newsletter",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                                                children: "Join Our Newsletter"
+                                            }, void 0, false, {
+                                                fileName: "components/footer.js",
+                                                lineNumber: 55,
+                                                columnNumber: 17
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                children: "Exclusive insights straight to your inbox."
+                                            }, void 0, false, {
+                                                fileName: "components/footer.js",
+                                                lineNumber: 56,
+                                                columnNumber: 17
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
+                                                action: "",
+                                                method: "post",
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                                        type: "email",
+                                                        name: "email"
+                                                    }, void 0, false, {
+                                                        fileName: "components/footer.js",
+                                                        lineNumber: 58,
+                                                        columnNumber: 19
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                                        type: "submit",
+                                                        value: "Subscribe"
+                                                    }, void 0, false, {
+                                                        fileName: "components/footer.js",
+                                                        lineNumber: 59,
+                                                        columnNumber: 19
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "components/footer.js",
+                                                lineNumber: 57,
+                                                columnNumber: 17
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "components/footer.js",
+                                        lineNumber: 54,
+                                        columnNumber: 15
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "components/footer.js",
+                                lineNumber: 9,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "components/footer.js",
+                            lineNumber: 8,
+                            columnNumber: 11
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "components/footer.js",
+                        lineNumber: 7,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "container",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "copyright",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                id: "reserve",
+                                className: "caption",
+                                href: "https://ariregister.rik.ee/eng/company/14990229/CivicTech-O%C3%9C?search_id=ed8a0b4&pos=1",
+                                target: "_blank",
+                                rel: "noopener noreferrer",
+                                children: [
+                                    "All rights reserved ",
+                                    ` Ⓒ CivicTech OÜ, 2023`
+                                ]
+                            }, void 0, true, {
+                                fileName: "components/footer.js",
+                                lineNumber: 68,
+                                columnNumber: 11
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "components/footer.js",
+                            lineNumber: 67,
+                            columnNumber: 11
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "components/footer.js",
+                        lineNumber: 66,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "components/footer.js",
+                lineNumber: 6,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                href: "#",
+                className: "back-to-top d-flex align-items-center justify-content-center",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                    className: "bi bi-arrow-up-short"
+                }, void 0, false, {
+                    fileName: "components/footer.js",
+                    lineNumber: 85,
+                    columnNumber: 9
+                }, undefined)
+            }, void 0, false, {
+                fileName: "components/footer.js",
+                lineNumber: 81,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true);
+};
+_c = Footer;
+exports.default = Footer;
+var _c;
+$RefreshReg$(_c, "Footer");
+
+  $parcel$ReactRefreshHelpers$a8dc.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"1OlAz","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"kh41a"}],"6sEDB":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$0e66 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$0e66.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+const Contact = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
+        id: "contact",
+        className: "contact",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "container",
+            "data-aos": "fade-up",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "section-title",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                        children: "Contact Us"
+                    }, void 0, false, {
+                        fileName: "components/contact.js",
+                        lineNumber: 8,
+                        columnNumber: 11
+                    }, undefined)
+                }, void 0, false, {
+                    fileName: "components/contact.js",
+                    lineNumber: 7,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "row",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "col-lg-6",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "row",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "col-md-12",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "info-box",
+                                            children: [
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                                                    className: "bx bx-map"
+                                                }, void 0, false, {
+                                                    fileName: "components/contact.js",
+                                                    lineNumber: 16,
+                                                    columnNumber: 19
+                                                }, undefined),
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                                    children: "Address"
+                                                }, void 0, false, {
+                                                    fileName: "components/contact.js",
+                                                    lineNumber: 17,
+                                                    columnNumber: 19
+                                                }, undefined),
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                    children: "Ahtri tn 12, 10151 Tallinn, Estonia "
+                                                }, void 0, false, {
+                                                    fileName: "components/contact.js",
+                                                    lineNumber: 18,
+                                                    columnNumber: 19
+                                                }, undefined)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "components/contact.js",
+                                            lineNumber: 15,
+                                            columnNumber: 17
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "components/contact.js",
+                                        lineNumber: 14,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "col-md-6",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "info-box mt-4",
+                                            children: [
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                                                    className: "bx bx-envelope"
+                                                }, void 0, false, {
+                                                    fileName: "components/contact.js",
+                                                    lineNumber: 23,
+                                                    columnNumber: 19
+                                                }, undefined),
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                                    children: "Email"
+                                                }, void 0, false, {
+                                                    fileName: "components/contact.js",
+                                                    lineNumber: 24,
+                                                    columnNumber: 19
+                                                }, undefined),
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                    children: [
+                                                        "support@hellopartage.xyz",
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                                            fileName: "components/contact.js",
+                                                            lineNumber: 27,
+                                                            columnNumber: 21
+                                                        }, undefined)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "components/contact.js",
+                                                    lineNumber: 25,
+                                                    columnNumber: 19
+                                                }, undefined)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "components/contact.js",
+                                            lineNumber: 22,
+                                            columnNumber: 17
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "components/contact.js",
+                                        lineNumber: 21,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "col-md-6",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "info-box mt-4",
+                                            children: [
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                                                    className: "bx bx-phone-call"
+                                                }, void 0, false, {
+                                                    fileName: "components/contact.js",
+                                                    lineNumber: 33,
+                                                    columnNumber: 19
+                                                }, undefined),
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                                    children: "Whatsapp"
+                                                }, void 0, false, {
+                                                    fileName: "components/contact.js",
+                                                    lineNumber: 34,
+                                                    columnNumber: 19
+                                                }, undefined),
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                    children: [
+                                                        "+33 617 98 2358",
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                                            fileName: "components/contact.js",
+                                                            lineNumber: 37,
+                                                            columnNumber: 21
+                                                        }, undefined)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "components/contact.js",
+                                                    lineNumber: 35,
+                                                    columnNumber: 19
+                                                }, undefined)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "components/contact.js",
+                                            lineNumber: 32,
+                                            columnNumber: 17
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "components/contact.js",
+                                        lineNumber: 31,
+                                        columnNumber: 15
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "components/contact.js",
+                                lineNumber: 13,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "components/contact.js",
+                            lineNumber: 12,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "col-lg-6 mt-4 mt-lg-0",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
+                                action: "forms/contact.php",
+                                method: "post",
+                                role: "form",
+                                className: "php-email-form",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "row",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "col-md-6 form-group",
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                                    type: "text",
+                                                    name: "name",
+                                                    className: "form-control",
+                                                    id: "name",
+                                                    placeholder: "Your Name",
+                                                    required: true
+                                                }, void 0, false, {
+                                                    fileName: "components/contact.js",
+                                                    lineNumber: 53,
+                                                    columnNumber: 19
+                                                }, undefined)
+                                            }, void 0, false, {
+                                                fileName: "components/contact.js",
+                                                lineNumber: 52,
+                                                columnNumber: 17
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "col-md-6 form-group mt-3 mt-md-0",
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                                    type: "email",
+                                                    className: "form-control",
+                                                    name: "email",
+                                                    id: "email",
+                                                    placeholder: "Your Email",
+                                                    required: true
+                                                }, void 0, false, {
+                                                    fileName: "components/contact.js",
+                                                    lineNumber: 63,
+                                                    columnNumber: 19
+                                                }, undefined)
+                                            }, void 0, false, {
+                                                fileName: "components/contact.js",
+                                                lineNumber: 62,
+                                                columnNumber: 17
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "components/contact.js",
+                                        lineNumber: 51,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "form-group mt-3",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                            type: "text",
+                                            className: "form-control",
+                                            name: "subject",
+                                            id: "subject",
+                                            placeholder: "Subject",
+                                            required: true
+                                        }, void 0, false, {
+                                            fileName: "components/contact.js",
+                                            lineNumber: 74,
+                                            columnNumber: 17
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "components/contact.js",
+                                        lineNumber: 73,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "form-group mt-3",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("textarea", {
+                                            className: "form-control",
+                                            name: "message",
+                                            rows: "5",
+                                            placeholder: "Message",
+                                            required: true
+                                        }, void 0, false, {
+                                            fileName: "components/contact.js",
+                                            lineNumber: 84,
+                                            columnNumber: 17
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "components/contact.js",
+                                        lineNumber: 83,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "my-3",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "loading",
+                                                children: "Loading"
+                                            }, void 0, false, {
+                                                fileName: "components/contact.js",
+                                                lineNumber: 93,
+                                                columnNumber: 17
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "error-message"
+                                            }, void 0, false, {
+                                                fileName: "components/contact.js",
+                                                lineNumber: 94,
+                                                columnNumber: 17
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "sent-message",
+                                                children: "Your message has been sent. Thank you!"
+                                            }, void 0, false, {
+                                                fileName: "components/contact.js",
+                                                lineNumber: 95,
+                                                columnNumber: 17
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "components/contact.js",
+                                        lineNumber: 92,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "text-center",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                            id: "usebutcases",
+                                            type: "submit",
+                                            children: "Send Message"
+                                        }, void 0, false, {
+                                            fileName: "components/contact.js",
+                                            lineNumber: 100,
+                                            columnNumber: 17
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "components/contact.js",
+                                        lineNumber: 99,
+                                        columnNumber: 15
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "components/contact.js",
+                                lineNumber: 45,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "components/contact.js",
+                            lineNumber: 44,
+                            columnNumber: 11
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "components/contact.js",
+                    lineNumber: 11,
+                    columnNumber: 9
+                }, undefined)
+            ]
+        }, void 0, true, {
+            fileName: "components/contact.js",
+            lineNumber: 6,
+            columnNumber: 7
+        }, undefined)
+    }, void 0, false, {
+        fileName: "components/contact.js",
+        lineNumber: 5,
+        columnNumber: 5
+    }, undefined);
+};
+_c = Contact;
+exports.default = Contact;
+var _c;
+$RefreshReg$(_c, "Contact");
+
+  $parcel$ReactRefreshHelpers$0e66.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"1OlAz","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"kh41a"}],"i4peN":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$445b = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$445b.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _connectWalletJpg = require("../assets/img/connect-wallet.jpg");
+var _connectWalletJpgDefault = parcelHelpers.interopDefault(_connectWalletJpg);
+var _sendPaymentJpg = require("../assets/img/send-payment.jpg");
+var _sendPaymentJpgDefault = parcelHelpers.interopDefault(_sendPaymentJpg);
+var _receivePasswordJpg = require("../assets/img/receive-password.jpg");
+var _receivePasswordJpgDefault = parcelHelpers.interopDefault(_receivePasswordJpg);
+const Services = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
+        id: "about-boxes",
+        className: "about-boxes",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "container",
+            "data-aos": "fade-up",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "section-title",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                        children: "How It Works"
+                    }, void 0, false, {
+                        fileName: "components/services.js",
+                        lineNumber: 11,
+                        columnNumber: 11
+                    }, undefined)
+                }, void 0, false, {
+                    fileName: "components/services.js",
+                    lineNumber: 10,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "row",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "col-lg-4 col-md-6 d-flex align-items-stretch",
+                            "data-aos": "fade-up",
+                            "data-aos-delay": "100",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "card",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                        src: (0, _connectWalletJpgDefault.default),
+                                        className: "card-img-top",
+                                        alt: "..."
+                                    }, void 0, false, {
+                                        fileName: "components/services.js",
+                                        lineNumber: 21,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "card-icon",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                                            className: "ri-brush-4-line"
+                                        }, void 0, false, {
+                                            fileName: "components/services.js",
+                                            lineNumber: 27,
+                                            columnNumber: 17
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "components/services.js",
+                                        lineNumber: 26,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "card-body",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h5", {
+                                                className: "card-title",
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                    href: "",
+                                                    children: "Connect Your Wallet"
+                                                }, void 0, false, {
+                                                    fileName: "components/services.js",
+                                                    lineNumber: 30,
+                                                    columnNumber: 44
+                                                }, undefined)
+                                            }, void 0, false, {
+                                                fileName: "components/services.js",
+                                                lineNumber: 30,
+                                                columnNumber: 17
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                className: "card-text",
+                                                children: "Connect your preferred Near wallet by clicking the Connect Wallet button at the top of this page."
+                                            }, void 0, false, {
+                                                fileName: "components/services.js",
+                                                lineNumber: 31,
+                                                columnNumber: 17
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "components/services.js",
+                                        lineNumber: 29,
+                                        columnNumber: 15
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "components/services.js",
+                                lineNumber: 20,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "components/services.js",
+                            lineNumber: 15,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "col-lg-4 col-md-6 d-flex align-items-stretch",
+                            "data-aos": "fade-up",
+                            "data-aos-delay": "200",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "card",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                        src: (0, _sendPaymentJpgDefault.default),
+                                        className: "card-img-top",
+                                        alt: "..."
+                                    }, void 0, false, {
+                                        fileName: "components/services.js",
+                                        lineNumber: 44,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "card-icon",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                                            className: "ri-calendar-check-line"
+                                        }, void 0, false, {
+                                            fileName: "components/services.js",
+                                            lineNumber: 50,
+                                            columnNumber: 17
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "components/services.js",
+                                        lineNumber: 49,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "card-body",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h5", {
+                                                className: "card-title",
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                    href: "",
+                                                    children: "Send payment"
+                                                }, void 0, false, {
+                                                    fileName: "components/services.js",
+                                                    lineNumber: 53,
+                                                    columnNumber: 44
+                                                }, undefined)
+                                            }, void 0, false, {
+                                                fileName: "components/services.js",
+                                                lineNumber: 53,
+                                                columnNumber: 17
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                className: "card-text",
+                                                children: "Browse all available locked Utilities in the Partage Marketplace, and send payment for your desired use time."
+                                            }, void 0, false, {
+                                                fileName: "components/services.js",
+                                                lineNumber: 54,
+                                                columnNumber: 17
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "components/services.js",
+                                        lineNumber: 52,
+                                        columnNumber: 15
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "components/services.js",
+                                lineNumber: 43,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "components/services.js",
+                            lineNumber: 38,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "col-lg-4 col-md-6 d-flex align-items-stretch",
+                            "data-aos": "fade-up",
+                            "data-aos-delay": "300",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "card",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                        src: (0, _receivePasswordJpgDefault.default),
+                                        className: "card-img-top",
+                                        alt: "..."
+                                    }, void 0, false, {
+                                        fileName: "components/services.js",
+                                        lineNumber: 66,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "card-icon",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                                            className: "ri-movie-2-line"
+                                        }, void 0, false, {
+                                            fileName: "components/services.js",
+                                            lineNumber: 72,
+                                            columnNumber: 17
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "components/services.js",
+                                        lineNumber: 71,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "card-body",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h5", {
+                                                className: "card-title",
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                    href: "",
+                                                    children: "Receive password"
+                                                }, void 0, false, {
+                                                    fileName: "components/services.js",
+                                                    lineNumber: 75,
+                                                    columnNumber: 44
+                                                }, undefined)
+                                            }, void 0, false, {
+                                                fileName: "components/services.js",
+                                                lineNumber: 75,
+                                                columnNumber: 17
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                className: "card-text",
+                                                children: "Receive a secret password in your email and type it on the Partage lock to access the locked utility you chose."
+                                            }, void 0, false, {
+                                                fileName: "components/services.js",
+                                                lineNumber: 76,
+                                                columnNumber: 17
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "components/services.js",
+                                        lineNumber: 74,
+                                        columnNumber: 15
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "components/services.js",
+                                lineNumber: 65,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "components/services.js",
+                            lineNumber: 60,
+                            columnNumber: 11
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "components/services.js",
+                    lineNumber: 14,
+                    columnNumber: 9
+                }, undefined)
+            ]
+        }, void 0, true, {
+            fileName: "components/services.js",
+            lineNumber: 9,
+            columnNumber: 7
+        }, undefined)
+    }, void 0, false, {
+        fileName: "components/services.js",
+        lineNumber: 8,
+        columnNumber: 5
+    }, undefined);
+};
+_c = Services;
+exports.default = Services;
+var _c;
+$RefreshReg$(_c, "Services");
+
+  $parcel$ReactRefreshHelpers$445b.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"1OlAz","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"kh41a","../assets/img/connect-wallet.jpg":"9L9OK","../assets/img/send-payment.jpg":"5XY4R","../assets/img/receive-password.jpg":"gSQOY"}],"9L9OK":[function(require,module,exports) {
+module.exports = require("e81e242a3628a8d").getBundleURL("UckoE") + "connect-wallet.2b771d86.jpg" + "?" + Date.now();
+
+},{"e81e242a3628a8d":"cMlBw"}],"cMlBw":[function(require,module,exports) {
+"use strict";
+var bundleURL = {};
+function getBundleURLCached(id) {
+    var value = bundleURL[id];
+    if (!value) {
+        value = getBundleURL();
+        bundleURL[id] = value;
+    }
+    return value;
+}
+function getBundleURL() {
+    try {
+        throw new Error();
+    } catch (err) {
+        var matches = ("" + err.stack).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^)\n]+/g);
+        if (matches) // The first two stack frames will be this function and getBundleURLCached.
+        // Use the 3rd one, which will be a runtime in the original bundle.
+        return getBaseURL(matches[2]);
+    }
+    return "/";
+}
+function getBaseURL(url) {
+    return ("" + url).replace(/^((?:https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/.+)\/[^/]+$/, "$1") + "/";
+}
+// TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
+function getOrigin(url) {
+    var matches = ("" + url).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^/]+/);
+    if (!matches) throw new Error("Origin not found");
+    return matches[0];
+}
+exports.getBundleURL = getBundleURLCached;
+exports.getBaseURL = getBaseURL;
+exports.getOrigin = getOrigin;
+
+},{}],"5XY4R":[function(require,module,exports) {
+module.exports = require("4ee771a4df51c25f").getBundleURL("UckoE") + "send-payment.6afce8c8.jpg" + "?" + Date.now();
+
+},{"4ee771a4df51c25f":"cMlBw"}],"gSQOY":[function(require,module,exports) {
+module.exports = require("95bf72b8b2df7459").getBundleURL("UckoE") + "receive-password.af5862f0.jpg" + "?" + Date.now();
+
+},{"95bf72b8b2df7459":"cMlBw"}],"hGILx":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$266e = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$266e.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _arduinoLockJpg = require("../assets/img/arduino-lock.jpg");
+var _arduinoLockJpgDefault = parcelHelpers.interopDefault(_arduinoLockJpg);
+const About = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
+            id: "about",
+            className: "about",
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "container",
+                "data-aos": "fade-up",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    id: "aboutmore",
+                    className: "row",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
+                            id: "hero",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "hero-container",
+                                "data-aos": "fade-up",
+                                "data-aos-delay": "150",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("iframe", {
+                                    src: "https://docs.google.com/presentation/d/e/2PACX-1vSnHUCBGG0FRNgRNH3WAFI243y7XK6w63WugnmzjhmGW2EKvgHgnmgDtzzismnvsDjPIbjLbjZfsWzm/embed?start=false&loop=false&delayms=3000",
+                                    frameborder: "0",
+                                    id: "heroiframe",
+                                    allowfullscreen: "true",
+                                    mozallowfullscreen: "true",
+                                    webkitallowfullscreen: "true",
+                                    style: {
+                                        height: "100%"
+                                    }
+                                }, void 0, false, {
+                                    fileName: "components/About.js",
+                                    lineNumber: 16,
+                                    columnNumber: 17
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "components/About.js",
+                                lineNumber: 11,
+                                columnNumber: 15
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "components/About.js",
+                            lineNumber: 10,
+                            columnNumber: 13
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "col-lg-6 order-1 order-lg-2",
+                            "data-aos": "fade-left",
+                            "data-aos-delay": "100",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("iframe", {
+                                height: "500",
+                                src: "https://www.youtube.com/embed/MKt_rHBYrPw"
+                            }, void 0, false, {
+                                fileName: "components/About.js",
+                                lineNumber: 33,
+                                columnNumber: 15
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "components/About.js",
+                            lineNumber: 28,
+                            columnNumber: 13
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content",
+                            "data-aos": "fade-right",
+                            "data-aos-delay": "100",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "section-title",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                                        children: "What is Partage Lock?"
+                                    }, void 0, false, {
+                                        fileName: "components/About.js",
+                                        lineNumber: 44,
+                                        columnNumber: 17
+                                    }, undefined)
+                                }, void 0, false, {
+                                    fileName: "components/About.js",
+                                    lineNumber: 43,
+                                    columnNumber: 15
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                    children: "A Blockchain-controlled smart lock for Utility NFTs"
+                                }, void 0, false, {
+                                    fileName: "components/About.js",
+                                    lineNumber: 46,
+                                    columnNumber: 15
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                    fileName: "components/About.js",
+                                    lineNumber: 47,
+                                    columnNumber: 15
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    children: "Owners, providers, remotely manage users' access to real-world asset NFTs safely locked in a vault, a garage, or a house."
+                                }, void 0, false, {
+                                    fileName: "components/About.js",
+                                    lineNumber: 48,
+                                    columnNumber: 15
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                            children: [
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                                                    className: "ri-check-double-line"
+                                                }, void 0, false, {
+                                                    fileName: "components/About.js",
+                                                    lineNumber: 54,
+                                                    columnNumber: 19
+                                                }, undefined),
+                                                " ",
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("b", {
+                                                    children: "Secured:"
+                                                }, void 0, false, {
+                                                    fileName: "components/About.js",
+                                                    lineNumber: 54,
+                                                    columnNumber: 60
+                                                }, undefined),
+                                                " Only the smart contract owner can control the lock."
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "components/About.js",
+                                            lineNumber: 53,
+                                            columnNumber: 17
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                            children: [
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                                                    className: "ri-check-double-line"
+                                                }, void 0, false, {
+                                                    fileName: "components/About.js",
+                                                    lineNumber: 58,
+                                                    columnNumber: 19
+                                                }, undefined),
+                                                " ",
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("b", {
+                                                    children: "Decentralized:"
+                                                }, void 0, false, {
+                                                    fileName: "components/About.js",
+                                                    lineNumber: 58,
+                                                    columnNumber: 60
+                                                }, undefined),
+                                                " ",
+                                                "The owner is independent from any third party platform."
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "components/About.js",
+                                            lineNumber: 57,
+                                            columnNumber: 17
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                            children: [
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                                                    className: "ri-check-double-line"
+                                                }, void 0, false, {
+                                                    fileName: "components/About.js",
+                                                    lineNumber: 62,
+                                                    columnNumber: 19
+                                                }, undefined),
+                                                " ",
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("b", {
+                                                    children: "Trustworthy:"
+                                                }, void 0, false, {
+                                                    fileName: "components/About.js",
+                                                    lineNumber: 62,
+                                                    columnNumber: 60
+                                                }, undefined),
+                                                " ",
+                                                "Code is law. Once deployed on blockchain, code is forever."
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "components/About.js",
+                                            lineNumber: 61,
+                                            columnNumber: 17
+                                        }, undefined)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "components/About.js",
+                                    lineNumber: 52,
+                                    columnNumber: 15
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/About.js",
+                            lineNumber: 38,
+                            columnNumber: 13
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "components/About.js",
+                    lineNumber: 9,
+                    columnNumber: 11
+                }, undefined)
+            }, void 0, false, {
+                fileName: "components/About.js",
+                lineNumber: 8,
+                columnNumber: 9
+            }, undefined)
+        }, void 0, false, {
+            fileName: "components/About.js",
+            lineNumber: 7,
+            columnNumber: 7
+        }, undefined)
+    }, void 0, false);
+};
+_c = About;
+exports.default = About;
+var _c;
+$RefreshReg$(_c, "About");
+
+  $parcel$ReactRefreshHelpers$266e.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"1OlAz","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"kh41a","../assets/img/arduino-lock.jpg":"AWmST"}],"AWmST":[function(require,module,exports) {
+module.exports = require("6ea272ba9799e049").getBundleURL("UckoE") + "arduino-lock.2b1ee7b3.jpg" + "?" + Date.now();
+
+},{"6ea272ba9799e049":"cMlBw"}],"8r2D8":[function() {},{}],"8LmR1":[function() {},{}],"C1LtY":[function() {},{}],"9VyyL":[function() {},{}],"mlhn4":[function() {},{}],"irvEs":[function() {},{}],"erQec":[function() {},{}],"58byD":[function() {},{}],"kBGcU":[function(require,module,exports) {
 !function(e, t) {
     module.exports = t();
 }(this, function() {
@@ -29597,7 +31491,7 @@ parcelHelpers.export(exports, "Swiper", ()=>(0, _swiperCoreMjs.S));
 parcelHelpers.export(exports, "default", ()=>(0, _swiperCoreMjs.S));
 var _swiperCoreMjs = require("./shared/swiper-core.mjs");
 
-},{"./shared/swiper-core.mjs":"c1Vcv","@parcel/transformer-js/src/esmodule-helpers.js":"gEEKR"}],"c1Vcv":[function(require,module,exports) {
+},{"./shared/swiper-core.mjs":"c1Vcv","@parcel/transformer-js/src/esmodule-helpers.js":"1OlAz"}],"c1Vcv":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "S", ()=>Swiper);
@@ -32357,7 +34251,7 @@ Swiper.use([
     Observer
 ]);
 
-},{"./ssr-window.esm.mjs":"th8PY","./utils.mjs":"9mU7V","@parcel/transformer-js/src/esmodule-helpers.js":"gEEKR"}],"th8PY":[function(require,module,exports) {
+},{"./ssr-window.esm.mjs":"th8PY","./utils.mjs":"9mU7V","@parcel/transformer-js/src/esmodule-helpers.js":"1OlAz"}],"th8PY":[function(require,module,exports) {
 /**
  * SSR Window 4.0.2
  * Better handling for window object in SSR environment
@@ -32497,37 +34391,7 @@ function getWindow() {
     return win;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gEEKR"}],"gEEKR":[function(require,module,exports) {
-exports.interopDefault = function(a) {
-    return a && a.__esModule ? a : {
-        default: a
-    };
-};
-exports.defineInteropFlag = function(a) {
-    Object.defineProperty(a, "__esModule", {
-        value: true
-    });
-};
-exports.exportAll = function(source, dest) {
-    Object.keys(source).forEach(function(key) {
-        if (key === "default" || key === "__esModule" || dest.hasOwnProperty(key)) return;
-        Object.defineProperty(dest, key, {
-            enumerable: true,
-            get: function() {
-                return source[key];
-            }
-        });
-    });
-    return dest;
-};
-exports.export = function(dest, destName, get) {
-    Object.defineProperty(dest, destName, {
-        enumerable: true,
-        get: get
-    });
-};
-
-},{}],"9mU7V":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"1OlAz"}],"9mU7V":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "a", ()=>elementParents);
@@ -32783,7 +34647,7 @@ function elementOuterSize(el, size, includeMargins) {
     return el.offsetWidth;
 }
 
-},{"./ssr-window.esm.mjs":"th8PY","@parcel/transformer-js/src/esmodule-helpers.js":"gEEKR"}],"aHntc":[function(require,module,exports) {
+},{"./ssr-window.esm.mjs":"th8PY","@parcel/transformer-js/src/esmodule-helpers.js":"1OlAz"}],"aHntc":[function(require,module,exports) {
 /*!
  * Isotope v3.0.6
  *
@@ -35713,1895 +37577,7 @@ function elementOuterSize(el, size, includeMargins) {
     ]);
 });
 
-},{}],"8r2D8":[function() {},{}],"8LmR1":[function() {},{}],"C1LtY":[function() {},{}],"9VyyL":[function() {},{}],"mlhn4":[function() {},{}],"irvEs":[function() {},{}],"erQec":[function() {},{}],"58byD":[function() {},{}],"4LIXu":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$38d8 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$38d8.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "SignInPrompt", ()=>SignInPrompt);
-parcelHelpers.export(exports, "SignOutButton", ()=>SignOutButton);
-parcelHelpers.export(exports, "EducationalText", ()=>EducationalText);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _header = require("./components/header");
-var _headerDefault = parcelHelpers.interopDefault(_header);
-var _footer = require("./components/footer");
-var _footerDefault = parcelHelpers.interopDefault(_footer);
-var _contact = require("./components/contact");
-var _contactDefault = parcelHelpers.interopDefault(_contact);
-var _services = require("./components/services");
-var _servicesDefault = parcelHelpers.interopDefault(_services);
-var _about = require("./components/About");
-var _aboutDefault = parcelHelpers.interopDefault(_about);
-function SignInPrompt({ greeting, onClick }) {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("main", {
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {
-                onClick: onClick
-            }, void 0, false, {
-                fileName: "ui-components.js",
-                lineNumber: 12,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutDefault.default), {}, void 0, false, {
-                fileName: "ui-components.js",
-                lineNumber: 13,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _servicesDefault.default), {}, void 0, false, {
-                fileName: "ui-components.js",
-                lineNumber: 14,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _contactDefault.default), {}, void 0, false, {
-                fileName: "ui-components.js",
-                lineNumber: 15,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerDefault.default), {}, void 0, false, {
-                fileName: "ui-components.js",
-                lineNumber: 16,
-                columnNumber: 7
-            }, this)
-        ]
-    }, void 0, true, {
-        fileName: "ui-components.js",
-        lineNumber: 11,
-        columnNumber: 5
-    }, this);
-}
-_c = SignInPrompt;
-function SignOutButton({ accountId, onClick }) {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-        style: {
-            float: "right"
-        },
-        onClick: onClick,
-        children: [
-            "Sign out ",
-            accountId
-        ]
-    }, void 0, true, {
-        fileName: "ui-components.js",
-        lineNumber: 30,
-        columnNumber: 5
-    }, this);
-}
-_c1 = SignOutButton;
-function EducationalText() {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                children: "Look at that! A Hello World app! This greeting is stored on the NEAR blockchain. Check it out:"
-            }, void 0, false, {
-                fileName: "ui-components.js",
-                lineNumber: 39,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ol", {
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                        children: [
-                            "Look in ",
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("code", {
-                                children: "frontend/App.js"
-                            }, void 0, false, {
-                                fileName: "ui-components.js",
-                                lineNumber: 44,
-                                columnNumber: 19
-                            }, this),
-                            " - you'll see ",
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("code", {
-                                children: "getGreeting"
-                            }, void 0, false, {
-                                fileName: "ui-components.js",
-                                lineNumber: 44,
-                                columnNumber: 61
-                            }, this),
-                            " and ",
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("code", {
-                                children: "setGreeting"
-                            }, void 0, false, {
-                                fileName: "ui-components.js",
-                                lineNumber: 44,
-                                columnNumber: 90
-                            }, this),
-                            " being called on ",
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("code", {
-                                children: "contract"
-                            }, void 0, false, {
-                                fileName: "ui-components.js",
-                                lineNumber: 44,
-                                columnNumber: 131
-                            }, this),
-                            ". What's this?"
-                        ]
-                    }, void 0, true, {
-                        fileName: "ui-components.js",
-                        lineNumber: 43,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                        children: [
-                            "Ultimately, this ",
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("code", {
-                                children: "contract"
-                            }, void 0, false, {
-                                fileName: "ui-components.js",
-                                lineNumber: 47,
-                                columnNumber: 28
-                            }, this),
-                            " code is defined in ",
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("code", {
-                                children: "./contract"
-                            }, void 0, false, {
-                                fileName: "ui-components.js",
-                                lineNumber: 47,
-                                columnNumber: 69
-                            }, this),
-                            " – this is the source code for your ",
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                target: "_blank",
-                                rel: "noreferrer",
-                                href: "https://docs.near.org/docs/develop/contracts/overview",
-                                children: "smart contract"
-                            }, void 0, false, {
-                                fileName: "ui-components.js",
-                                lineNumber: 47,
-                                columnNumber: 128
-                            }, this),
-                            "."
-                        ]
-                    }, void 0, true, {
-                        fileName: "ui-components.js",
-                        lineNumber: 46,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                        children: [
-                            "When you run ",
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("code", {
-                                children: "npm run deploy"
-                            }, void 0, false, {
-                                fileName: "ui-components.js",
-                                lineNumber: 49,
-                                columnNumber: 24
-                            }, this),
-                            ", the code in ",
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("code", {
-                                children: "./contract"
-                            }, void 0, false, {
-                                fileName: "ui-components.js",
-                                lineNumber: 49,
-                                columnNumber: 65
-                            }, this),
-                            " gets deployed to the NEAR testnet. You can see how this happens by looking in ",
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("code", {
-                                children: "package.json"
-                            }, void 0, false, {
-                                fileName: "ui-components.js",
-                                lineNumber: 49,
-                                columnNumber: 167
-                            }, this),
-                            "."
-                        ]
-                    }, void 0, true, {
-                        fileName: "ui-components.js",
-                        lineNumber: 48,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "ui-components.js",
-                lineNumber: 42,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
-                fileName: "ui-components.js",
-                lineNumber: 51,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                children: [
-                    "To keep learning, check out ",
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                        target: "_blank",
-                        rel: "noreferrer",
-                        href: "https://docs.near.org",
-                        children: "the NEAR docs"
-                    }, void 0, false, {
-                        fileName: "ui-components.js",
-                        lineNumber: 53,
-                        columnNumber: 37
-                    }, this),
-                    " or look through some ",
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                        target: "_blank",
-                        rel: "noreferrer",
-                        href: "https://examples.near.org",
-                        children: "example apps"
-                    }, void 0, false, {
-                        fileName: "ui-components.js",
-                        lineNumber: 53,
-                        columnNumber: 141
-                    }, this),
-                    "."
-                ]
-            }, void 0, true, {
-                fileName: "ui-components.js",
-                lineNumber: 52,
-                columnNumber: 7
-            }, this)
-        ]
-    }, void 0, true);
-}
-_c2 = EducationalText;
-var _c, _c1, _c2;
-$RefreshReg$(_c, "SignInPrompt");
-$RefreshReg$(_c1, "SignOutButton");
-$RefreshReg$(_c2, "EducationalText");
-
-  $parcel$ReactRefreshHelpers$38d8.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./components/header":"gMwGB","./components/footer":"4psvf","./components/contact":"6sEDB","./components/services":"i4peN","./components/About":"hGILx","@parcel/transformer-js/src/esmodule-helpers.js":"gEEKR","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"iRR7X"}],"gMwGB":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$e7c5 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$e7c5.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _headerScrolled = require("../assets/js/headerScrolled");
-var _uiComponents = require("../ui-components");
-var _uiComponentsDefault = parcelHelpers.interopDefault(_uiComponents);
-var _s = $RefreshSig$();
-const Header = ({ onClick })=>{
-    _s();
-    (0, _react.useEffect)(()=>{
-        (0, _headerScrolled.initHeaderScrolled)();
-    }, []);
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("header", {
-            id: "header",
-            className: "fixed-top",
-            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "container d-flex align-items-center justify-content-between",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                        className: "logo",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                            style: {
-                                color: "#c5f801"
-                            },
-                            href: "",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("b", {
-                                children: "PARTAGE LOCK"
-                            }, void 0, false, {
-                                fileName: "components/header.js",
-                                lineNumber: 16,
-                                columnNumber: 15
-                            }, undefined)
-                        }, void 0, false, {
-                            fileName: "components/header.js",
-                            lineNumber: 15,
-                            columnNumber: 13
-                        }, undefined)
-                    }, void 0, false, {
-                        fileName: "components/header.js",
-                        lineNumber: 14,
-                        columnNumber: 11
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
-                        id: "navbar",
-                        className: "navbar",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                            className: "nav-link scrollto",
-                                            href: "https://medium.com/@juliencarbonnell/democratizing-access-to-utilities-blockchain-for-smart-cities-25eefb0348e7",
-                                            children: "Documentation"
-                                        }, void 0, false, {
-                                            fileName: "components/header.js",
-                                            lineNumber: 23,
-                                            columnNumber: 17
-                                        }, undefined)
-                                    }, void 0, false, {
-                                        fileName: "components/header.js",
-                                        lineNumber: 22,
-                                        columnNumber: 15
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                            onClick: onClick,
-                                            className: "getstarted scrollto",
-                                            children: "Connect Wallet"
-                                        }, void 0, false, {
-                                            fileName: "components/header.js",
-                                            lineNumber: 28,
-                                            columnNumber: 17
-                                        }, undefined)
-                                    }, void 0, false, {
-                                        fileName: "components/header.js",
-                                        lineNumber: 27,
-                                        columnNumber: 15
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "components/header.js",
-                                lineNumber: 21,
-                                columnNumber: 13
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                className: "bi bi-list mobile-nav-toggle"
-                            }, void 0, false, {
-                                fileName: "components/header.js",
-                                lineNumber: 33,
-                                columnNumber: 13
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                                fileName: "components/header.js",
-                                lineNumber: 34,
-                                columnNumber: 13
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "components/header.js",
-                        lineNumber: 20,
-                        columnNumber: 11
-                    }, undefined)
-                ]
-            }, void 0, true, {
-                fileName: "components/header.js",
-                lineNumber: 13,
-                columnNumber: 9
-            }, undefined)
-        }, void 0, false, {
-            fileName: "components/header.js",
-            lineNumber: 12,
-            columnNumber: 7
-        }, undefined)
-    }, void 0, false);
-};
-_s(Header, "OD7bBpZva5O2jO+Puf00hKivP7c=");
-_c = Header;
-exports.default = Header;
-var _c;
-$RefreshReg$(_c, "Header");
-
-  $parcel$ReactRefreshHelpers$e7c5.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../assets/js/headerScrolled":"gaYUV","../ui-components":"4LIXu","@parcel/transformer-js/src/esmodule-helpers.js":"gEEKR","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"iRR7X"}],"gaYUV":[function(require,module,exports) {
-// headerScrolled.js
-/**
- * Easy selector helper function
- */ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "initHeaderScrolled", ()=>initHeaderScrolled);
-const select = (el, all = false)=>{
-    el = el.trim();
-    if (all) return [
-        ...document.querySelectorAll(el)
-    ];
-    else return document.querySelector(el);
-};
-/**
-   * Easy on scroll event listener
-   */ const onscroll = (el, listener)=>{
-    el.addEventListener("scroll", listener);
-};
-const initHeaderScrolled = ()=>{
-    let selectHeader = select("#header");
-    if (selectHeader) {
-        const headerScrolled = ()=>{
-            if (window.scrollY > 100) selectHeader.classList.add("header-scrolled");
-            else selectHeader.classList.remove("header-scrolled");
-        };
-        window.addEventListener("load", headerScrolled);
-        onscroll(document, headerScrolled);
-    }
-};
-
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gEEKR"}],"iRR7X":[function(require,module,exports) {
-"use strict";
-var Refresh = require("73a6a3361f7f06f4");
-function debounce(func, delay) {
-    {
-        let timeout = undefined;
-        let lastTime = 0;
-        return function(args) {
-            // Call immediately if last call was more than the delay ago.
-            // Otherwise, set a timeout. This means the first call is fast
-            // (for the common case of a single update), and subsequent updates
-            // are batched.
-            let now = Date.now();
-            if (now - lastTime > delay) {
-                lastTime = now;
-                func.call(null, args);
-            } else {
-                clearTimeout(timeout);
-                timeout = setTimeout(function() {
-                    timeout = undefined;
-                    lastTime = Date.now();
-                    func.call(null, args);
-                }, delay);
-            }
-        };
-    }
-}
-var enqueueUpdate = debounce(function() {
-    Refresh.performReactRefresh();
-}, 30);
-// Everthing below is either adapted or copied from
-// https://github.com/facebook/metro/blob/61de16bd1edd7e738dd0311c89555a644023ab2d/packages/metro/src/lib/polyfills/require.js
-// MIT License - Copyright (c) Facebook, Inc. and its affiliates.
-module.exports.prelude = function(module1) {
-    window.$RefreshReg$ = function(type, id) {
-        Refresh.register(type, module1.id + " " + id);
-    };
-    window.$RefreshSig$ = Refresh.createSignatureFunctionForTransform;
-};
-module.exports.postlude = function(module1) {
-    if (isReactRefreshBoundary(module1.exports)) {
-        registerExportsForReactRefresh(module1);
-        if (module1.hot) {
-            module1.hot.dispose(function(data) {
-                if (Refresh.hasUnrecoverableErrors()) window.location.reload();
-                data.prevExports = module1.exports;
-            });
-            module1.hot.accept(function(getParents) {
-                var prevExports = module1.hot.data.prevExports;
-                var nextExports = module1.exports;
-                // Since we just executed the code for it, it's possible
-                // that the new exports make it ineligible for being a boundary.
-                var isNoLongerABoundary = !isReactRefreshBoundary(nextExports);
-                // It can also become ineligible if its exports are incompatible
-                // with the previous exports.
-                // For example, if you add/remove/change exports, we'll want
-                // to re-execute the importing modules, and force those components
-                // to re-render. Similarly, if you convert a class component
-                // to a function, we want to invalidate the boundary.
-                var didInvalidate = shouldInvalidateReactRefreshBoundary(prevExports, nextExports);
-                if (isNoLongerABoundary || didInvalidate) {
-                    // We'll be conservative. The only case in which we won't do a full
-                    // reload is if all parent modules are also refresh boundaries.
-                    // In that case we'll add them to the current queue.
-                    var parents = getParents();
-                    if (parents.length === 0) {
-                        // Looks like we bubbled to the root. Can't recover from that.
-                        window.location.reload();
-                        return;
-                    }
-                    return parents;
-                }
-                enqueueUpdate();
-            });
-        }
-    }
-};
-function isReactRefreshBoundary(exports) {
-    if (Refresh.isLikelyComponentType(exports)) return true;
-    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
-    return false;
-    var hasExports = false;
-    var areAllExportsComponents = true;
-    let isESM = "__esModule" in exports;
-    for(var key in exports){
-        hasExports = true;
-        if (key === "__esModule") continue;
-        var desc = Object.getOwnPropertyDescriptor(exports, key);
-        if (desc && desc.get && !isESM) // Don't invoke getters for CJS as they may have side effects.
-        return false;
-        var exportValue = exports[key];
-        if (!Refresh.isLikelyComponentType(exportValue)) areAllExportsComponents = false;
-    }
-    return hasExports && areAllExportsComponents;
-}
-function shouldInvalidateReactRefreshBoundary(prevExports, nextExports) {
-    var prevSignature = getRefreshBoundarySignature(prevExports);
-    var nextSignature = getRefreshBoundarySignature(nextExports);
-    if (prevSignature.length !== nextSignature.length) return true;
-    for(var i = 0; i < nextSignature.length; i++){
-        if (prevSignature[i] !== nextSignature[i]) return true;
-    }
-    return false;
-}
-// When this signature changes, it's unsafe to stop at this refresh boundary.
-function getRefreshBoundarySignature(exports) {
-    var signature = [];
-    signature.push(Refresh.getFamilyByType(exports));
-    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
-    // (This is important for legacy environments.)
-    return signature;
-    let isESM = "__esModule" in exports;
-    for(var key in exports){
-        if (key === "__esModule") continue;
-        var desc = Object.getOwnPropertyDescriptor(exports, key);
-        if (desc && desc.get && !isESM) continue;
-        var exportValue = exports[key];
-        signature.push(key);
-        signature.push(Refresh.getFamilyByType(exportValue));
-    }
-    return signature;
-}
-function registerExportsForReactRefresh(module1) {
-    var exports = module1.exports, id = module1.id;
-    Refresh.register(exports, id + " %exports%");
-    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
-    // (This is important for legacy environments.)
-    return;
-    let isESM = "__esModule" in exports;
-    for(var key in exports){
-        var desc = Object.getOwnPropertyDescriptor(exports, key);
-        if (desc && desc.get && !isESM) continue;
-        var exportValue = exports[key];
-        var typeID = id + " %exports% " + key;
-        Refresh.register(exportValue, typeID);
-    }
-}
-
-},{"73a6a3361f7f06f4":"aJJpO"}],"4psvf":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$a8dc = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$a8dc.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-const Footer = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("footer", {
-                id: "footer",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "footer-top",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "container",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "row",
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "col-lg-3 col-md-6",
-                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "footer-info",
-                                            children: [
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                                    children: "PARTAGE"
-                                                }, void 0, false, {
-                                                    fileName: "components/footer.js",
-                                                    lineNumber: 12,
-                                                    columnNumber: 19
-                                                }, undefined),
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                                    children: "Shared Utilities on Bitcoin"
-                                                }, void 0, false, {
-                                                    fileName: "components/footer.js",
-                                                    lineNumber: 13,
-                                                    columnNumber: 19
-                                                }, undefined),
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                                    children: "Join our social medias"
-                                                }, void 0, false, {
-                                                    fileName: "components/footer.js",
-                                                    lineNumber: 14,
-                                                    columnNumber: 19
-                                                }, undefined),
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                    className: "social-links mt-3",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                            href: "https://discord.gg/4t4AX9GVUf",
-                                                            className: "Discord",
-                                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                                className: "bx bxl-discord"
-                                                            }, void 0, false, {
-                                                                fileName: "components/footer.js",
-                                                                lineNumber: 17,
-                                                                columnNumber: 23
-                                                            }, undefined)
-                                                        }, void 0, false, {
-                                                            fileName: "components/footer.js",
-                                                            lineNumber: 16,
-                                                            columnNumber: 21
-                                                        }, undefined),
-                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                            href: "https://www.youtube.com/@partage_btc",
-                                                            className: "Youtube",
-                                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                                className: "bx bxl-youtube"
-                                                            }, void 0, false, {
-                                                                fileName: "components/footer.js",
-                                                                lineNumber: 20,
-                                                                columnNumber: 23
-                                                            }, undefined)
-                                                        }, void 0, false, {
-                                                            fileName: "components/footer.js",
-                                                            lineNumber: 19,
-                                                            columnNumber: 21
-                                                        }, undefined),
-                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                            href: "https://twitter.com/partage_btc",
-                                                            className: "twitter",
-                                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                                className: "bx bxl-twitter"
-                                                            }, void 0, false, {
-                                                                fileName: "components/footer.js",
-                                                                lineNumber: 23,
-                                                                columnNumber: 23
-                                                            }, undefined)
-                                                        }, void 0, false, {
-                                                            fileName: "components/footer.js",
-                                                            lineNumber: 22,
-                                                            columnNumber: 21
-                                                        }, undefined),
-                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                            href: "https://www.instagram.com/partage.btc/",
-                                                            className: "instagram",
-                                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                                className: "bx bxl-instagram"
-                                                            }, void 0, false, {
-                                                                fileName: "components/footer.js",
-                                                                lineNumber: 26,
-                                                                columnNumber: 23
-                                                            }, undefined)
-                                                        }, void 0, false, {
-                                                            fileName: "components/footer.js",
-                                                            lineNumber: 25,
-                                                            columnNumber: 21
-                                                        }, undefined)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "components/footer.js",
-                                                    lineNumber: 15,
-                                                    columnNumber: 19
-                                                }, undefined)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "components/footer.js",
-                                            lineNumber: 11,
-                                            columnNumber: 17
-                                        }, undefined)
-                                    }, void 0, false, {
-                                        fileName: "components/footer.js",
-                                        lineNumber: 10,
-                                        columnNumber: 15
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "col-lg-3 col-md-6 footer-links",
-                                        children: [
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
-                                                children: "Explore"
-                                            }, void 0, false, {
-                                                fileName: "components/footer.js",
-                                                lineNumber: 33,
-                                                columnNumber: 17
-                                            }, undefined),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                                                children: [
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                        children: [
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                                className: "bx bx-chevron-right"
-                                                            }, void 0, false, {
-                                                                fileName: "components/footer.js",
-                                                                lineNumber: 36,
-                                                                columnNumber: 21
-                                                            }, undefined),
-                                                            " ",
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                href: "https://hellopartage.xyz/nfts",
-                                                                children: "Marketplace"
-                                                            }, void 0, false, {
-                                                                fileName: "components/footer.js",
-                                                                lineNumber: 37,
-                                                                columnNumber: 21
-                                                            }, undefined)
-                                                        ]
-                                                    }, void 0, true, {
-                                                        fileName: "components/footer.js",
-                                                        lineNumber: 35,
-                                                        columnNumber: 19
-                                                    }, undefined),
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                        children: [
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                                className: "bx bx-chevron-right"
-                                                            }, void 0, false, {
-                                                                fileName: "components/footer.js",
-                                                                lineNumber: 40,
-                                                                columnNumber: 21
-                                                            }, undefined),
-                                                            " ",
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                href: "https://medium.com/partage-btc/partages-white-paper-347674063de7",
-                                                                children: "White Paper"
-                                                            }, void 0, false, {
-                                                                fileName: "components/footer.js",
-                                                                lineNumber: 41,
-                                                                columnNumber: 21
-                                                            }, undefined)
-                                                        ]
-                                                    }, void 0, true, {
-                                                        fileName: "components/footer.js",
-                                                        lineNumber: 39,
-                                                        columnNumber: 19
-                                                    }, undefined),
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                        children: [
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                                className: "bx bx-chevron-right"
-                                                            }, void 0, false, {
-                                                                fileName: "components/footer.js",
-                                                                lineNumber: 44,
-                                                                columnNumber: 21
-                                                            }, undefined),
-                                                            " ",
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                href: "https://medium.com/partage-btc/partage-tutorials-8e1f6868716d",
-                                                                children: "Tutorials"
-                                                            }, void 0, false, {
-                                                                fileName: "components/footer.js",
-                                                                lineNumber: 45,
-                                                                columnNumber: 21
-                                                            }, undefined)
-                                                        ]
-                                                    }, void 0, true, {
-                                                        fileName: "components/footer.js",
-                                                        lineNumber: 43,
-                                                        columnNumber: 19
-                                                    }, undefined),
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                        children: [
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                                className: "bx bx-chevron-right"
-                                                            }, void 0, false, {
-                                                                fileName: "components/footer.js",
-                                                                lineNumber: 48,
-                                                                columnNumber: 21
-                                                            }, undefined),
-                                                            " ",
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                href: "https://docs.google.com/document/d/1-ZoP8lExQZ_LDxBG0ZXdbFr7i8Ie0ymcMn6Uh-XfpZc/edit#heading=h.8do1cn1ic47h",
-                                                                children: "Privacy Policy"
-                                                            }, void 0, false, {
-                                                                fileName: "components/footer.js",
-                                                                lineNumber: 49,
-                                                                columnNumber: 21
-                                                            }, undefined)
-                                                        ]
-                                                    }, void 0, true, {
-                                                        fileName: "components/footer.js",
-                                                        lineNumber: 47,
-                                                        columnNumber: 19
-                                                    }, undefined)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "components/footer.js",
-                                                lineNumber: 34,
-                                                columnNumber: 17
-                                            }, undefined)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "components/footer.js",
-                                        lineNumber: 32,
-                                        columnNumber: 15
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "col-lg-4 col-md-6 footer-newsletter",
-                                        children: [
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
-                                                children: "Join Our Newsletter"
-                                            }, void 0, false, {
-                                                fileName: "components/footer.js",
-                                                lineNumber: 55,
-                                                columnNumber: 17
-                                            }, undefined),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                                children: "Exclusive insights straight to your inbox."
-                                            }, void 0, false, {
-                                                fileName: "components/footer.js",
-                                                lineNumber: 56,
-                                                columnNumber: 17
-                                            }, undefined),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
-                                                action: "",
-                                                method: "post",
-                                                children: [
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                                                        type: "email",
-                                                        name: "email"
-                                                    }, void 0, false, {
-                                                        fileName: "components/footer.js",
-                                                        lineNumber: 58,
-                                                        columnNumber: 19
-                                                    }, undefined),
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                                                        type: "submit",
-                                                        value: "Subscribe"
-                                                    }, void 0, false, {
-                                                        fileName: "components/footer.js",
-                                                        lineNumber: 59,
-                                                        columnNumber: 19
-                                                    }, undefined)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "components/footer.js",
-                                                lineNumber: 57,
-                                                columnNumber: 17
-                                            }, undefined)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "components/footer.js",
-                                        lineNumber: 54,
-                                        columnNumber: 15
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "components/footer.js",
-                                lineNumber: 9,
-                                columnNumber: 13
-                            }, undefined)
-                        }, void 0, false, {
-                            fileName: "components/footer.js",
-                            lineNumber: 8,
-                            columnNumber: 11
-                        }, undefined)
-                    }, void 0, false, {
-                        fileName: "components/footer.js",
-                        lineNumber: 7,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "container",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "copyright",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                className: "caption",
-                                href: "https://ariregister.rik.ee/eng/company/14990229/CivicTech-O%C3%9C?search_id=ed8a0b4&pos=1",
-                                target: "_blank",
-                                rel: "noopener noreferrer",
-                                children: [
-                                    "All rights reserved ",
-                                    ` Ⓒ CivicTech OÜ, 2023`
-                                ]
-                            }, void 0, true, {
-                                fileName: "components/footer.js",
-                                lineNumber: 68,
-                                columnNumber: 11
-                            }, undefined)
-                        }, void 0, false, {
-                            fileName: "components/footer.js",
-                            lineNumber: 67,
-                            columnNumber: 11
-                        }, undefined)
-                    }, void 0, false, {
-                        fileName: "components/footer.js",
-                        lineNumber: 66,
-                        columnNumber: 9
-                    }, undefined)
-                ]
-            }, void 0, true, {
-                fileName: "components/footer.js",
-                lineNumber: 6,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                href: "#",
-                className: "back-to-top d-flex align-items-center justify-content-center",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                    className: "bi bi-arrow-up-short"
-                }, void 0, false, {
-                    fileName: "components/footer.js",
-                    lineNumber: 84,
-                    columnNumber: 9
-                }, undefined)
-            }, void 0, false, {
-                fileName: "components/footer.js",
-                lineNumber: 80,
-                columnNumber: 7
-            }, undefined)
-        ]
-    }, void 0, true);
-};
-_c = Footer;
-exports.default = Footer;
-var _c;
-$RefreshReg$(_c, "Footer");
-
-  $parcel$ReactRefreshHelpers$a8dc.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gEEKR","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"iRR7X"}],"6sEDB":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$0e66 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$0e66.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-const Contact = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
-        id: "contact",
-        className: "contact",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "container",
-            "data-aos": "fade-up",
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "section-title",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                        children: "Contact Us"
-                    }, void 0, false, {
-                        fileName: "components/contact.js",
-                        lineNumber: 8,
-                        columnNumber: 11
-                    }, undefined)
-                }, void 0, false, {
-                    fileName: "components/contact.js",
-                    lineNumber: 7,
-                    columnNumber: 9
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "row",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "col-lg-6",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "row",
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "col-md-12",
-                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "info-box",
-                                            children: [
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                    className: "bx bx-map"
-                                                }, void 0, false, {
-                                                    fileName: "components/contact.js",
-                                                    lineNumber: 16,
-                                                    columnNumber: 19
-                                                }, undefined),
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                                    children: "Address"
-                                                }, void 0, false, {
-                                                    fileName: "components/contact.js",
-                                                    lineNumber: 17,
-                                                    columnNumber: 19
-                                                }, undefined),
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                                    children: "Ahtri tn 12, 10151 Tallinn, Estonia "
-                                                }, void 0, false, {
-                                                    fileName: "components/contact.js",
-                                                    lineNumber: 18,
-                                                    columnNumber: 19
-                                                }, undefined)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "components/contact.js",
-                                            lineNumber: 15,
-                                            columnNumber: 17
-                                        }, undefined)
-                                    }, void 0, false, {
-                                        fileName: "components/contact.js",
-                                        lineNumber: 14,
-                                        columnNumber: 15
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "col-md-6",
-                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "info-box mt-4",
-                                            children: [
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                    className: "bx bx-envelope"
-                                                }, void 0, false, {
-                                                    fileName: "components/contact.js",
-                                                    lineNumber: 23,
-                                                    columnNumber: 19
-                                                }, undefined),
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                                    children: "Email"
-                                                }, void 0, false, {
-                                                    fileName: "components/contact.js",
-                                                    lineNumber: 24,
-                                                    columnNumber: 19
-                                                }, undefined),
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                                    children: [
-                                                        "support@hellopartage.xyz",
-                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                                                            fileName: "components/contact.js",
-                                                            lineNumber: 27,
-                                                            columnNumber: 21
-                                                        }, undefined)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "components/contact.js",
-                                                    lineNumber: 25,
-                                                    columnNumber: 19
-                                                }, undefined)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "components/contact.js",
-                                            lineNumber: 22,
-                                            columnNumber: 17
-                                        }, undefined)
-                                    }, void 0, false, {
-                                        fileName: "components/contact.js",
-                                        lineNumber: 21,
-                                        columnNumber: 15
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "col-md-6",
-                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "info-box mt-4",
-                                            children: [
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                    className: "bx bx-phone-call"
-                                                }, void 0, false, {
-                                                    fileName: "components/contact.js",
-                                                    lineNumber: 33,
-                                                    columnNumber: 19
-                                                }, undefined),
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                                    children: "Whatsapp"
-                                                }, void 0, false, {
-                                                    fileName: "components/contact.js",
-                                                    lineNumber: 34,
-                                                    columnNumber: 19
-                                                }, undefined),
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                                    children: [
-                                                        "+33 617 98 2358",
-                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                                                            fileName: "components/contact.js",
-                                                            lineNumber: 37,
-                                                            columnNumber: 21
-                                                        }, undefined)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "components/contact.js",
-                                                    lineNumber: 35,
-                                                    columnNumber: 19
-                                                }, undefined)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "components/contact.js",
-                                            lineNumber: 32,
-                                            columnNumber: 17
-                                        }, undefined)
-                                    }, void 0, false, {
-                                        fileName: "components/contact.js",
-                                        lineNumber: 31,
-                                        columnNumber: 15
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "components/contact.js",
-                                lineNumber: 13,
-                                columnNumber: 13
-                            }, undefined)
-                        }, void 0, false, {
-                            fileName: "components/contact.js",
-                            lineNumber: 12,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "col-lg-6 mt-4 mt-lg-0",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
-                                action: "forms/contact.php",
-                                method: "post",
-                                role: "form",
-                                className: "php-email-form",
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "row",
-                                        children: [
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                className: "col-md-6 form-group",
-                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                                                    type: "text",
-                                                    name: "name",
-                                                    className: "form-control",
-                                                    id: "name",
-                                                    placeholder: "Your Name",
-                                                    required: true
-                                                }, void 0, false, {
-                                                    fileName: "components/contact.js",
-                                                    lineNumber: 53,
-                                                    columnNumber: 19
-                                                }, undefined)
-                                            }, void 0, false, {
-                                                fileName: "components/contact.js",
-                                                lineNumber: 52,
-                                                columnNumber: 17
-                                            }, undefined),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                className: "col-md-6 form-group mt-3 mt-md-0",
-                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                                                    type: "email",
-                                                    className: "form-control",
-                                                    name: "email",
-                                                    id: "email",
-                                                    placeholder: "Your Email",
-                                                    required: true
-                                                }, void 0, false, {
-                                                    fileName: "components/contact.js",
-                                                    lineNumber: 63,
-                                                    columnNumber: 19
-                                                }, undefined)
-                                            }, void 0, false, {
-                                                fileName: "components/contact.js",
-                                                lineNumber: 62,
-                                                columnNumber: 17
-                                            }, undefined)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "components/contact.js",
-                                        lineNumber: 51,
-                                        columnNumber: 15
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "form-group mt-3",
-                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                                            type: "text",
-                                            className: "form-control",
-                                            name: "subject",
-                                            id: "subject",
-                                            placeholder: "Subject",
-                                            required: true
-                                        }, void 0, false, {
-                                            fileName: "components/contact.js",
-                                            lineNumber: 74,
-                                            columnNumber: 17
-                                        }, undefined)
-                                    }, void 0, false, {
-                                        fileName: "components/contact.js",
-                                        lineNumber: 73,
-                                        columnNumber: 15
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "form-group mt-3",
-                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("textarea", {
-                                            className: "form-control",
-                                            name: "message",
-                                            rows: "5",
-                                            placeholder: "Message",
-                                            required: true
-                                        }, void 0, false, {
-                                            fileName: "components/contact.js",
-                                            lineNumber: 84,
-                                            columnNumber: 17
-                                        }, undefined)
-                                    }, void 0, false, {
-                                        fileName: "components/contact.js",
-                                        lineNumber: 83,
-                                        columnNumber: 15
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "my-3",
-                                        children: [
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                className: "loading",
-                                                children: "Loading"
-                                            }, void 0, false, {
-                                                fileName: "components/contact.js",
-                                                lineNumber: 93,
-                                                columnNumber: 17
-                                            }, undefined),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                className: "error-message"
-                                            }, void 0, false, {
-                                                fileName: "components/contact.js",
-                                                lineNumber: 94,
-                                                columnNumber: 17
-                                            }, undefined),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                className: "sent-message",
-                                                children: "Your message has been sent. Thank you!"
-                                            }, void 0, false, {
-                                                fileName: "components/contact.js",
-                                                lineNumber: 95,
-                                                columnNumber: 17
-                                            }, undefined)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "components/contact.js",
-                                        lineNumber: 92,
-                                        columnNumber: 15
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "text-center",
-                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                                            type: "submit",
-                                            children: "Send Message"
-                                        }, void 0, false, {
-                                            fileName: "components/contact.js",
-                                            lineNumber: 100,
-                                            columnNumber: 17
-                                        }, undefined)
-                                    }, void 0, false, {
-                                        fileName: "components/contact.js",
-                                        lineNumber: 99,
-                                        columnNumber: 15
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "components/contact.js",
-                                lineNumber: 45,
-                                columnNumber: 13
-                            }, undefined)
-                        }, void 0, false, {
-                            fileName: "components/contact.js",
-                            lineNumber: 44,
-                            columnNumber: 11
-                        }, undefined)
-                    ]
-                }, void 0, true, {
-                    fileName: "components/contact.js",
-                    lineNumber: 11,
-                    columnNumber: 9
-                }, undefined)
-            ]
-        }, void 0, true, {
-            fileName: "components/contact.js",
-            lineNumber: 6,
-            columnNumber: 7
-        }, undefined)
-    }, void 0, false, {
-        fileName: "components/contact.js",
-        lineNumber: 5,
-        columnNumber: 5
-    }, undefined);
-};
-_c = Contact;
-exports.default = Contact;
-var _c;
-$RefreshReg$(_c, "Contact");
-
-  $parcel$ReactRefreshHelpers$0e66.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gEEKR","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"iRR7X"}],"i4peN":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$445b = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$445b.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _connectWalletJpg = require("../assets/img/connect-wallet.jpg");
-var _connectWalletJpgDefault = parcelHelpers.interopDefault(_connectWalletJpg);
-var _sendPaymentJpg = require("../assets/img/send-payment.jpg");
-var _sendPaymentJpgDefault = parcelHelpers.interopDefault(_sendPaymentJpg);
-var _receivePasswordJpg = require("../assets/img/receive-password.jpg");
-var _receivePasswordJpgDefault = parcelHelpers.interopDefault(_receivePasswordJpg);
-const Services = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
-        id: "about-boxes",
-        className: "about-boxes",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "container",
-            "data-aos": "fade-up",
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "section-title",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                        children: "How It Works"
-                    }, void 0, false, {
-                        fileName: "components/services.js",
-                        lineNumber: 11,
-                        columnNumber: 11
-                    }, undefined)
-                }, void 0, false, {
-                    fileName: "components/services.js",
-                    lineNumber: 10,
-                    columnNumber: 9
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "row",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "col-lg-4 col-md-6 d-flex align-items-stretch",
-                            "data-aos": "fade-up",
-                            "data-aos-delay": "100",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "card",
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                        src: (0, _connectWalletJpgDefault.default),
-                                        className: "card-img-top",
-                                        alt: "..."
-                                    }, void 0, false, {
-                                        fileName: "components/services.js",
-                                        lineNumber: 21,
-                                        columnNumber: 15
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "card-icon",
-                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                            className: "ri-brush-4-line"
-                                        }, void 0, false, {
-                                            fileName: "components/services.js",
-                                            lineNumber: 27,
-                                            columnNumber: 17
-                                        }, undefined)
-                                    }, void 0, false, {
-                                        fileName: "components/services.js",
-                                        lineNumber: 26,
-                                        columnNumber: 15
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "card-body",
-                                        children: [
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h5", {
-                                                className: "card-title",
-                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                    href: "",
-                                                    children: "Connect Your Wallet"
-                                                }, void 0, false, {
-                                                    fileName: "components/services.js",
-                                                    lineNumber: 30,
-                                                    columnNumber: 44
-                                                }, undefined)
-                                            }, void 0, false, {
-                                                fileName: "components/services.js",
-                                                lineNumber: 30,
-                                                columnNumber: 17
-                                            }, undefined),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                                className: "card-text",
-                                                children: "Connect your preferred Near wallet by clicking the Connect Wallet button at the top of this page."
-                                            }, void 0, false, {
-                                                fileName: "components/services.js",
-                                                lineNumber: 31,
-                                                columnNumber: 17
-                                            }, undefined)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "components/services.js",
-                                        lineNumber: 29,
-                                        columnNumber: 15
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "components/services.js",
-                                lineNumber: 20,
-                                columnNumber: 13
-                            }, undefined)
-                        }, void 0, false, {
-                            fileName: "components/services.js",
-                            lineNumber: 15,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "col-lg-4 col-md-6 d-flex align-items-stretch",
-                            "data-aos": "fade-up",
-                            "data-aos-delay": "200",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "card",
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                        src: (0, _sendPaymentJpgDefault.default),
-                                        className: "card-img-top",
-                                        alt: "..."
-                                    }, void 0, false, {
-                                        fileName: "components/services.js",
-                                        lineNumber: 44,
-                                        columnNumber: 15
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "card-icon",
-                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                            className: "ri-calendar-check-line"
-                                        }, void 0, false, {
-                                            fileName: "components/services.js",
-                                            lineNumber: 50,
-                                            columnNumber: 17
-                                        }, undefined)
-                                    }, void 0, false, {
-                                        fileName: "components/services.js",
-                                        lineNumber: 49,
-                                        columnNumber: 15
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "card-body",
-                                        children: [
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h5", {
-                                                className: "card-title",
-                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                    href: "",
-                                                    children: "Send payment"
-                                                }, void 0, false, {
-                                                    fileName: "components/services.js",
-                                                    lineNumber: 53,
-                                                    columnNumber: 44
-                                                }, undefined)
-                                            }, void 0, false, {
-                                                fileName: "components/services.js",
-                                                lineNumber: 53,
-                                                columnNumber: 17
-                                            }, undefined),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                                className: "card-text",
-                                                children: "Browse all available locked Utilities in the Partage Marketplace, and send payment for your desired use time."
-                                            }, void 0, false, {
-                                                fileName: "components/services.js",
-                                                lineNumber: 54,
-                                                columnNumber: 17
-                                            }, undefined)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "components/services.js",
-                                        lineNumber: 52,
-                                        columnNumber: 15
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "components/services.js",
-                                lineNumber: 43,
-                                columnNumber: 13
-                            }, undefined)
-                        }, void 0, false, {
-                            fileName: "components/services.js",
-                            lineNumber: 38,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "col-lg-4 col-md-6 d-flex align-items-stretch",
-                            "data-aos": "fade-up",
-                            "data-aos-delay": "300",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "card",
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                        src: (0, _receivePasswordJpgDefault.default),
-                                        className: "card-img-top",
-                                        alt: "..."
-                                    }, void 0, false, {
-                                        fileName: "components/services.js",
-                                        lineNumber: 66,
-                                        columnNumber: 15
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "card-icon",
-                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                            className: "ri-movie-2-line"
-                                        }, void 0, false, {
-                                            fileName: "components/services.js",
-                                            lineNumber: 72,
-                                            columnNumber: 17
-                                        }, undefined)
-                                    }, void 0, false, {
-                                        fileName: "components/services.js",
-                                        lineNumber: 71,
-                                        columnNumber: 15
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "card-body",
-                                        children: [
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h5", {
-                                                className: "card-title",
-                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                    href: "",
-                                                    children: "Receive password"
-                                                }, void 0, false, {
-                                                    fileName: "components/services.js",
-                                                    lineNumber: 75,
-                                                    columnNumber: 44
-                                                }, undefined)
-                                            }, void 0, false, {
-                                                fileName: "components/services.js",
-                                                lineNumber: 75,
-                                                columnNumber: 17
-                                            }, undefined),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                                className: "card-text",
-                                                children: "Receive a secret password in your email and type it on the Partage lock to access the locked utility you chose."
-                                            }, void 0, false, {
-                                                fileName: "components/services.js",
-                                                lineNumber: 76,
-                                                columnNumber: 17
-                                            }, undefined)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "components/services.js",
-                                        lineNumber: 74,
-                                        columnNumber: 15
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "components/services.js",
-                                lineNumber: 65,
-                                columnNumber: 13
-                            }, undefined)
-                        }, void 0, false, {
-                            fileName: "components/services.js",
-                            lineNumber: 60,
-                            columnNumber: 11
-                        }, undefined)
-                    ]
-                }, void 0, true, {
-                    fileName: "components/services.js",
-                    lineNumber: 14,
-                    columnNumber: 9
-                }, undefined)
-            ]
-        }, void 0, true, {
-            fileName: "components/services.js",
-            lineNumber: 9,
-            columnNumber: 7
-        }, undefined)
-    }, void 0, false, {
-        fileName: "components/services.js",
-        lineNumber: 8,
-        columnNumber: 5
-    }, undefined);
-};
-_c = Services;
-exports.default = Services;
-var _c;
-$RefreshReg$(_c, "Services");
-
-  $parcel$ReactRefreshHelpers$445b.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../assets/img/connect-wallet.jpg":"359VW","../assets/img/send-payment.jpg":"bI92O","../assets/img/receive-password.jpg":"6syrT","@parcel/transformer-js/src/esmodule-helpers.js":"gEEKR","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"iRR7X"}],"359VW":[function(require,module,exports) {
-module.exports = require("e81e242a3628a8d").getBundleURL("UckoE") + "connect-wallet.2b771d86.jpg" + "?" + Date.now();
-
-},{"e81e242a3628a8d":"aBpZh"}],"aBpZh":[function(require,module,exports) {
-"use strict";
-var bundleURL = {};
-function getBundleURLCached(id) {
-    var value = bundleURL[id];
-    if (!value) {
-        value = getBundleURL();
-        bundleURL[id] = value;
-    }
-    return value;
-}
-function getBundleURL() {
-    try {
-        throw new Error();
-    } catch (err) {
-        var matches = ("" + err.stack).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^)\n]+/g);
-        if (matches) // The first two stack frames will be this function and getBundleURLCached.
-        // Use the 3rd one, which will be a runtime in the original bundle.
-        return getBaseURL(matches[2]);
-    }
-    return "/";
-}
-function getBaseURL(url) {
-    return ("" + url).replace(/^((?:https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/.+)\/[^/]+$/, "$1") + "/";
-}
-// TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
-function getOrigin(url) {
-    var matches = ("" + url).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^/]+/);
-    if (!matches) throw new Error("Origin not found");
-    return matches[0];
-}
-exports.getBundleURL = getBundleURLCached;
-exports.getBaseURL = getBaseURL;
-exports.getOrigin = getOrigin;
-
-},{}],"bI92O":[function(require,module,exports) {
-module.exports = require("4ee771a4df51c25f").getBundleURL("UckoE") + "send-payment.6afce8c8.jpg" + "?" + Date.now();
-
-},{"4ee771a4df51c25f":"aBpZh"}],"6syrT":[function(require,module,exports) {
-module.exports = require("95bf72b8b2df7459").getBundleURL("UckoE") + "receive-password.af5862f0.jpg" + "?" + Date.now();
-
-},{"95bf72b8b2df7459":"aBpZh"}],"hGILx":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$266e = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$266e.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _arduinoLockJpg = require("../assets/img/arduino-lock.jpg");
-var _arduinoLockJpgDefault = parcelHelpers.interopDefault(_arduinoLockJpg);
-const About = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
-            id: "about",
-            className: "about",
-            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "container",
-                "data-aos": "fade-up",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    id: "aboutmore",
-                    className: "row",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {}, void 0, false, {
-                                    fileName: "components/About.js",
-                                    lineNumber: 11,
-                                    columnNumber: 11
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                                    fileName: "components/About.js",
-                                    lineNumber: 12,
-                                    columnNumber: 11
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("iframe", {
-                                    src: "https://docs.google.com/presentation/d/e/2PACX-1vSnHUCBGG0FRNgRNH3WAFI243y7XK6w63WugnmzjhmGW2EKvgHgnmgDtzzismnvsDjPIbjLbjZfsWzm/embed?start=false&loop=false&delayms=3000",
-                                    frameborder: "0",
-                                    width: "960",
-                                    height: "569",
-                                    allowfullscreen: "true",
-                                    mozallowfullscreen: "true",
-                                    webkitallowfullscreen: "true"
-                                }, void 0, false, {
-                                    fileName: "components/About.js",
-                                    lineNumber: 13,
-                                    columnNumber: 13
-                                }, undefined)
-                            ]
-                        }, void 0, true, {
-                            fileName: "components/About.js",
-                            lineNumber: 10,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "col-lg-6 order-1 order-lg-2",
-                            "data-aos": "fade-left",
-                            "data-aos-delay": "100",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {}, void 0, false, {
-                                    fileName: "components/About.js",
-                                    lineNumber: 27,
-                                    columnNumber: 13
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                                    fileName: "components/About.js",
-                                    lineNumber: 28,
-                                    columnNumber: 13
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("iframe", {
-                                    width: "420",
-                                    height: "315",
-                                    src: "https://www.youtube.com/embed/MKt_rHBYrPw"
-                                }, void 0, false, {
-                                    fileName: "components/About.js",
-                                    lineNumber: 29,
-                                    columnNumber: 13
-                                }, undefined)
-                            ]
-                        }, void 0, true, {
-                            fileName: "components/About.js",
-                            lineNumber: 22,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content",
-                            "data-aos": "fade-right",
-                            "data-aos-delay": "100",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                                    fileName: "components/About.js",
-                                    lineNumber: 38,
-                                    columnNumber: 13
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                                    fileName: "components/About.js",
-                                    lineNumber: 39,
-                                    columnNumber: 13
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                                    fileName: "components/About.js",
-                                    lineNumber: 40,
-                                    columnNumber: 13
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "section-title",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                                        children: "What is Partage Lock?"
-                                    }, void 0, false, {
-                                        fileName: "components/About.js",
-                                        lineNumber: 42,
-                                        columnNumber: 13
-                                    }, undefined)
-                                }, void 0, false, {
-                                    fileName: "components/About.js",
-                                    lineNumber: 41,
-                                    columnNumber: 13
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                    children: "A Blockchain-controlled smart lock for Utility NFTs"
-                                }, void 0, false, {
-                                    fileName: "components/About.js",
-                                    lineNumber: 44,
-                                    columnNumber: 13
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                                    fileName: "components/About.js",
-                                    lineNumber: 47,
-                                    columnNumber: 13
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                    children: "Owners, providers, remotely manage users' access to real-world asset NFTs safely locked in a vault, a garage, or a house."
-                                }, void 0, false, {
-                                    fileName: "components/About.js",
-                                    lineNumber: 48,
-                                    columnNumber: 13
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                            children: [
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                    className: "ri-check-double-line"
-                                                }, void 0, false, {
-                                                    fileName: "components/About.js",
-                                                    lineNumber: 53,
-                                                    columnNumber: 17
-                                                }, undefined),
-                                                " ",
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("b", {
-                                                    children: "Secured:"
-                                                }, void 0, false, {
-                                                    fileName: "components/About.js",
-                                                    lineNumber: 53,
-                                                    columnNumber: 58
-                                                }, undefined),
-                                                " Only the smart contract owner can control the lock."
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "components/About.js",
-                                            lineNumber: 52,
-                                            columnNumber: 15
-                                        }, undefined),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                            children: [
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                    className: "ri-check-double-line"
-                                                }, void 0, false, {
-                                                    fileName: "components/About.js",
-                                                    lineNumber: 56,
-                                                    columnNumber: 17
-                                                }, undefined),
-                                                " ",
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("b", {
-                                                    children: "Decentralized:"
-                                                }, void 0, false, {
-                                                    fileName: "components/About.js",
-                                                    lineNumber: 56,
-                                                    columnNumber: 58
-                                                }, undefined),
-                                                " The owner is independent from any third party platform."
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "components/About.js",
-                                            lineNumber: 55,
-                                            columnNumber: 15
-                                        }, undefined),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                            children: [
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                    className: "ri-check-double-line"
-                                                }, void 0, false, {
-                                                    fileName: "components/About.js",
-                                                    lineNumber: 59,
-                                                    columnNumber: 17
-                                                }, undefined),
-                                                " ",
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("b", {
-                                                    children: "Trustworthy:"
-                                                }, void 0, false, {
-                                                    fileName: "components/About.js",
-                                                    lineNumber: 59,
-                                                    columnNumber: 58
-                                                }, undefined),
-                                                " Code is law. Once deployed on blockchain, code is forever."
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "components/About.js",
-                                            lineNumber: 58,
-                                            columnNumber: 15
-                                        }, undefined)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "components/About.js",
-                                    lineNumber: 51,
-                                    columnNumber: 13
-                                }, undefined)
-                            ]
-                        }, void 0, true, {
-                            fileName: "components/About.js",
-                            lineNumber: 33,
-                            columnNumber: 11
-                        }, undefined)
-                    ]
-                }, void 0, true, {
-                    fileName: "components/About.js",
-                    lineNumber: 9,
-                    columnNumber: 9
-                }, undefined)
-            }, void 0, false, {
-                fileName: "components/About.js",
-                lineNumber: 8,
-                columnNumber: 7
-            }, undefined)
-        }, void 0, false, {
-            fileName: "components/About.js",
-            lineNumber: 7,
-            columnNumber: 5
-        }, undefined)
-    }, void 0, false);
-};
-_c = About;
-exports.default = About;
-var _c;
-$RefreshReg$(_c, "About");
-
-  $parcel$ReactRefreshHelpers$266e.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../assets/img/arduino-lock.jpg":"9ZYLb","@parcel/transformer-js/src/esmodule-helpers.js":"gEEKR","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"iRR7X"}],"9ZYLb":[function(require,module,exports) {
-module.exports = require("6ea272ba9799e049").getBundleURL("UckoE") + "arduino-lock.2b1ee7b3.jpg" + "?" + Date.now();
-
-},{"6ea272ba9799e049":"aBpZh"}],"dg9wB":[function(require,module,exports) {
+},{}],"dg9wB":[function(require,module,exports) {
 /* A helper file that simplifies using the wallet selector */ // near api js
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
@@ -37705,7 +37681,7 @@ class Wallet {
     }
 }
 
-},{"f82bc9c169fd1dff":"fCgem","near-api-js":"ohc3m","@near-wallet-selector/modal-ui/styles.css":"b4TAP","@near-wallet-selector/modal-ui":"1nDKo","@near-wallet-selector/core":"eEY3a","@near-wallet-selector/my-near-wallet":"bYYGG","@parcel/transformer-js/src/esmodule-helpers.js":"gEEKR"}],"fCgem":[function(require,module,exports) {
+},{"f82bc9c169fd1dff":"fCgem","near-api-js":"ohc3m","@near-wallet-selector/modal-ui/styles.css":"b4TAP","@near-wallet-selector/modal-ui":"1nDKo","@near-wallet-selector/core":"eEY3a","@near-wallet-selector/my-near-wallet":"bYYGG","@parcel/transformer-js/src/esmodule-helpers.js":"1OlAz"}],"fCgem":[function(require,module,exports) {
 /*!
  * The buffer module from node.js, for the browser.
  *
@@ -42877,7 +42853,7 @@ exports.deserializeUnchecked = deserializeUnchecked;
     };
 })(module, this);
 
-},{"bd440367abe2ded7":"6PxzE"}],"6PxzE":[function(require,module,exports) {
+},{"bd440367abe2ded7":"bv0bl"}],"bv0bl":[function(require,module,exports) {
 "use strict";
 
 },{}],"4ji3p":[function(require,module,exports) {
@@ -45907,7 +45883,7 @@ exports.TextDecoder = TextDecoder;
     })();
 })((0, module.exports) ? module.exports : self.nacl = self.nacl || {});
 
-},{"64deaebb838d47b8":"6PxzE"}],"1SRGM":[function(require,module,exports) {
+},{"64deaebb838d47b8":"bv0bl"}],"1SRGM":[function(require,module,exports) {
 "use strict";
 var __importDefault = this && this.__importDefault || function(mod) {
     return mod && mod.__esModule ? mod : {
@@ -49783,7 +49759,7 @@ function fetchJson(connectionInfoOrUrl, json) {
 }
 exports.fetchJson = fetchJson;
 
-},{"1cf7b5a6fc3fcbc5":"8V9k6","b67182bc4df93de":"a3NQ3","31af50c783fd52d9":"bwIOA","b3f2e26d8d7b883c":"5ngmk"}],"a3NQ3":[function(require,module,exports) {
+},{"1cf7b5a6fc3fcbc5":"8V9k6","b67182bc4df93de":"a3NQ3","31af50c783fd52d9":"bwIOA","b3f2e26d8d7b883c":"2yKZn"}],"a3NQ3":[function(require,module,exports) {
 /*!
  * http-errors
  * Copyright(c) 2014 Jonathan Ong
@@ -50192,13 +50168,13 @@ module.exports = function inherits(ctor, superCtor) {
     }).join("").replace(/[^ _0-9a-z]/gi, "");
 }
 
-},{}],"5ngmk":[function(require,module,exports) {
+},{}],"2yKZn":[function(require,module,exports) {
 module.exports = require("ba5d359c6e68af47")(require("d2ea842221d15e91").getBundleURL("UckoE") + "fetch.5aa4d3e3.js" + "?" + Date.now()).catch((err)=>{
     delete module.bundle.cache[module.id];
     throw err;
 }).then(()=>module.bundle.root("64owv"));
 
-},{"ba5d359c6e68af47":"aUhYA","d2ea842221d15e91":"aBpZh"}],"aUhYA":[function(require,module,exports) {
+},{"ba5d359c6e68af47":"fL7rj","d2ea842221d15e91":"cMlBw"}],"fL7rj":[function(require,module,exports) {
 "use strict";
 var cacheLoader = require("3228afe6e927b910");
 module.exports = cacheLoader(function(bundle) {
@@ -50234,7 +50210,7 @@ module.exports = cacheLoader(function(bundle) {
     });
 });
 
-},{"3228afe6e927b910":"daSSp"}],"daSSp":[function(require,module,exports) {
+},{"3228afe6e927b910":"aySNo"}],"aySNo":[function(require,module,exports) {
 "use strict";
 var cachedBundles = {};
 var cachedPreloads = {};
@@ -65676,7 +65652,7 @@ let modalInstance = null;
     return modalInstance;
 };
 
-},{"react/jsx-runtime":"6AEwr","react-dom/client":"lOjBx","react":"21dqq","@near-wallet-selector/core":"eEY3a","qrcode":"lB7MY","copy-to-clipboard":"fLPFI","@parcel/transformer-js/src/esmodule-helpers.js":"gEEKR"}],"6AEwr":[function(require,module,exports) {
+},{"react/jsx-runtime":"6AEwr","react-dom/client":"lOjBx","react":"21dqq","@near-wallet-selector/core":"eEY3a","qrcode":"lB7MY","copy-to-clipboard":"fLPFI","@parcel/transformer-js/src/esmodule-helpers.js":"1OlAz"}],"6AEwr":[function(require,module,exports) {
 "use strict";
 module.exports = require("c4c10cbba9862d5f");
 
@@ -72666,7 +72642,7 @@ const translate = (path)=>{
     return text && typeof text === "string" ? text : path;
 };
 
-},{"a96a7d50dbb8a81e":"fCgem","near-api-js":"ohc3m","events":"1VQLm","rxjs":"lLy7s","borsh":"4JCmN","js-sha256":"ahVaM","@parcel/transformer-js/src/esmodule-helpers.js":"gEEKR"}],"1VQLm":[function(require,module,exports) {
+},{"a96a7d50dbb8a81e":"fCgem","near-api-js":"ohc3m","events":"1VQLm","rxjs":"lLy7s","borsh":"4JCmN","js-sha256":"ahVaM","@parcel/transformer-js/src/esmodule-helpers.js":"1OlAz"}],"1VQLm":[function(require,module,exports) {
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -73364,7 +73340,7 @@ var _withLatestFrom = require("./internal/operators/withLatestFrom");
 var _zipAll = require("./internal/operators/zipAll");
 var _zipWith = require("./internal/operators/zipWith");
 
-},{"./internal/Observable":false,"./internal/observable/ConnectableObservable":false,"./internal/symbol/observable":false,"./internal/observable/dom/animationFrames":false,"./internal/Subject":"94RSe","./internal/BehaviorSubject":"4s6yS","./internal/ReplaySubject":false,"./internal/AsyncSubject":false,"./internal/scheduler/asap":false,"./internal/scheduler/async":false,"./internal/scheduler/queue":false,"./internal/scheduler/animationFrame":false,"./internal/scheduler/VirtualTimeScheduler":false,"./internal/Scheduler":false,"./internal/Subscription":false,"./internal/Subscriber":false,"./internal/Notification":false,"./internal/util/pipe":false,"./internal/util/noop":false,"./internal/util/identity":false,"./internal/util/isObservable":false,"./internal/lastValueFrom":false,"./internal/firstValueFrom":false,"./internal/util/ArgumentOutOfRangeError":false,"./internal/util/EmptyError":false,"./internal/util/NotFoundError":false,"./internal/util/ObjectUnsubscribedError":false,"./internal/util/SequenceError":false,"./internal/operators/timeout":false,"./internal/util/UnsubscriptionError":false,"./internal/observable/bindCallback":false,"./internal/observable/bindNodeCallback":false,"./internal/observable/combineLatest":false,"./internal/observable/concat":false,"./internal/observable/connectable":false,"./internal/observable/defer":false,"./internal/observable/empty":false,"./internal/observable/forkJoin":false,"./internal/observable/from":false,"./internal/observable/fromEvent":false,"./internal/observable/fromEventPattern":false,"./internal/observable/generate":false,"./internal/observable/iif":false,"./internal/observable/interval":false,"./internal/observable/merge":false,"./internal/observable/never":false,"./internal/observable/of":false,"./internal/observable/onErrorResumeNext":false,"./internal/observable/pairs":false,"./internal/observable/partition":false,"./internal/observable/race":false,"./internal/observable/range":false,"./internal/observable/throwError":false,"./internal/observable/timer":false,"./internal/observable/using":false,"./internal/observable/zip":false,"./internal/scheduled/scheduled":false,"./internal/types":false,"./internal/config":false,"./internal/operators/audit":false,"./internal/operators/auditTime":false,"./internal/operators/buffer":false,"./internal/operators/bufferCount":false,"./internal/operators/bufferTime":false,"./internal/operators/bufferToggle":false,"./internal/operators/bufferWhen":false,"./internal/operators/catchError":false,"./internal/operators/combineAll":false,"./internal/operators/combineLatestAll":false,"./internal/operators/combineLatestWith":false,"./internal/operators/concatAll":false,"./internal/operators/concatMap":false,"./internal/operators/concatMapTo":false,"./internal/operators/concatWith":false,"./internal/operators/connect":false,"./internal/operators/count":false,"./internal/operators/debounce":false,"./internal/operators/debounceTime":false,"./internal/operators/defaultIfEmpty":false,"./internal/operators/delay":false,"./internal/operators/delayWhen":false,"./internal/operators/dematerialize":false,"./internal/operators/distinct":false,"./internal/operators/distinctUntilChanged":false,"./internal/operators/distinctUntilKeyChanged":false,"./internal/operators/elementAt":false,"./internal/operators/endWith":false,"./internal/operators/every":false,"./internal/operators/exhaust":false,"./internal/operators/exhaustAll":false,"./internal/operators/exhaustMap":false,"./internal/operators/expand":false,"./internal/operators/filter":false,"./internal/operators/finalize":false,"./internal/operators/find":false,"./internal/operators/findIndex":false,"./internal/operators/first":false,"./internal/operators/groupBy":false,"./internal/operators/ignoreElements":false,"./internal/operators/isEmpty":false,"./internal/operators/last":false,"./internal/operators/map":false,"./internal/operators/mapTo":false,"./internal/operators/materialize":false,"./internal/operators/max":false,"./internal/operators/mergeAll":false,"./internal/operators/flatMap":false,"./internal/operators/mergeMap":false,"./internal/operators/mergeMapTo":false,"./internal/operators/mergeScan":false,"./internal/operators/mergeWith":false,"./internal/operators/min":false,"./internal/operators/multicast":false,"./internal/operators/observeOn":false,"./internal/operators/onErrorResumeNextWith":false,"./internal/operators/pairwise":false,"./internal/operators/pluck":false,"./internal/operators/publish":false,"./internal/operators/publishBehavior":false,"./internal/operators/publishLast":false,"./internal/operators/publishReplay":false,"./internal/operators/raceWith":false,"./internal/operators/reduce":false,"./internal/operators/repeat":false,"./internal/operators/repeatWhen":false,"./internal/operators/retry":false,"./internal/operators/retryWhen":false,"./internal/operators/refCount":false,"./internal/operators/sample":false,"./internal/operators/sampleTime":false,"./internal/operators/scan":"efPFC","./internal/operators/sequenceEqual":false,"./internal/operators/share":false,"./internal/operators/shareReplay":false,"./internal/operators/single":false,"./internal/operators/skip":false,"./internal/operators/skipLast":false,"./internal/operators/skipUntil":false,"./internal/operators/skipWhile":false,"./internal/operators/startWith":false,"./internal/operators/subscribeOn":false,"./internal/operators/switchAll":false,"./internal/operators/switchMap":false,"./internal/operators/switchMapTo":false,"./internal/operators/switchScan":false,"./internal/operators/take":false,"./internal/operators/takeLast":false,"./internal/operators/takeUntil":false,"./internal/operators/takeWhile":false,"./internal/operators/tap":false,"./internal/operators/throttle":false,"./internal/operators/throttleTime":false,"./internal/operators/throwIfEmpty":false,"./internal/operators/timeInterval":false,"./internal/operators/timeoutWith":false,"./internal/operators/timestamp":false,"./internal/operators/toArray":false,"./internal/operators/window":false,"./internal/operators/windowCount":false,"./internal/operators/windowTime":false,"./internal/operators/windowToggle":false,"./internal/operators/windowWhen":false,"./internal/operators/withLatestFrom":false,"./internal/operators/zipAll":false,"./internal/operators/zipWith":false,"@parcel/transformer-js/src/esmodule-helpers.js":"gEEKR"}],"4Jvxr":[function(require,module,exports) {
+},{"./internal/Observable":false,"./internal/observable/ConnectableObservable":false,"./internal/symbol/observable":false,"./internal/observable/dom/animationFrames":false,"./internal/Subject":"94RSe","./internal/BehaviorSubject":"4s6yS","./internal/ReplaySubject":false,"./internal/AsyncSubject":false,"./internal/scheduler/asap":false,"./internal/scheduler/async":false,"./internal/scheduler/queue":false,"./internal/scheduler/animationFrame":false,"./internal/scheduler/VirtualTimeScheduler":false,"./internal/Scheduler":false,"./internal/Subscription":false,"./internal/Subscriber":false,"./internal/Notification":false,"./internal/util/pipe":false,"./internal/util/noop":false,"./internal/util/identity":false,"./internal/util/isObservable":false,"./internal/lastValueFrom":false,"./internal/firstValueFrom":false,"./internal/util/ArgumentOutOfRangeError":false,"./internal/util/EmptyError":false,"./internal/util/NotFoundError":false,"./internal/util/ObjectUnsubscribedError":false,"./internal/util/SequenceError":false,"./internal/operators/timeout":false,"./internal/util/UnsubscriptionError":false,"./internal/observable/bindCallback":false,"./internal/observable/bindNodeCallback":false,"./internal/observable/combineLatest":false,"./internal/observable/concat":false,"./internal/observable/connectable":false,"./internal/observable/defer":false,"./internal/observable/empty":false,"./internal/observable/forkJoin":false,"./internal/observable/from":false,"./internal/observable/fromEvent":false,"./internal/observable/fromEventPattern":false,"./internal/observable/generate":false,"./internal/observable/iif":false,"./internal/observable/interval":false,"./internal/observable/merge":false,"./internal/observable/never":false,"./internal/observable/of":false,"./internal/observable/onErrorResumeNext":false,"./internal/observable/pairs":false,"./internal/observable/partition":false,"./internal/observable/race":false,"./internal/observable/range":false,"./internal/observable/throwError":false,"./internal/observable/timer":false,"./internal/observable/using":false,"./internal/observable/zip":false,"./internal/scheduled/scheduled":false,"./internal/types":false,"./internal/config":false,"./internal/operators/audit":false,"./internal/operators/auditTime":false,"./internal/operators/buffer":false,"./internal/operators/bufferCount":false,"./internal/operators/bufferTime":false,"./internal/operators/bufferToggle":false,"./internal/operators/bufferWhen":false,"./internal/operators/catchError":false,"./internal/operators/combineAll":false,"./internal/operators/combineLatestAll":false,"./internal/operators/combineLatestWith":false,"./internal/operators/concatAll":false,"./internal/operators/concatMap":false,"./internal/operators/concatMapTo":false,"./internal/operators/concatWith":false,"./internal/operators/connect":false,"./internal/operators/count":false,"./internal/operators/debounce":false,"./internal/operators/debounceTime":false,"./internal/operators/defaultIfEmpty":false,"./internal/operators/delay":false,"./internal/operators/delayWhen":false,"./internal/operators/dematerialize":false,"./internal/operators/distinct":false,"./internal/operators/distinctUntilChanged":false,"./internal/operators/distinctUntilKeyChanged":false,"./internal/operators/elementAt":false,"./internal/operators/endWith":false,"./internal/operators/every":false,"./internal/operators/exhaust":false,"./internal/operators/exhaustAll":false,"./internal/operators/exhaustMap":false,"./internal/operators/expand":false,"./internal/operators/filter":false,"./internal/operators/finalize":false,"./internal/operators/find":false,"./internal/operators/findIndex":false,"./internal/operators/first":false,"./internal/operators/groupBy":false,"./internal/operators/ignoreElements":false,"./internal/operators/isEmpty":false,"./internal/operators/last":false,"./internal/operators/map":false,"./internal/operators/mapTo":false,"./internal/operators/materialize":false,"./internal/operators/max":false,"./internal/operators/mergeAll":false,"./internal/operators/flatMap":false,"./internal/operators/mergeMap":false,"./internal/operators/mergeMapTo":false,"./internal/operators/mergeScan":false,"./internal/operators/mergeWith":false,"./internal/operators/min":false,"./internal/operators/multicast":false,"./internal/operators/observeOn":false,"./internal/operators/onErrorResumeNextWith":false,"./internal/operators/pairwise":false,"./internal/operators/pluck":false,"./internal/operators/publish":false,"./internal/operators/publishBehavior":false,"./internal/operators/publishLast":false,"./internal/operators/publishReplay":false,"./internal/operators/raceWith":false,"./internal/operators/reduce":false,"./internal/operators/repeat":false,"./internal/operators/repeatWhen":false,"./internal/operators/retry":false,"./internal/operators/retryWhen":false,"./internal/operators/refCount":false,"./internal/operators/sample":false,"./internal/operators/sampleTime":false,"./internal/operators/scan":"efPFC","./internal/operators/sequenceEqual":false,"./internal/operators/share":false,"./internal/operators/shareReplay":false,"./internal/operators/single":false,"./internal/operators/skip":false,"./internal/operators/skipLast":false,"./internal/operators/skipUntil":false,"./internal/operators/skipWhile":false,"./internal/operators/startWith":false,"./internal/operators/subscribeOn":false,"./internal/operators/switchAll":false,"./internal/operators/switchMap":false,"./internal/operators/switchMapTo":false,"./internal/operators/switchScan":false,"./internal/operators/take":false,"./internal/operators/takeLast":false,"./internal/operators/takeUntil":false,"./internal/operators/takeWhile":false,"./internal/operators/tap":false,"./internal/operators/throttle":false,"./internal/operators/throttleTime":false,"./internal/operators/throwIfEmpty":false,"./internal/operators/timeInterval":false,"./internal/operators/timeoutWith":false,"./internal/operators/timestamp":false,"./internal/operators/toArray":false,"./internal/operators/window":false,"./internal/operators/windowCount":false,"./internal/operators/windowTime":false,"./internal/operators/windowToggle":false,"./internal/operators/windowWhen":false,"./internal/operators/withLatestFrom":false,"./internal/operators/zipAll":false,"./internal/operators/zipWith":false,"@parcel/transformer-js/src/esmodule-helpers.js":"1OlAz"}],"4Jvxr":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "Observable", ()=>Observable);
@@ -73462,7 +73438,7 @@ function isSubscriber(value) {
     return value && value instanceof (0, _subscriber.Subscriber) || isObserver(value) && (0, _subscription.isSubscription)(value);
 }
 
-},{"./Subscriber":"1VFFQ","./Subscription":"lFyhg","./symbol/observable":"byHtV","./util/pipe":"1GN6U","./config":"fX0gC","./util/isFunction":"dEyyK","./util/errorContext":"gU38l","@parcel/transformer-js/src/esmodule-helpers.js":"gEEKR"}],"1VFFQ":[function(require,module,exports) {
+},{"./Subscriber":"1VFFQ","./Subscription":"lFyhg","./symbol/observable":"byHtV","./util/pipe":"1GN6U","./config":"fX0gC","./util/isFunction":"dEyyK","./util/errorContext":"gU38l","@parcel/transformer-js/src/esmodule-helpers.js":"1OlAz"}],"1VFFQ":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "Subscriber", ()=>Subscriber);
@@ -73619,7 +73595,7 @@ var EMPTY_OBSERVER = {
     complete: (0, _noop.noop)
 };
 
-},{"tslib":"lRdW5","./util/isFunction":"dEyyK","./Subscription":"lFyhg","./config":"fX0gC","./util/reportUnhandledError":"aVM3K","./util/noop":"l8uEm","./NotificationFactories":"hwqFj","./scheduler/timeoutProvider":"1FR9J","./util/errorContext":"gU38l","@parcel/transformer-js/src/esmodule-helpers.js":"gEEKR"}],"lRdW5":[function(require,module,exports) {
+},{"tslib":"lRdW5","./util/isFunction":"dEyyK","./Subscription":"lFyhg","./config":"fX0gC","./util/reportUnhandledError":"aVM3K","./util/noop":"l8uEm","./NotificationFactories":"hwqFj","./scheduler/timeoutProvider":"1FR9J","./util/errorContext":"gU38l","@parcel/transformer-js/src/esmodule-helpers.js":"1OlAz"}],"lRdW5":[function(require,module,exports) {
 /******************************************************************************
 Copyright (c) Microsoft Corporation.
 
@@ -74158,7 +74134,7 @@ exports.default = {
     __disposeResources: __disposeResources
 };
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gEEKR"}],"dEyyK":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"1OlAz"}],"dEyyK":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "isFunction", ()=>isFunction);
@@ -74166,7 +74142,7 @@ function isFunction(value) {
     return typeof value === "function";
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gEEKR"}],"lFyhg":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"1OlAz"}],"lFyhg":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "Subscription", ()=>Subscription);
@@ -74296,7 +74272,7 @@ function execFinalizer(finalizer) {
     else finalizer.unsubscribe();
 }
 
-},{"tslib":"lRdW5","./util/isFunction":"dEyyK","./util/UnsubscriptionError":"GSF7Z","./util/arrRemove":"dLHeW","@parcel/transformer-js/src/esmodule-helpers.js":"gEEKR"}],"GSF7Z":[function(require,module,exports) {
+},{"tslib":"lRdW5","./util/isFunction":"dEyyK","./util/UnsubscriptionError":"GSF7Z","./util/arrRemove":"dLHeW","@parcel/transformer-js/src/esmodule-helpers.js":"1OlAz"}],"GSF7Z":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "UnsubscriptionError", ()=>UnsubscriptionError);
@@ -74312,7 +74288,7 @@ var UnsubscriptionError = (0, _createErrorClass.createErrorClass)(function(_supe
     };
 });
 
-},{"./createErrorClass":"i1v8Q","@parcel/transformer-js/src/esmodule-helpers.js":"gEEKR"}],"i1v8Q":[function(require,module,exports) {
+},{"./createErrorClass":"i1v8Q","@parcel/transformer-js/src/esmodule-helpers.js":"1OlAz"}],"i1v8Q":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "createErrorClass", ()=>createErrorClass);
@@ -74327,7 +74303,7 @@ function createErrorClass(createImpl) {
     return ctorFunc;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gEEKR"}],"dLHeW":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"1OlAz"}],"dLHeW":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "arrRemove", ()=>arrRemove);
@@ -74338,7 +74314,7 @@ function arrRemove(arr, item) {
     }
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gEEKR"}],"fX0gC":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"1OlAz"}],"fX0gC":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "config", ()=>config);
@@ -74350,7 +74326,7 @@ var config = {
     useDeprecatedNextContext: false
 };
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gEEKR"}],"aVM3K":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"1OlAz"}],"aVM3K":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "reportUnhandledError", ()=>reportUnhandledError);
@@ -74364,7 +74340,7 @@ function reportUnhandledError(err) {
     });
 }
 
-},{"../config":"fX0gC","../scheduler/timeoutProvider":"1FR9J","@parcel/transformer-js/src/esmodule-helpers.js":"gEEKR"}],"1FR9J":[function(require,module,exports) {
+},{"../config":"fX0gC","../scheduler/timeoutProvider":"1FR9J","@parcel/transformer-js/src/esmodule-helpers.js":"1OlAz"}],"1FR9J":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "timeoutProvider", ()=>timeoutProvider);
@@ -74390,13 +74366,13 @@ var timeoutProvider = {
     delegate: undefined
 };
 
-},{"tslib":"lRdW5","@parcel/transformer-js/src/esmodule-helpers.js":"gEEKR"}],"l8uEm":[function(require,module,exports) {
+},{"tslib":"lRdW5","@parcel/transformer-js/src/esmodule-helpers.js":"1OlAz"}],"l8uEm":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "noop", ()=>noop);
 function noop() {}
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gEEKR"}],"hwqFj":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"1OlAz"}],"hwqFj":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "COMPLETE_NOTIFICATION", ()=>COMPLETE_NOTIFICATION);
@@ -74420,7 +74396,7 @@ function createNotification(kind, value, error) {
     };
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gEEKR"}],"gU38l":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"1OlAz"}],"gU38l":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "errorContext", ()=>errorContext);
@@ -74449,7 +74425,7 @@ function captureError(err) {
     }
 }
 
-},{"../config":"fX0gC","@parcel/transformer-js/src/esmodule-helpers.js":"gEEKR"}],"byHtV":[function(require,module,exports) {
+},{"../config":"fX0gC","@parcel/transformer-js/src/esmodule-helpers.js":"1OlAz"}],"byHtV":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "observable", ()=>observable);
@@ -74457,7 +74433,7 @@ var observable = function() {
     return typeof Symbol === "function" && Symbol.observable || "@@observable";
 }();
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gEEKR"}],"1GN6U":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"1OlAz"}],"1GN6U":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "pipe", ()=>pipe);
@@ -74478,7 +74454,7 @@ function pipeFromArray(fns) {
     };
 }
 
-},{"./identity":"8Xfg6","@parcel/transformer-js/src/esmodule-helpers.js":"gEEKR"}],"8Xfg6":[function(require,module,exports) {
+},{"./identity":"8Xfg6","@parcel/transformer-js/src/esmodule-helpers.js":"1OlAz"}],"8Xfg6":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "identity", ()=>identity);
@@ -74486,7 +74462,7 @@ function identity(x) {
     return x;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gEEKR"}],"94RSe":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"1OlAz"}],"94RSe":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "Subject", ()=>Subject);
@@ -74640,7 +74616,7 @@ var AnonymousSubject = function(_super) {
     return AnonymousSubject;
 }(Subject);
 
-},{"tslib":"lRdW5","./Observable":"4Jvxr","./Subscription":"lFyhg","./util/ObjectUnsubscribedError":"6Gcwa","./util/arrRemove":"dLHeW","./util/errorContext":"gU38l","@parcel/transformer-js/src/esmodule-helpers.js":"gEEKR"}],"6Gcwa":[function(require,module,exports) {
+},{"tslib":"lRdW5","./Observable":"4Jvxr","./Subscription":"lFyhg","./util/ObjectUnsubscribedError":"6Gcwa","./util/arrRemove":"dLHeW","./util/errorContext":"gU38l","@parcel/transformer-js/src/esmodule-helpers.js":"1OlAz"}],"6Gcwa":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "ObjectUnsubscribedError", ()=>ObjectUnsubscribedError);
@@ -74653,7 +74629,7 @@ var ObjectUnsubscribedError = (0, _createErrorClass.createErrorClass)(function(_
     };
 });
 
-},{"./createErrorClass":"i1v8Q","@parcel/transformer-js/src/esmodule-helpers.js":"gEEKR"}],"4s6yS":[function(require,module,exports) {
+},{"./createErrorClass":"i1v8Q","@parcel/transformer-js/src/esmodule-helpers.js":"1OlAz"}],"4s6yS":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "BehaviorSubject", ()=>BehaviorSubject);
@@ -74690,7 +74666,7 @@ var BehaviorSubject = function(_super) {
     return BehaviorSubject;
 }((0, _subject.Subject));
 
-},{"tslib":"lRdW5","./Subject":"94RSe","@parcel/transformer-js/src/esmodule-helpers.js":"gEEKR"}],"efPFC":[function(require,module,exports) {
+},{"tslib":"lRdW5","./Subject":"94RSe","@parcel/transformer-js/src/esmodule-helpers.js":"1OlAz"}],"efPFC":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "scan", ()=>scan);
@@ -74700,7 +74676,7 @@ function scan(accumulator, seed) {
     return (0, _lift.operate)((0, _scanInternals.scanInternals)(accumulator, seed, arguments.length >= 2, true));
 }
 
-},{"../util/lift":"7CiSs","./scanInternals":"7fn6o","@parcel/transformer-js/src/esmodule-helpers.js":"gEEKR"}],"7CiSs":[function(require,module,exports) {
+},{"../util/lift":"7CiSs","./scanInternals":"7fn6o","@parcel/transformer-js/src/esmodule-helpers.js":"1OlAz"}],"7CiSs":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "hasLift", ()=>hasLift);
@@ -74722,7 +74698,7 @@ function operate(init) {
     };
 }
 
-},{"./isFunction":"dEyyK","@parcel/transformer-js/src/esmodule-helpers.js":"gEEKR"}],"7fn6o":[function(require,module,exports) {
+},{"./isFunction":"dEyyK","@parcel/transformer-js/src/esmodule-helpers.js":"1OlAz"}],"7fn6o":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "scanInternals", ()=>scanInternals);
@@ -74743,7 +74719,7 @@ function scanInternals(accumulator, seed, hasSeed, emitOnNext, emitBeforeComplet
     };
 }
 
-},{"./OperatorSubscriber":"96z9b","@parcel/transformer-js/src/esmodule-helpers.js":"gEEKR"}],"96z9b":[function(require,module,exports) {
+},{"./OperatorSubscriber":"96z9b","@parcel/transformer-js/src/esmodule-helpers.js":"1OlAz"}],"96z9b":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "createOperatorSubscriber", ()=>createOperatorSubscriber);
@@ -74797,7 +74773,7 @@ var OperatorSubscriber = function(_super) {
     return OperatorSubscriber;
 }((0, _subscriber.Subscriber));
 
-},{"tslib":"lRdW5","../Subscriber":"1VFFQ","@parcel/transformer-js/src/esmodule-helpers.js":"gEEKR"}],"lB7MY":[function(require,module,exports) {
+},{"tslib":"lRdW5","../Subscriber":"1VFFQ","@parcel/transformer-js/src/esmodule-helpers.js":"1OlAz"}],"lB7MY":[function(require,module,exports) {
 const canPromise = require("da1f68cc1fc16077");
 const QRCode = require("8c6cf49ef2287430");
 const CanvasRenderer = require("8a60cf7722cc14ce");
@@ -80080,7 +80056,7 @@ function setupMyNearWallet({ walletUrl, iconUrl = icon, deprecated = false, succ
         });
 }
 
-},{"near-api-js":"ohc3m","@near-wallet-selector/wallet-utils":"5gEB8","@parcel/transformer-js/src/esmodule-helpers.js":"gEEKR"}],"5gEB8":[function(require,module,exports) {
+},{"near-api-js":"ohc3m","@near-wallet-selector/wallet-utils":"5gEB8","@parcel/transformer-js/src/esmodule-helpers.js":"1OlAz"}],"5gEB8":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "createAction", ()=>createAction);
@@ -82516,6 +82492,6 @@ const signTransactions = (transactions, signer, network)=>__awaiter(void 0, void
         return signedTransactions;
     });
 
-},{"bn.js":"VopIn","near-api-js":"ohc3m","@parcel/transformer-js/src/esmodule-helpers.js":"gEEKR"}]},["hBIir","bCIGo","bB7Pu"], "bB7Pu", "parcelRequiref931")
+},{"bn.js":"VopIn","near-api-js":"ohc3m","@parcel/transformer-js/src/esmodule-helpers.js":"1OlAz"}]},["4jANy","7md93","bB7Pu"], "bB7Pu", "parcelRequiref931")
 
 //# sourceMappingURL=index.3d214d75.js.map

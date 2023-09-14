@@ -97,7 +97,7 @@ const Contact = () => {
                 </div>
               </div>
               <div className="text-center">
-                <button type="submit">Send Message</button>
+                <button id='usebutcases' type="submit">Send Message</button>
               </div>
             </form>
           </div>

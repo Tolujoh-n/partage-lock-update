@@ -3,6 +3,8 @@
 # General
 --------------------------------------------------------------*/
 /* 
+id="reserve" for downwest a tag
+id='usebutcases'  for contact nutton
 golbal colour:
 backgroung-color: black;
 text-paragraph-color: #fff;
@@ -37,7 +39,34 @@ h5,
 h6 {
   font-family: "Raleway", sans-serif;
 }
+iframe {
+  width: 100%;
+  height: 100%;
+}
+/* #heroiframe {
+  margin-top: 10%;
+} */
 
+#heroiframe {
+  margin-top: 3%;
+}
+
+#usebutcases {
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px solid #c5f801;
+  color: #c5f801;
+}
+
+#usebutcases:hover {
+  background-color: #c5f801;
+  color: #0c1318;
+}
+#reserve {
+  color: #c9ff04;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -62,7 +91,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #ff6a40;
+  background: #c5f801;
   color: #fff;
 }
 
@@ -428,6 +457,7 @@ h6 {
   background-size: cover;
   position: relative;
   padding: 0;
+  margin-bottom: 40px;
 }
 
 #hero:before {
@@ -589,11 +619,14 @@ section {
   padding-bottom: 15px;
 }
 #aboutmore {
+  padding-top: 2rem;
   padding: 20px;
+  padding-bottom: 1rem;
   border-radius: 10px;
   background-color: rgba(13, 20, 26, 0.7);
 }
 #aboutimg {
+  margin-left: 10px;
   border-radius: 10px;
   height: 400px;
   width: 500px;
@@ -1292,7 +1325,7 @@ section {
 .contact .php-email-form .error-message {
   display: none;
   color: #fff;
-  background: #ed3c0d;
+  background: #c5f801;
   text-align: left;
   padding: 15px;
   font-weight: 600;
@@ -1354,16 +1387,16 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #fc5600;
+  background: #c5f801;
   border: 0;
   padding: 10px 24px;
-  color: #fff;
+  color: #242222;
   transition: 0.4s;
   border-radius: 4px;
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #ff5e31;
+  background: #c5f801;
 }
 
 @keyframes animate-loading {
@@ -1555,14 +1588,14 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #fc5600;
-  color: #fff;
+  background: #97bd00;
+  color: #161515;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
 }
 
 #footer .footer-top .footer-newsletter form input[type=submit]:hover {
-  background: #ff6a40;
+  background: #ccff00;
 }
 
 #footer .copyright {
