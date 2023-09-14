@@ -28210,138 +28210,108 @@ const Header = ({ onClick })=>{
         (0, _headerScrolled.initHeaderScrolled)();
     }, []);
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("header", {
-                id: "header",
-                className: "fixed-top",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "container d-flex align-items-center justify-content-between",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                            className: "logo",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                style: {
-                                    color: "#c5f801"
-                                },
-                                href: "",
-                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("b", {
-                                    children: "PARTAGE LOCK"
-                                }, void 0, false, {
-                                    fileName: "components/header.js",
-                                    lineNumber: 16,
-                                    columnNumber: 15
-                                }, undefined)
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("header", {
+            id: "header",
+            className: "fixed-top",
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "container d-flex align-items-center justify-content-between",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                        className: "logo",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                            style: {
+                                color: "#c5f801"
+                            },
+                            href: "",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("b", {
+                                children: "PARTAGE LOCK"
                             }, void 0, false, {
                                 fileName: "components/header.js",
-                                lineNumber: 15,
-                                columnNumber: 13
+                                lineNumber: 16,
+                                columnNumber: 15
                             }, undefined)
                         }, void 0, false, {
                             fileName: "components/header.js",
-                            lineNumber: 14,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
-                            id: "navbar",
-                            className: "navbar",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                className: "nav-link scrollto",
-                                                href: "https://medium.com/@juliencarbonnell/democratizing-access-to-utilities-blockchain-for-smart-cities-25eefb0348e7",
-                                                children: "Documentation"
-                                            }, void 0, false, {
-                                                fileName: "components/header.js",
-                                                lineNumber: 23,
-                                                columnNumber: 17
-                                            }, undefined)
-                                        }, void 0, false, {
-                                            fileName: "components/header.js",
-                                            lineNumber: 22,
-                                            columnNumber: 15
-                                        }, undefined),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                onClick: onClick,
-                                                className: "getstarted scrollto",
-                                                children: "Connect Wallet"
-                                            }, void 0, false, {
-                                                fileName: "components/header.js",
-                                                lineNumber: 28,
-                                                columnNumber: 17
-                                            }, undefined)
-                                        }, void 0, false, {
-                                            fileName: "components/header.js",
-                                            lineNumber: 27,
-                                            columnNumber: 15
-                                        }, undefined)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "components/header.js",
-                                    lineNumber: 21,
-                                    columnNumber: 13
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                    className: "bi bi-list mobile-nav-toggle"
-                                }, void 0, false, {
-                                    fileName: "components/header.js",
-                                    lineNumber: 33,
-                                    columnNumber: 13
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                                    fileName: "components/header.js",
-                                    lineNumber: 34,
-                                    columnNumber: 13
-                                }, undefined)
-                            ]
-                        }, void 0, true, {
-                            fileName: "components/header.js",
-                            lineNumber: 20,
-                            columnNumber: 11
+                            lineNumber: 15,
+                            columnNumber: 13
                         }, undefined)
-                    ]
-                }, void 0, true, {
-                    fileName: "components/header.js",
-                    lineNumber: 13,
-                    columnNumber: 9
-                }, undefined)
-            }, void 0, false, {
-                fileName: "components/header.js",
-                lineNumber: 12,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
-                id: "hero",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "hero-container",
-                    "data-aos": "fade-up",
-                    "data-aos-delay": "150",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("iframe", {
-                        src: "https://docs.google.com/presentation/d/e/2PACX-1vSnHUCBGG0FRNgRNH3WAFI243y7XK6w63WugnmzjhmGW2EKvgHgnmgDtzzismnvsDjPIbjLbjZfsWzm/embed?start=false&loop=false&delayms=3000",
-                        frameborder: "0",
-                        id: "heroiframe",
-                        allowfullscreen: "true",
-                        mozallowfullscreen: "true",
-                        webkitallowfullscreen: "true"
                     }, void 0, false, {
                         fileName: "components/header.js",
-                        lineNumber: 41,
+                        lineNumber: 14,
+                        columnNumber: 11
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
+                        id: "navbar",
+                        className: "navbar",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                            className: "nav-link scrollto",
+                                            href: "https://medium.com/@juliencarbonnell/democratizing-access-to-utilities-blockchain-for-smart-cities-25eefb0348e7",
+                                            children: "Documentation"
+                                        }, void 0, false, {
+                                            fileName: "components/header.js",
+                                            lineNumber: 23,
+                                            columnNumber: 17
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "components/header.js",
+                                        lineNumber: 22,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                            onClick: onClick,
+                                            className: "getstarted scrollto",
+                                            children: "Connect Wallet"
+                                        }, void 0, false, {
+                                            fileName: "components/header.js",
+                                            lineNumber: 31,
+                                            columnNumber: 17
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "components/header.js",
+                                        lineNumber: 30,
+                                        columnNumber: 15
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "components/header.js",
+                                lineNumber: 21,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                                className: "bi bi-list mobile-nav-toggle"
+                            }, void 0, false, {
+                                fileName: "components/header.js",
+                                lineNumber: 36,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "components/header.js",
+                                lineNumber: 37,
+                                columnNumber: 13
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "components/header.js",
+                        lineNumber: 20,
                         columnNumber: 11
                     }, undefined)
-                }, void 0, false, {
-                    fileName: "components/header.js",
-                    lineNumber: 40,
-                    columnNumber: 9
-                }, undefined)
-            }, void 0, false, {
+                ]
+            }, void 0, true, {
                 fileName: "components/header.js",
-                lineNumber: 39,
-                columnNumber: 6
+                lineNumber: 13,
+                columnNumber: 9
             }, undefined)
-        ]
-    }, void 0, true);
+        }, void 0, false, {
+            fileName: "components/header.js",
+            lineNumber: 12,
+            columnNumber: 7
+        }, undefined)
+    }, void 0, false);
 };
 _s(Header, "OD7bBpZva5O2jO+Puf00hKivP7c=");
 _c = Header;
@@ -29649,22 +29619,53 @@ const About = ()=>{
                     id: "aboutmore",
                     className: "row",
                     children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
+                            id: "hero",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "hero-container",
+                                "data-aos": "fade-up",
+                                "data-aos-delay": "150",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("iframe", {
+                                    src: "https://docs.google.com/presentation/d/e/2PACX-1vSnHUCBGG0FRNgRNH3WAFI243y7XK6w63WugnmzjhmGW2EKvgHgnmgDtzzismnvsDjPIbjLbjZfsWzm/embed?start=false&loop=false&delayms=3000",
+                                    frameborder: "0",
+                                    id: "heroiframe",
+                                    allowfullscreen: "true",
+                                    mozallowfullscreen: "true",
+                                    webkitallowfullscreen: "true",
+                                    style: {
+                                        height: "100%"
+                                    }
+                                }, void 0, false, {
+                                    fileName: "components/About.js",
+                                    lineNumber: 16,
+                                    columnNumber: 17
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "components/About.js",
+                                lineNumber: 11,
+                                columnNumber: 15
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "components/About.js",
+                            lineNumber: 10,
+                            columnNumber: 13
+                        }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                             className: "col-lg-6 order-1 order-lg-2",
                             "data-aos": "fade-left",
                             "data-aos-delay": "100",
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("iframe", {
-                                height: "315",
+                                height: "500",
                                 src: "https://www.youtube.com/embed/MKt_rHBYrPw"
                             }, void 0, false, {
                                 fileName: "components/About.js",
-                                lineNumber: 17,
-                                columnNumber: 13
+                                lineNumber: 33,
+                                columnNumber: 15
                             }, undefined)
                         }, void 0, false, {
                             fileName: "components/About.js",
-                            lineNumber: 11,
-                            columnNumber: 11
+                            lineNumber: 28,
+                            columnNumber: 13
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                             className: "col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content",
@@ -29677,32 +29678,32 @@ const About = ()=>{
                                         children: "What is Partage Lock?"
                                     }, void 0, false, {
                                         fileName: "components/About.js",
-                                        lineNumber: 28,
-                                        columnNumber: 13
+                                        lineNumber: 44,
+                                        columnNumber: 17
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "components/About.js",
-                                    lineNumber: 27,
-                                    columnNumber: 13
+                                    lineNumber: 43,
+                                    columnNumber: 15
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
                                     children: "A Blockchain-controlled smart lock for Utility NFTs"
                                 }, void 0, false, {
                                     fileName: "components/About.js",
-                                    lineNumber: 30,
-                                    columnNumber: 13
+                                    lineNumber: 46,
+                                    columnNumber: 15
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                     fileName: "components/About.js",
-                                    lineNumber: 33,
-                                    columnNumber: 13
+                                    lineNumber: 47,
+                                    columnNumber: 15
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                     children: "Owners, providers, remotely manage users' access to real-world asset NFTs safely locked in a vault, a garage, or a house."
                                 }, void 0, false, {
                                     fileName: "components/About.js",
-                                    lineNumber: 34,
-                                    columnNumber: 13
+                                    lineNumber: 48,
+                                    columnNumber: 15
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
                                     children: [
@@ -29712,23 +29713,23 @@ const About = ()=>{
                                                     className: "ri-check-double-line"
                                                 }, void 0, false, {
                                                     fileName: "components/About.js",
-                                                    lineNumber: 39,
-                                                    columnNumber: 17
+                                                    lineNumber: 54,
+                                                    columnNumber: 19
                                                 }, undefined),
                                                 " ",
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("b", {
                                                     children: "Secured:"
                                                 }, void 0, false, {
                                                     fileName: "components/About.js",
-                                                    lineNumber: 39,
-                                                    columnNumber: 58
+                                                    lineNumber: 54,
+                                                    columnNumber: 60
                                                 }, undefined),
                                                 " Only the smart contract owner can control the lock."
                                             ]
                                         }, void 0, true, {
                                             fileName: "components/About.js",
-                                            lineNumber: 38,
-                                            columnNumber: 15
+                                            lineNumber: 53,
+                                            columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                             children: [
@@ -29736,23 +29737,24 @@ const About = ()=>{
                                                     className: "ri-check-double-line"
                                                 }, void 0, false, {
                                                     fileName: "components/About.js",
-                                                    lineNumber: 42,
-                                                    columnNumber: 17
+                                                    lineNumber: 58,
+                                                    columnNumber: 19
                                                 }, undefined),
                                                 " ",
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("b", {
                                                     children: "Decentralized:"
                                                 }, void 0, false, {
                                                     fileName: "components/About.js",
-                                                    lineNumber: 42,
-                                                    columnNumber: 58
+                                                    lineNumber: 58,
+                                                    columnNumber: 60
                                                 }, undefined),
-                                                " The owner is independent from any third party platform."
+                                                " ",
+                                                "The owner is independent from any third party platform."
                                             ]
                                         }, void 0, true, {
                                             fileName: "components/About.js",
-                                            lineNumber: 41,
-                                            columnNumber: 15
+                                            lineNumber: 57,
+                                            columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                             children: [
@@ -29760,51 +29762,52 @@ const About = ()=>{
                                                     className: "ri-check-double-line"
                                                 }, void 0, false, {
                                                     fileName: "components/About.js",
-                                                    lineNumber: 45,
-                                                    columnNumber: 17
+                                                    lineNumber: 62,
+                                                    columnNumber: 19
                                                 }, undefined),
                                                 " ",
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("b", {
                                                     children: "Trustworthy:"
                                                 }, void 0, false, {
                                                     fileName: "components/About.js",
-                                                    lineNumber: 45,
-                                                    columnNumber: 58
+                                                    lineNumber: 62,
+                                                    columnNumber: 60
                                                 }, undefined),
-                                                " Code is law. Once deployed on blockchain, code is forever."
+                                                " ",
+                                                "Code is law. Once deployed on blockchain, code is forever."
                                             ]
                                         }, void 0, true, {
                                             fileName: "components/About.js",
-                                            lineNumber: 44,
-                                            columnNumber: 15
+                                            lineNumber: 61,
+                                            columnNumber: 17
                                         }, undefined)
                                     ]
                                 }, void 0, true, {
                                     fileName: "components/About.js",
-                                    lineNumber: 37,
-                                    columnNumber: 13
+                                    lineNumber: 52,
+                                    columnNumber: 15
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "components/About.js",
-                            lineNumber: 21,
-                            columnNumber: 11
+                            lineNumber: 38,
+                            columnNumber: 13
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "components/About.js",
                     lineNumber: 9,
-                    columnNumber: 9
+                    columnNumber: 11
                 }, undefined)
             }, void 0, false, {
                 fileName: "components/About.js",
                 lineNumber: 8,
-                columnNumber: 7
+                columnNumber: 9
             }, undefined)
         }, void 0, false, {
             fileName: "components/About.js",
             lineNumber: 7,
-            columnNumber: 5
+            columnNumber: 7
         }, undefined)
     }, void 0, false);
 };
