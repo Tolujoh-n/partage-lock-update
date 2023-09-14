@@ -56,7 +56,7 @@ const Footer = () => {
                 <p>Exclusive insights straight to your inbox.</p>
                 <form action="" method="post">
                   <input type="email" name="email" />
-                  <input type="submit" className="getstarted" value="Subscribe" />
+                  <input type="submit" value="Subscribe" />
                 </form>
               </div>
             </div>
@@ -66,6 +66,7 @@ const Footer = () => {
         <div className="container">
           <div className="copyright">
           <a
+          id="reserve"
             className="caption"
             href="https://ariregister.rik.ee/eng/company/14990229/CivicTech-O%C3%9C?search_id=ed8a0b4&pos=1"
             target="_blank"

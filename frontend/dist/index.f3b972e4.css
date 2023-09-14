@@ -32,6 +32,20 @@ iframe {
   margin-top: 7%;
 }
 
+#usebutcases {
+  color: #c5f801;
+  background-color: #0000;
+  border: 1px solid #c5f801;
+  border-radius: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#usebutcases:hover {
+  color: #0c1318;
+  background-color: #c5f801;
+}
+
 .back-to-top {
   visibility: hidden;
   opacity: 0;
@@ -54,7 +68,7 @@ iframe {
 
 .back-to-top:hover {
   color: #fff;
-  background: #ff6a40;
+  background: #c5f801;
 }
 
 .back-to-top.active {
@@ -1188,7 +1202,7 @@ section {
 .contact .php-email-form .error-message {
   color: #fff;
   text-align: left;
-  background: #ed3c0d;
+  background: #c5f801;
   padding: 15px;
   font-weight: 600;
   display: none;
@@ -1247,7 +1261,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  color: #fff;
+  color: #242222;
   background: #c5f801;
   border: 0;
   border-radius: 4px;
@@ -1256,7 +1270,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #ff5e31;
+  background: #c5f801;
 }
 
 @keyframes animate-loading {
@@ -1434,8 +1448,8 @@ section {
 }
 
 #footer .footer-top .footer-newsletter form input[type="submit"] {
-  color: #fff;
-  background: #c5f801;
+  color: #161515;
+  background: #97bd00;
   border: 0;
   border-radius: 0 4px 4px 0;
   padding: 0 20px;
@@ -1448,7 +1462,7 @@ section {
 }
 
 #footer .footer-top .footer-newsletter form input[type="submit"]:hover {
-  background: #97bd00;
+  background: #cf0;
 }
 
 #footer .copyright {

@@ -28874,6 +28874,7 @@ const Footer = ()=>{
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                             className: "copyright",
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                id: "reserve",
                                 className: "caption",
                                 href: "https://ariregister.rik.ee/eng/company/14990229/CivicTech-O%C3%9C?search_id=ed8a0b4&pos=1",
                                 target: "_blank",
@@ -28910,12 +28911,12 @@ const Footer = ()=>{
                     className: "bi bi-arrow-up-short"
                 }, void 0, false, {
                     fileName: "components/footer.js",
-                    lineNumber: 84,
+                    lineNumber: 85,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "components/footer.js",
-                lineNumber: 80,
+                lineNumber: 81,
                 columnNumber: 7
             }, undefined)
         ]
@@ -29236,6 +29237,7 @@ const Contact = ()=>{
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                         className: "text-center",
                                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                            id: "usebutcases",
                                             type: "submit",
                                             children: "Send Message"
                                         }, void 0, false, {
@@ -29652,7 +29654,6 @@ const About = ()=>{
                             "data-aos": "fade-left",
                             "data-aos-delay": "100",
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("iframe", {
-                                width: "420",
                                 height: "315",
                                 src: "https://www.youtube.com/embed/MKt_rHBYrPw"
                             }, void 0, false, {
