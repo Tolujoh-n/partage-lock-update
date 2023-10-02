@@ -1338,6 +1338,70 @@ section {
   }
 }
 
+.calendar-container {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 0 10px #0000001a;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.calendar {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.date-inputs {
+  justify-content: space-between;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.date-inputs input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  flex: 1;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.amount-to-pay {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.calendar-container input[type="email"] {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.calendar-container button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.calendar-container button:hover {
+  background-color: #0056b3;
+}
+
 #footer {
   color: #fff;
   background: #0c1318;

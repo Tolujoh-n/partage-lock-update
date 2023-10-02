@@ -27939,6 +27939,7 @@ $parcel$ReactRefreshHelpers$38d8.prelude(module);
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
+// import Calendar from './components/Calendar';
 parcelHelpers.export(exports, "SignInPrompt", ()=>SignInPrompt);
 parcelHelpers.export(exports, "SignOutButton", ()=>SignOutButton);
 parcelHelpers.export(exports, "EducationalText", ()=>EducationalText);
@@ -27962,33 +27963,33 @@ function SignInPrompt({ greeting, onClick }) {
                 onClick: onClick
             }, void 0, false, {
                 fileName: "ui-components.js",
-                lineNumber: 12,
+                lineNumber: 13,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutDefault.default), {}, void 0, false, {
                 fileName: "ui-components.js",
-                lineNumber: 13,
+                lineNumber: 14,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _servicesDefault.default), {}, void 0, false, {
                 fileName: "ui-components.js",
-                lineNumber: 14,
+                lineNumber: 15,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _contactDefault.default), {}, void 0, false, {
                 fileName: "ui-components.js",
-                lineNumber: 15,
+                lineNumber: 16,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerDefault.default), {}, void 0, false, {
                 fileName: "ui-components.js",
-                lineNumber: 16,
+                lineNumber: 18,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "ui-components.js",
-        lineNumber: 11,
+        lineNumber: 12,
         columnNumber: 5
     }, this);
 }
@@ -28005,7 +28006,7 @@ function SignOutButton({ accountId, onClick }) {
         ]
     }, void 0, true, {
         fileName: "ui-components.js",
-        lineNumber: 30,
+        lineNumber: 32,
         columnNumber: 5
     }, this);
 }
@@ -28017,7 +28018,7 @@ function EducationalText() {
                 children: "Look at that! A Hello World app! This greeting is stored on the NEAR blockchain. Check it out:"
             }, void 0, false, {
                 fileName: "ui-components.js",
-                lineNumber: 39,
+                lineNumber: 41,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ol", {
@@ -28029,7 +28030,7 @@ function EducationalText() {
                                 children: "frontend/App.js"
                             }, void 0, false, {
                                 fileName: "ui-components.js",
-                                lineNumber: 44,
+                                lineNumber: 46,
                                 columnNumber: 19
                             }, this),
                             " - you'll see ",
@@ -28037,7 +28038,7 @@ function EducationalText() {
                                 children: "getGreeting"
                             }, void 0, false, {
                                 fileName: "ui-components.js",
-                                lineNumber: 44,
+                                lineNumber: 46,
                                 columnNumber: 61
                             }, this),
                             " and ",
@@ -28045,7 +28046,7 @@ function EducationalText() {
                                 children: "setGreeting"
                             }, void 0, false, {
                                 fileName: "ui-components.js",
-                                lineNumber: 44,
+                                lineNumber: 46,
                                 columnNumber: 90
                             }, this),
                             " being called on ",
@@ -28053,14 +28054,14 @@ function EducationalText() {
                                 children: "contract"
                             }, void 0, false, {
                                 fileName: "ui-components.js",
-                                lineNumber: 44,
+                                lineNumber: 46,
                                 columnNumber: 131
                             }, this),
                             ". What's this?"
                         ]
                     }, void 0, true, {
                         fileName: "ui-components.js",
-                        lineNumber: 43,
+                        lineNumber: 45,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -28070,7 +28071,7 @@ function EducationalText() {
                                 children: "contract"
                             }, void 0, false, {
                                 fileName: "ui-components.js",
-                                lineNumber: 47,
+                                lineNumber: 49,
                                 columnNumber: 28
                             }, this),
                             " code is defined in ",
@@ -28078,7 +28079,7 @@ function EducationalText() {
                                 children: "./contract"
                             }, void 0, false, {
                                 fileName: "ui-components.js",
-                                lineNumber: 47,
+                                lineNumber: 49,
                                 columnNumber: 69
                             }, this),
                             " – this is the source code for your ",
@@ -28089,14 +28090,14 @@ function EducationalText() {
                                 children: "smart contract"
                             }, void 0, false, {
                                 fileName: "ui-components.js",
-                                lineNumber: 47,
+                                lineNumber: 49,
                                 columnNumber: 128
                             }, this),
                             "."
                         ]
                     }, void 0, true, {
                         fileName: "ui-components.js",
-                        lineNumber: 46,
+                        lineNumber: 48,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -28106,7 +28107,7 @@ function EducationalText() {
                                 children: "npm run deploy"
                             }, void 0, false, {
                                 fileName: "ui-components.js",
-                                lineNumber: 49,
+                                lineNumber: 51,
                                 columnNumber: 24
                             }, this),
                             ", the code in ",
@@ -28114,7 +28115,7 @@ function EducationalText() {
                                 children: "./contract"
                             }, void 0, false, {
                                 fileName: "ui-components.js",
-                                lineNumber: 49,
+                                lineNumber: 51,
                                 columnNumber: 65
                             }, this),
                             " gets deployed to the NEAR testnet. You can see how this happens by looking in ",
@@ -28122,25 +28123,25 @@ function EducationalText() {
                                 children: "package.json"
                             }, void 0, false, {
                                 fileName: "ui-components.js",
-                                lineNumber: 49,
+                                lineNumber: 51,
                                 columnNumber: 167
                             }, this),
                             "."
                         ]
                     }, void 0, true, {
                         fileName: "ui-components.js",
-                        lineNumber: 48,
+                        lineNumber: 50,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "ui-components.js",
-                lineNumber: 42,
+                lineNumber: 44,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                 fileName: "ui-components.js",
-                lineNumber: 51,
+                lineNumber: 53,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -28153,7 +28154,7 @@ function EducationalText() {
                         children: "the NEAR docs"
                     }, void 0, false, {
                         fileName: "ui-components.js",
-                        lineNumber: 53,
+                        lineNumber: 55,
                         columnNumber: 37
                     }, this),
                     " or look through some ",
@@ -28164,14 +28165,14 @@ function EducationalText() {
                         children: "example apps"
                     }, void 0, false, {
                         fileName: "ui-components.js",
-                        lineNumber: 53,
+                        lineNumber: 55,
                         columnNumber: 141
                     }, this),
                     "."
                 ]
             }, void 0, true, {
                 fileName: "ui-components.js",
-                lineNumber: 52,
+                lineNumber: 54,
                 columnNumber: 7
             }, this)
         ]
