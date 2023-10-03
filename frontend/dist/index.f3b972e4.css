@@ -1352,40 +1352,26 @@ h1 {
   font-size: 24px;
 }
 
-.calendar {
-  background-color: #f0f0f0;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  margin-bottom: 20px;
-  padding: 20px;
-}
-
 .date-inputs {
-  justify-content: space-between;
+  flex-direction: column;
   margin-bottom: 20px;
   display: flex;
 }
 
-.date-inputs input {
+.date-inputs label {
+  margin-bottom: 5px;
+}
+
+.date-inputs input[type="text"], .date-inputs textarea, .date-inputs input[type="date"], .date-inputs input[type="email"] {
   border: 1px solid #ccc;
   border-radius: 5px;
-  flex: 1;
-  margin-right: 10px;
+  margin-bottom: 10px;
   padding: 10px;
 }
 
-.amount-to-pay {
-  margin-top: 10px;
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.calendar-container input[type="email"] {
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  width: 100%;
+.payment-details {
   margin-bottom: 20px;
-  padding: 10px;
+  font-size: 16px;
 }
 
 .calendar-container button {

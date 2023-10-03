@@ -1460,6 +1460,7 @@ section {
     display: inline-block;
   }
 }
+
 /* Calendar component styles */
 .calendar-container {
   max-width: 600px;
@@ -1475,40 +1476,28 @@ h1 {
   margin-bottom: 20px;
 }
 
-.calendar {
-  /* Add your calendar styles here */
-  background-color: #f0f0f0;
-  border: 1px solid #ddd;
-  padding: 20px;
-  border-radius: 5px;
-  margin-bottom: 20px;
-}
-
 .date-inputs {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   margin-bottom: 20px;
 }
 
-.date-inputs input {
-  flex: 1;
+.date-inputs label {
+  margin-bottom: 5px;
+}
+
+.date-inputs input[type="text"],
+.date-inputs textarea,
+.date-inputs input[type="date"],
+.date-inputs input[type="email"] {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
-.amount-to-pay {
-  font-size: 18px;
-  font-weight: bold;
-  margin-top: 10px;
-}
-
-.calendar-container input[type="email"] {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+.payment-details {
+  font-size: 16px;
   margin-bottom: 20px;
 }
 

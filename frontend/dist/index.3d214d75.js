@@ -27939,7 +27939,6 @@ $parcel$ReactRefreshHelpers$38d8.prelude(module);
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-// import Calendar from './components/Calendar';
 parcelHelpers.export(exports, "SignInPrompt", ()=>SignInPrompt);
 parcelHelpers.export(exports, "SignOutButton", ()=>SignOutButton);
 parcelHelpers.export(exports, "EducationalText", ()=>EducationalText);
@@ -27956,6 +27955,8 @@ var _services = require("./components/services");
 var _servicesDefault = parcelHelpers.interopDefault(_services);
 var _about = require("./components/About");
 var _aboutDefault = parcelHelpers.interopDefault(_about);
+var _calendar = require("./components/Calendar");
+var _calendarDefault = parcelHelpers.interopDefault(_calendar);
 function SignInPrompt({ greeting, onClick }) {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("main", {
         children: [
@@ -27979,6 +27980,11 @@ function SignInPrompt({ greeting, onClick }) {
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _contactDefault.default), {}, void 0, false, {
                 fileName: "ui-components.js",
                 lineNumber: 16,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _calendarDefault.default), {}, void 0, false, {
+                fileName: "ui-components.js",
+                lineNumber: 17,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerDefault.default), {}, void 0, false, {
@@ -28189,7 +28195,7 @@ $RefreshReg$(_c2, "EducationalText");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./components/header":"gMwGB","./components/footer":"4psvf","./components/contact":"6sEDB","./components/services":"i4peN","@parcel/transformer-js/src/esmodule-helpers.js":"1OlAz","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"kh41a","./components/About":"hGILx"}],"gMwGB":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./components/header":"gMwGB","./components/footer":"4psvf","./components/contact":"6sEDB","./components/services":"i4peN","@parcel/transformer-js/src/esmodule-helpers.js":"1OlAz","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"kh41a","./components/About":"hGILx","./components/Calendar":"9iZ3i"}],"gMwGB":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$e7c5 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -29825,7 +29831,235 @@ $RefreshReg$(_c, "About");
 },{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"1OlAz","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"kh41a","../assets/img/arduino-lock.jpg":"AWmST"}],"AWmST":[function(require,module,exports) {
 module.exports = require("6ea272ba9799e049").getBundleURL("UckoE") + "arduino-lock.2b1ee7b3.jpg" + "?" + Date.now();
 
-},{"6ea272ba9799e049":"cMlBw"}],"8r2D8":[function() {},{}],"8LmR1":[function() {},{}],"C1LtY":[function() {},{}],"9VyyL":[function() {},{}],"mlhn4":[function() {},{}],"irvEs":[function() {},{}],"erQec":[function() {},{}],"58byD":[function() {},{}],"kBGcU":[function(require,module,exports) {
+},{"6ea272ba9799e049":"cMlBw"}],"9iZ3i":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$e412 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$e412.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _s = $RefreshSig$();
+function Calendar() {
+    _s();
+    const [name, setName] = (0, _react.useState)("");
+    const [description, setDescription] = (0, _react.useState)("");
+    const [startDate, setStartDate] = (0, _react.useState)(null);
+    const [endDate, setEndDate] = (0, _react.useState)(null);
+    const dailyPrice = 10;
+    const [amountToPay, setAmountToPay] = (0, _react.useState)(null);
+    const [email, setEmail] = (0, _react.useState)("");
+    const formatDate = (date)=>{
+        if (!date) return "";
+        const year = date.getFullYear();
+        const month = (date.getMonth() + 1).toString().padStart(2, "0");
+        const day = date.getDate().toString().padStart(2, "0");
+        return `${year}-${month}-${day}`;
+    };
+    const handleStartDateChange = (date)=>{
+        setStartDate(date);
+        calculateAmount(date, endDate);
+    };
+    const handleEndDateChange = (date)=>{
+        setEndDate(date);
+        calculateAmount(startDate, date);
+    };
+    const calculateAmount = (start, end)=>{
+        if (start && end) {
+            const days = Math.ceil((end - start) / 86400000);
+            const amount = dailyPrice * days;
+            setAmountToPay(amount);
+        }
+    };
+    const handleEmailChange = (event)=>{
+        setEmail(event.target.value);
+    };
+    const handleBuyClick = ()=>{
+        // Implement your buy logic here, e.g., initiate a transaction
+        alert(`Buy button clicked.\nName: ${name}\nDescription: ${description}\nEmail: ${email}\nStart Date: ${formatDate(startDate)}\nEnd Date: ${formatDate(endDate)}\nAmount to pay: $${amountToPay}`);
+    };
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "calendar-container",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                children: "Booking Calendar"
+            }, void 0, false, {
+                fileName: "components/Calendar.js",
+                lineNumber: 49,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "date-inputs",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                        htmlFor: "name",
+                        children: "Name:"
+                    }, void 0, false, {
+                        fileName: "components/Calendar.js",
+                        lineNumber: 51,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                        type: "text",
+                        id: "name",
+                        value: name,
+                        onChange: (e)=>setName(e.target.value),
+                        placeholder: "Enter your name"
+                    }, void 0, false, {
+                        fileName: "components/Calendar.js",
+                        lineNumber: 52,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "components/Calendar.js",
+                lineNumber: 50,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "date-inputs",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                        htmlFor: "description",
+                        children: "Description:"
+                    }, void 0, false, {
+                        fileName: "components/Calendar.js",
+                        lineNumber: 61,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("textarea", {
+                        id: "description",
+                        value: description,
+                        onChange: (e)=>setDescription(e.target.value),
+                        placeholder: "Enter a description"
+                    }, void 0, false, {
+                        fileName: "components/Calendar.js",
+                        lineNumber: 62,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "components/Calendar.js",
+                lineNumber: 60,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "date-inputs",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                        htmlFor: "start-date",
+                        children: "Start Date:"
+                    }, void 0, false, {
+                        fileName: "components/Calendar.js",
+                        lineNumber: 70,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                        type: "date",
+                        id: "start-date",
+                        onChange: (e)=>handleStartDateChange(new Date(e.target.value)),
+                        value: formatDate(startDate),
+                        placeholder: "Start Date"
+                    }, void 0, false, {
+                        fileName: "components/Calendar.js",
+                        lineNumber: 71,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                        htmlFor: "end-date",
+                        children: "End Date:"
+                    }, void 0, false, {
+                        fileName: "components/Calendar.js",
+                        lineNumber: 78,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                        type: "date",
+                        id: "end-date",
+                        onChange: (e)=>handleEndDateChange(new Date(e.target.value)),
+                        value: formatDate(endDate),
+                        placeholder: "End Date"
+                    }, void 0, false, {
+                        fileName: "components/Calendar.js",
+                        lineNumber: 79,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "components/Calendar.js",
+                lineNumber: 69,
+                columnNumber: 7
+            }, this),
+            amountToPay !== null && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                className: "amount-to-pay",
+                children: [
+                    "Amount to pay: $",
+                    amountToPay
+                ]
+            }, void 0, true, {
+                fileName: "components/Calendar.js",
+                lineNumber: 87,
+                columnNumber: 32
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "date-inputs",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                        htmlFor: "email",
+                        children: "Email:"
+                    }, void 0, false, {
+                        fileName: "components/Calendar.js",
+                        lineNumber: 90,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                        type: "email",
+                        id: "email",
+                        onChange: handleEmailChange,
+                        value: email,
+                        placeholder: "Enter your email"
+                    }, void 0, false, {
+                        fileName: "components/Calendar.js",
+                        lineNumber: 91,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "components/Calendar.js",
+                lineNumber: 89,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                onClick: handleBuyClick,
+                children: "Buy"
+            }, void 0, false, {
+                fileName: "components/Calendar.js",
+                lineNumber: 99,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "components/Calendar.js",
+        lineNumber: 48,
+        columnNumber: 5
+    }, this);
+}
+_s(Calendar, "iL5HLbpN84l2CNmDxYVmW0hkFC4=");
+_c = Calendar;
+exports.default = Calendar;
+var _c;
+$RefreshReg$(_c, "Calendar");
+
+  $parcel$ReactRefreshHelpers$e412.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"1OlAz","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"kh41a"}],"8r2D8":[function() {},{}],"8LmR1":[function() {},{}],"C1LtY":[function() {},{}],"9VyyL":[function() {},{}],"mlhn4":[function() {},{}],"irvEs":[function() {},{}],"erQec":[function() {},{}],"58byD":[function() {},{}],"kBGcU":[function(require,module,exports) {
 !function(e, t) {
     module.exports = t();
 }(this, function() {

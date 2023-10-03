@@ -4,7 +4,7 @@ import Footer from './components/footer';
 import Contact from './components/contact';
 import Services from './components/services';
 import About from './components/About';
-// import Calendar from './components/Calendar';
+import Calendar from './components/Calendar';
 
 
 export function SignInPrompt({greeting, onClick}) {
@@ -14,7 +14,7 @@ export function SignInPrompt({greeting, onClick}) {
       <About />
       <Services />
       <Contact />
-      {/* <Calendar /> */}
+      <Calendar />
       <Footer />
 
 
