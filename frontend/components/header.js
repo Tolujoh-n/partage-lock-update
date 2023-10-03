@@ -2,7 +2,17 @@ import React, { useEffect } from "react";
 import { initHeaderScrolled } from "../assets/js/headerScrolled";
 import SignOutButton from "../ui-components";
 
-const Header = ({ onClick }) => {
+const Header = ({
+  onClick,
+  isSignedIn,
+  contractId,
+  wallet,
+  disconnectWallet,
+}) => {
+  const truncatedAddress = isSignedIn
+    ? `${walletAddress.slice(0, 6)}...${wallet.slice(-4)}`
+    : "";
+    
   useEffect(() => {
     initHeaderScrolled();
   }, []);
@@ -27,11 +37,31 @@ const Header = ({ onClick }) => {
                   Documentation
                 </a>
               </li>
-              <li>
-                <a onClick={onClick} className="getstarted scrollto">
-                  Connect Wallet
-                </a>
-              </li>
+              {isSignedIn ? (
+                <>
+                  <li className="wallet-address">
+                    <span>{truncatedAddress}</span>
+                  </li>
+                  <li className="disconnect-wallet">
+                    <button
+                      style={{
+                        backgroundColor: "rgb(79, 209, 226)",
+                        color: "#333333",
+                      }}
+                      className="btn btn-primary"
+                      onClick={disconnectWallet}
+                    >
+                      Disconnect
+                    </button>
+                  </li>
+                </>
+              ) : (
+                <li>
+                  <a onClick={onClick} className="getstarted scrollto">
+                    Connect Wallet
+                  </a>
+                </li>
+              )}
             </ul>
             <i className="bi bi-list mobile-nav-toggle"></i>
             <br></br>

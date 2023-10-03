@@ -1462,6 +1462,9 @@ section {
 }
 
 /* Calendar component styles */
+.calenderly {
+  border-top: 5px solid #c5f801;
+}
 .calendar-container {
   max-width: 600px;
   margin: 0 auto;
@@ -1472,6 +1475,7 @@ section {
 }
 
 h1 {
+  color: whitesmoke;
   font-size: 24px;
   margin-bottom: 20px;
 }
@@ -1484,6 +1488,7 @@ h1 {
 
 .date-inputs label {
   margin-bottom: 5px;
+  color: whitesmoke;
 }
 
 .date-inputs input[type="text"],
@@ -1502,7 +1507,7 @@ h1 {
 }
 
 .calendar-container button {
-  background-color: #007bff;
+  background-color: #c5f801;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -1512,7 +1517,7 @@ h1 {
 }
 
 .calendar-container button:hover {
-  background-color: #0056b3;
+  background-color: #6e8807;
 }
 
 /*--------------------------------------------------------------

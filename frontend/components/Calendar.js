@@ -46,7 +46,11 @@ function Calendar() {
   };
 
   return (
-    <div className="calendar-container">
+    <section id="about-boxes" className="about-boxes">
+
+      <br></br>
+      <div className="container calenderly" data-aos="fade-up">
+      <div className="calendar-container">
       <h1>Booking Calendar</h1>
       <div className="date-inputs">
         <label htmlFor="name">Name:</label>
@@ -99,6 +103,11 @@ function Calendar() {
       </div>
       <button onClick={handleBuyClick}>Buy</button>
     </div>
+      </div>
+    </section>
+    
+    
+    
   );
 }
 

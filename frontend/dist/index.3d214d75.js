@@ -27957,45 +27957,52 @@ var _about = require("./components/About");
 var _aboutDefault = parcelHelpers.interopDefault(_about);
 var _calendar = require("./components/Calendar");
 var _calendarDefault = parcelHelpers.interopDefault(_calendar);
-function SignInPrompt({ greeting, onClick }) {
+function SignInPrompt({ greeting, onClick, isSignedIn, disconnectWallet }) {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("main", {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {
+                isSignedIn: isSignedIn,
+                disconnectWallet: disconnectWallet,
                 onClick: onClick
             }, void 0, false, {
-                fileName: "ui-components.js",
-                lineNumber: 13,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutDefault.default), {}, void 0, false, {
-                fileName: "ui-components.js",
-                lineNumber: 14,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _servicesDefault.default), {}, void 0, false, {
-                fileName: "ui-components.js",
-                lineNumber: 15,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _contactDefault.default), {}, void 0, false, {
-                fileName: "ui-components.js",
-                lineNumber: 16,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _calendarDefault.default), {}, void 0, false, {
                 fileName: "ui-components.js",
                 lineNumber: 17,
                 columnNumber: 7
             }, this),
+            !isSignedIn ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _calendarDefault.default), {}, void 0, false, {
+                    fileName: "ui-components.js",
+                    lineNumber: 24,
+                    columnNumber: 11
+                }, this)
+            }, void 0, false) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutDefault.default), {}, void 0, false, {
+                        fileName: "ui-components.js",
+                        lineNumber: 28,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _servicesDefault.default), {}, void 0, false, {
+                        fileName: "ui-components.js",
+                        lineNumber: 29,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _contactDefault.default), {}, void 0, false, {
+                        fileName: "ui-components.js",
+                        lineNumber: 30,
+                        columnNumber: 11
+                    }, this)
+                ]
+            }, void 0, true),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerDefault.default), {}, void 0, false, {
                 fileName: "ui-components.js",
-                lineNumber: 18,
+                lineNumber: 34,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "ui-components.js",
-        lineNumber: 12,
+        lineNumber: 16,
         columnNumber: 5
     }, this);
 }
@@ -28012,7 +28019,7 @@ function SignOutButton({ accountId, onClick }) {
         ]
     }, void 0, true, {
         fileName: "ui-components.js",
-        lineNumber: 32,
+        lineNumber: 45,
         columnNumber: 5
     }, this);
 }
@@ -28024,7 +28031,7 @@ function EducationalText() {
                 children: "Look at that! A Hello World app! This greeting is stored on the NEAR blockchain. Check it out:"
             }, void 0, false, {
                 fileName: "ui-components.js",
-                lineNumber: 41,
+                lineNumber: 54,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ol", {
@@ -28036,38 +28043,40 @@ function EducationalText() {
                                 children: "frontend/App.js"
                             }, void 0, false, {
                                 fileName: "ui-components.js",
-                                lineNumber: 46,
+                                lineNumber: 60,
                                 columnNumber: 19
                             }, this),
-                            " - you'll see ",
+                            " - you'll see",
+                            " ",
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("code", {
                                 children: "getGreeting"
                             }, void 0, false, {
                                 fileName: "ui-components.js",
-                                lineNumber: 46,
-                                columnNumber: 61
+                                lineNumber: 61,
+                                columnNumber: 11
                             }, this),
                             " and ",
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("code", {
                                 children: "setGreeting"
                             }, void 0, false, {
                                 fileName: "ui-components.js",
-                                lineNumber: 46,
-                                columnNumber: 90
+                                lineNumber: 61,
+                                columnNumber: 40
                             }, this),
-                            " being called on ",
+                            " being called on",
+                            " ",
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("code", {
                                 children: "contract"
                             }, void 0, false, {
                                 fileName: "ui-components.js",
-                                lineNumber: 46,
-                                columnNumber: 131
+                                lineNumber: 62,
+                                columnNumber: 11
                             }, this),
                             ". What's this?"
                         ]
                     }, void 0, true, {
                         fileName: "ui-components.js",
-                        lineNumber: 45,
+                        lineNumber: 59,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -28077,18 +28086,20 @@ function EducationalText() {
                                 children: "contract"
                             }, void 0, false, {
                                 fileName: "ui-components.js",
-                                lineNumber: 49,
+                                lineNumber: 65,
                                 columnNumber: 28
                             }, this),
-                            " code is defined in ",
+                            " code is defined in",
+                            " ",
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("code", {
                                 children: "./contract"
                             }, void 0, false, {
                                 fileName: "ui-components.js",
-                                lineNumber: 49,
-                                columnNumber: 69
+                                lineNumber: 66,
+                                columnNumber: 11
                             }, this),
-                            " – this is the source code for your ",
+                            " – this is the source code for your",
+                            " ",
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                 target: "_blank",
                                 rel: "noreferrer",
@@ -28096,14 +28107,14 @@ function EducationalText() {
                                 children: "smart contract"
                             }, void 0, false, {
                                 fileName: "ui-components.js",
-                                lineNumber: 49,
-                                columnNumber: 128
+                                lineNumber: 67,
+                                columnNumber: 11
                             }, this),
                             "."
                         ]
                     }, void 0, true, {
                         fileName: "ui-components.js",
-                        lineNumber: 48,
+                        lineNumber: 64,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -28113,46 +28124,48 @@ function EducationalText() {
                                 children: "npm run deploy"
                             }, void 0, false, {
                                 fileName: "ui-components.js",
-                                lineNumber: 51,
+                                lineNumber: 77,
                                 columnNumber: 24
                             }, this),
-                            ", the code in ",
+                            ", the code in",
+                            " ",
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("code", {
                                 children: "./contract"
                             }, void 0, false, {
                                 fileName: "ui-components.js",
-                                lineNumber: 51,
-                                columnNumber: 65
+                                lineNumber: 78,
+                                columnNumber: 11
                             }, this),
                             " gets deployed to the NEAR testnet. You can see how this happens by looking in ",
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("code", {
                                 children: "package.json"
                             }, void 0, false, {
                                 fileName: "ui-components.js",
-                                lineNumber: 51,
-                                columnNumber: 167
+                                lineNumber: 79,
+                                columnNumber: 42
                             }, this),
                             "."
                         ]
                     }, void 0, true, {
                         fileName: "ui-components.js",
-                        lineNumber: 50,
+                        lineNumber: 76,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "ui-components.js",
-                lineNumber: 44,
+                lineNumber: 58,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                 fileName: "ui-components.js",
-                lineNumber: 53,
+                lineNumber: 82,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                 children: [
-                    "To keep learning, check out ",
+                    "To keep learning, check out",
+                    " ",
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                         target: "_blank",
                         rel: "noreferrer",
@@ -28160,10 +28173,12 @@ function EducationalText() {
                         children: "the NEAR docs"
                     }, void 0, false, {
                         fileName: "ui-components.js",
-                        lineNumber: 55,
-                        columnNumber: 37
+                        lineNumber: 85,
+                        columnNumber: 9
                     }, this),
-                    " or look through some ",
+                    " ",
+                    "or look through some",
+                    " ",
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                         target: "_blank",
                         rel: "noreferrer",
@@ -28171,14 +28186,14 @@ function EducationalText() {
                         children: "example apps"
                     }, void 0, false, {
                         fileName: "ui-components.js",
-                        lineNumber: 55,
-                        columnNumber: 141
+                        lineNumber: 89,
+                        columnNumber: 9
                     }, this),
                     "."
                 ]
             }, void 0, true, {
                 fileName: "ui-components.js",
-                lineNumber: 54,
+                lineNumber: 83,
                 columnNumber: 7
             }, this)
         ]
@@ -28211,8 +28226,9 @@ var _headerScrolled = require("../assets/js/headerScrolled");
 var _uiComponents = require("../ui-components");
 var _uiComponentsDefault = parcelHelpers.interopDefault(_uiComponents);
 var _s = $RefreshSig$();
-const Header = ({ onClick })=>{
+const Header = ({ onClick, isSignedIn, contractId, wallet, disconnectWallet })=>{
     _s();
+    const truncatedAddress = isSignedIn ? `${walletAddress.slice(0, 6)}...${wallet.slice(-4)}` : "";
     (0, _react.useEffect)(()=>{
         (0, _headerScrolled.initHeaderScrolled)();
     }, []);
@@ -28234,17 +28250,17 @@ const Header = ({ onClick })=>{
                                 children: "PARTAGE LOCK"
                             }, void 0, false, {
                                 fileName: "components/header.js",
-                                lineNumber: 16,
+                                lineNumber: 26,
                                 columnNumber: 15
                             }, undefined)
                         }, void 0, false, {
                             fileName: "components/header.js",
-                            lineNumber: 15,
+                            lineNumber: 25,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "components/header.js",
-                        lineNumber: 14,
+                        lineNumber: 24,
                         columnNumber: 11
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
@@ -28260,62 +28276,99 @@ const Header = ({ onClick })=>{
                                             children: "Documentation"
                                         }, void 0, false, {
                                             fileName: "components/header.js",
-                                            lineNumber: 23,
+                                            lineNumber: 33,
                                             columnNumber: 17
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "components/header.js",
-                                        lineNumber: 22,
+                                        lineNumber: 32,
                                         columnNumber: 15
                                     }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    isSignedIn ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                className: "wallet-address",
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                    children: truncatedAddress
+                                                }, void 0, false, {
+                                                    fileName: "components/header.js",
+                                                    lineNumber: 43,
+                                                    columnNumber: 21
+                                                }, undefined)
+                                            }, void 0, false, {
+                                                fileName: "components/header.js",
+                                                lineNumber: 42,
+                                                columnNumber: 19
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                className: "disconnect-wallet",
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                                    style: {
+                                                        backgroundColor: "rgb(79, 209, 226)",
+                                                        color: "#333333"
+                                                    },
+                                                    className: "btn btn-primary",
+                                                    onClick: disconnectWallet,
+                                                    children: "Disconnect"
+                                                }, void 0, false, {
+                                                    fileName: "components/header.js",
+                                                    lineNumber: 46,
+                                                    columnNumber: 21
+                                                }, undefined)
+                                            }, void 0, false, {
+                                                fileName: "components/header.js",
+                                                lineNumber: 45,
+                                                columnNumber: 19
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                             onClick: onClick,
                                             className: "getstarted scrollto",
                                             children: "Connect Wallet"
                                         }, void 0, false, {
                                             fileName: "components/header.js",
-                                            lineNumber: 31,
-                                            columnNumber: 17
+                                            lineNumber: 60,
+                                            columnNumber: 19
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "components/header.js",
-                                        lineNumber: 30,
-                                        columnNumber: 15
+                                        lineNumber: 59,
+                                        columnNumber: 17
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "components/header.js",
-                                lineNumber: 21,
+                                lineNumber: 31,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
                                 className: "bi bi-list mobile-nav-toggle"
                             }, void 0, false, {
                                 fileName: "components/header.js",
-                                lineNumber: 36,
+                                lineNumber: 66,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                 fileName: "components/header.js",
-                                lineNumber: 37,
+                                lineNumber: 67,
                                 columnNumber: 13
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "components/header.js",
-                        lineNumber: 20,
+                        lineNumber: 30,
                         columnNumber: 11
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "components/header.js",
-                lineNumber: 13,
+                lineNumber: 23,
                 columnNumber: 9
             }, undefined)
         }, void 0, false, {
             fileName: "components/header.js",
-            lineNumber: 12,
+            lineNumber: 22,
             columnNumber: 7
         }, undefined)
     }, void 0, false);
@@ -29850,6 +29903,7 @@ function Calendar() {
     const [description, setDescription] = (0, _react.useState)("");
     const [startDate, setStartDate] = (0, _react.useState)(null);
     const [endDate, setEndDate] = (0, _react.useState)(null);
+    // Set daily price
     const dailyPrice = 10;
     const [amountToPay, setAmountToPay] = (0, _react.useState)(null);
     const [email, setEmail] = (0, _react.useState)("");
@@ -29882,169 +29936,192 @@ function Calendar() {
         // Implement your buy logic here, e.g., initiate a transaction
         alert(`Buy button clicked.\nName: ${name}\nDescription: ${description}\nEmail: ${email}\nStart Date: ${formatDate(startDate)}\nEnd Date: ${formatDate(endDate)}\nAmount to pay: $${amountToPay}`);
     };
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "calendar-container",
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
+        id: "about-boxes",
+        className: "about-boxes",
         children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                children: "Booking Calendar"
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                fileName: "components/Calendar.js",
+                lineNumber: 51,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "container calenderly",
+                "data-aos": "fade-up",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "calendar-container",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                            children: "Booking Calendar"
+                        }, void 0, false, {
+                            fileName: "components/Calendar.js",
+                            lineNumber: 54,
+                            columnNumber: 7
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "date-inputs",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                                    htmlFor: "name",
+                                    children: "Name:"
+                                }, void 0, false, {
+                                    fileName: "components/Calendar.js",
+                                    lineNumber: 56,
+                                    columnNumber: 9
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                    type: "text",
+                                    id: "name",
+                                    value: name,
+                                    onChange: (e)=>setName(e.target.value),
+                                    placeholder: "Enter your name"
+                                }, void 0, false, {
+                                    fileName: "components/Calendar.js",
+                                    lineNumber: 57,
+                                    columnNumber: 9
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/Calendar.js",
+                            lineNumber: 55,
+                            columnNumber: 7
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "date-inputs",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                                    htmlFor: "description",
+                                    children: "Description:"
+                                }, void 0, false, {
+                                    fileName: "components/Calendar.js",
+                                    lineNumber: 66,
+                                    columnNumber: 9
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("textarea", {
+                                    id: "description",
+                                    value: description,
+                                    onChange: (e)=>setDescription(e.target.value),
+                                    placeholder: "Enter a description"
+                                }, void 0, false, {
+                                    fileName: "components/Calendar.js",
+                                    lineNumber: 67,
+                                    columnNumber: 9
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/Calendar.js",
+                            lineNumber: 65,
+                            columnNumber: 7
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "date-inputs",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                                    htmlFor: "start-date",
+                                    children: "Start Date:"
+                                }, void 0, false, {
+                                    fileName: "components/Calendar.js",
+                                    lineNumber: 75,
+                                    columnNumber: 9
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                    type: "date",
+                                    id: "start-date",
+                                    onChange: (e)=>handleStartDateChange(new Date(e.target.value)),
+                                    value: formatDate(startDate),
+                                    placeholder: "Start Date"
+                                }, void 0, false, {
+                                    fileName: "components/Calendar.js",
+                                    lineNumber: 76,
+                                    columnNumber: 9
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                                    htmlFor: "end-date",
+                                    children: "End Date:"
+                                }, void 0, false, {
+                                    fileName: "components/Calendar.js",
+                                    lineNumber: 83,
+                                    columnNumber: 9
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                    type: "date",
+                                    id: "end-date",
+                                    onChange: (e)=>handleEndDateChange(new Date(e.target.value)),
+                                    value: formatDate(endDate),
+                                    placeholder: "End Date"
+                                }, void 0, false, {
+                                    fileName: "components/Calendar.js",
+                                    lineNumber: 84,
+                                    columnNumber: 9
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/Calendar.js",
+                            lineNumber: 74,
+                            columnNumber: 7
+                        }, this),
+                        amountToPay !== null && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            className: "amount-to-pay",
+                            children: [
+                                "Amount to pay: $",
+                                amountToPay
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/Calendar.js",
+                            lineNumber: 92,
+                            columnNumber: 32
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "date-inputs",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                                    htmlFor: "email",
+                                    children: "Email:"
+                                }, void 0, false, {
+                                    fileName: "components/Calendar.js",
+                                    lineNumber: 95,
+                                    columnNumber: 9
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                    type: "email",
+                                    id: "email",
+                                    onChange: handleEmailChange,
+                                    value: email,
+                                    placeholder: "Enter your email"
+                                }, void 0, false, {
+                                    fileName: "components/Calendar.js",
+                                    lineNumber: 96,
+                                    columnNumber: 9
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/Calendar.js",
+                            lineNumber: 94,
+                            columnNumber: 7
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                            onClick: handleBuyClick,
+                            children: "Buy"
+                        }, void 0, false, {
+                            fileName: "components/Calendar.js",
+                            lineNumber: 104,
+                            columnNumber: 7
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "components/Calendar.js",
+                    lineNumber: 53,
+                    columnNumber: 7
+                }, this)
             }, void 0, false, {
                 fileName: "components/Calendar.js",
-                lineNumber: 49,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "date-inputs",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
-                        htmlFor: "name",
-                        children: "Name:"
-                    }, void 0, false, {
-                        fileName: "components/Calendar.js",
-                        lineNumber: 51,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                        type: "text",
-                        id: "name",
-                        value: name,
-                        onChange: (e)=>setName(e.target.value),
-                        placeholder: "Enter your name"
-                    }, void 0, false, {
-                        fileName: "components/Calendar.js",
-                        lineNumber: 52,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "components/Calendar.js",
-                lineNumber: 50,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "date-inputs",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
-                        htmlFor: "description",
-                        children: "Description:"
-                    }, void 0, false, {
-                        fileName: "components/Calendar.js",
-                        lineNumber: 61,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("textarea", {
-                        id: "description",
-                        value: description,
-                        onChange: (e)=>setDescription(e.target.value),
-                        placeholder: "Enter a description"
-                    }, void 0, false, {
-                        fileName: "components/Calendar.js",
-                        lineNumber: 62,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "components/Calendar.js",
-                lineNumber: 60,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "date-inputs",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
-                        htmlFor: "start-date",
-                        children: "Start Date:"
-                    }, void 0, false, {
-                        fileName: "components/Calendar.js",
-                        lineNumber: 70,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                        type: "date",
-                        id: "start-date",
-                        onChange: (e)=>handleStartDateChange(new Date(e.target.value)),
-                        value: formatDate(startDate),
-                        placeholder: "Start Date"
-                    }, void 0, false, {
-                        fileName: "components/Calendar.js",
-                        lineNumber: 71,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
-                        htmlFor: "end-date",
-                        children: "End Date:"
-                    }, void 0, false, {
-                        fileName: "components/Calendar.js",
-                        lineNumber: 78,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                        type: "date",
-                        id: "end-date",
-                        onChange: (e)=>handleEndDateChange(new Date(e.target.value)),
-                        value: formatDate(endDate),
-                        placeholder: "End Date"
-                    }, void 0, false, {
-                        fileName: "components/Calendar.js",
-                        lineNumber: 79,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "components/Calendar.js",
-                lineNumber: 69,
-                columnNumber: 7
-            }, this),
-            amountToPay !== null && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                className: "amount-to-pay",
-                children: [
-                    "Amount to pay: $",
-                    amountToPay
-                ]
-            }, void 0, true, {
-                fileName: "components/Calendar.js",
-                lineNumber: 87,
-                columnNumber: 32
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "date-inputs",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
-                        htmlFor: "email",
-                        children: "Email:"
-                    }, void 0, false, {
-                        fileName: "components/Calendar.js",
-                        lineNumber: 90,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                        type: "email",
-                        id: "email",
-                        onChange: handleEmailChange,
-                        value: email,
-                        placeholder: "Enter your email"
-                    }, void 0, false, {
-                        fileName: "components/Calendar.js",
-                        lineNumber: 91,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "components/Calendar.js",
-                lineNumber: 89,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                onClick: handleBuyClick,
-                children: "Buy"
-            }, void 0, false, {
-                fileName: "components/Calendar.js",
-                lineNumber: 99,
+                lineNumber: 52,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "components/Calendar.js",
-        lineNumber: 48,
+        lineNumber: 49,
         columnNumber: 5
     }, this);
 }
