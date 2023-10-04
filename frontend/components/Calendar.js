@@ -35,6 +35,7 @@ function Calendar() {
       setAmountToPay(amount);
     }
   };
+  const numberOfDays = startDate && endDate ? Math.ceil((endDate - startDate) / (1000 * 60 * 60 * 24)) : 0;
 
   const handleEmailChange = (event) => {
     setEmail(event.target.value);
@@ -100,7 +101,7 @@ function Calendar() {
       {amountToPay !== null && (
         <div className="payment-details">
           <p>Daily Price: {dailyPrice} NEAR</p>
-          {/* <p>Number of Days: {startDate && endDate ? calculateAmount(startDate, endDate) : 0}</p> */}
+          <p>Number of Days: {numberOfDays} days</p>
           <p>Total Price: {amountToPay} NEAR</p>
         </div>
       )}

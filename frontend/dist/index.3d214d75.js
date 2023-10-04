@@ -27969,7 +27969,7 @@ function SignInPrompt({ greeting, onClick, isSignedIn, disconnectWallet }) {
                 lineNumber: 17,
                 columnNumber: 7
             }, this),
-            !isSignedIn ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+            isSignedIn ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _calendarDefault.default), {}, void 0, false, {
                     fileName: "ui-components.js",
                     lineNumber: 24,
@@ -29929,6 +29929,7 @@ function Calendar() {
             setAmountToPay(amount);
         }
     };
+    const numberOfDays = startDate && endDate ? Math.ceil((endDate - startDate) / 86400000) : 0;
     const handleEmailChange = (event)=>{
         setEmail(event.target.value);
     };
@@ -29942,7 +29943,7 @@ function Calendar() {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                 fileName: "components/Calendar.js",
-                lineNumber: 51,
+                lineNumber: 52,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29951,7 +29952,7 @@ function Calendar() {
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                         fileName: "components/Calendar.js",
-                        lineNumber: 53,
+                        lineNumber: 54,
                         columnNumber: 7
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29962,7 +29963,7 @@ function Calendar() {
                                 children: "Partage Booking Calendar"
                             }, void 0, false, {
                                 fileName: "components/Calendar.js",
-                                lineNumber: 55,
+                                lineNumber: 56,
                                 columnNumber: 7
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29973,7 +29974,7 @@ function Calendar() {
                                         children: "Name:"
                                     }, void 0, false, {
                                         fileName: "components/Calendar.js",
-                                        lineNumber: 57,
+                                        lineNumber: 58,
                                         columnNumber: 9
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -29984,13 +29985,13 @@ function Calendar() {
                                         placeholder: "Enter your name"
                                     }, void 0, false, {
                                         fileName: "components/Calendar.js",
-                                        lineNumber: 58,
+                                        lineNumber: 59,
                                         columnNumber: 9
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "components/Calendar.js",
-                                lineNumber: 56,
+                                lineNumber: 57,
                                 columnNumber: 7
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30001,7 +30002,7 @@ function Calendar() {
                                         children: "Description:"
                                     }, void 0, false, {
                                         fileName: "components/Calendar.js",
-                                        lineNumber: 67,
+                                        lineNumber: 68,
                                         columnNumber: 9
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("textarea", {
@@ -30011,13 +30012,13 @@ function Calendar() {
                                         placeholder: "Enter a description"
                                     }, void 0, false, {
                                         fileName: "components/Calendar.js",
-                                        lineNumber: 68,
+                                        lineNumber: 69,
                                         columnNumber: 9
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "components/Calendar.js",
-                                lineNumber: 66,
+                                lineNumber: 67,
                                 columnNumber: 7
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30028,7 +30029,7 @@ function Calendar() {
                                         children: "Start Date:"
                                     }, void 0, false, {
                                         fileName: "components/Calendar.js",
-                                        lineNumber: 76,
+                                        lineNumber: 77,
                                         columnNumber: 9
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -30039,7 +30040,7 @@ function Calendar() {
                                         placeholder: "Start Date"
                                     }, void 0, false, {
                                         fileName: "components/Calendar.js",
-                                        lineNumber: 77,
+                                        lineNumber: 78,
                                         columnNumber: 9
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
@@ -30047,7 +30048,7 @@ function Calendar() {
                                         children: "End Date:"
                                     }, void 0, false, {
                                         fileName: "components/Calendar.js",
-                                        lineNumber: 84,
+                                        lineNumber: 85,
                                         columnNumber: 9
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -30058,13 +30059,13 @@ function Calendar() {
                                         placeholder: "End Date"
                                     }, void 0, false, {
                                         fileName: "components/Calendar.js",
-                                        lineNumber: 85,
+                                        lineNumber: 86,
                                         columnNumber: 9
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "components/Calendar.js",
-                                lineNumber: 75,
+                                lineNumber: 76,
                                 columnNumber: 7
                             }, this),
                             amountToPay === null && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30074,27 +30075,27 @@ function Calendar() {
                                         children: "Daily Price:"
                                     }, void 0, false, {
                                         fileName: "components/Calendar.js",
-                                        lineNumber: 95,
+                                        lineNumber: 96,
                                         columnNumber: 11
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                         children: "Number of Days:"
                                     }, void 0, false, {
                                         fileName: "components/Calendar.js",
-                                        lineNumber: 96,
+                                        lineNumber: 97,
                                         columnNumber: 11
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                         children: "Total Price:"
                                     }, void 0, false, {
                                         fileName: "components/Calendar.js",
-                                        lineNumber: 97,
+                                        lineNumber: 98,
                                         columnNumber: 11
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "components/Calendar.js",
-                                lineNumber: 94,
+                                lineNumber: 95,
                                 columnNumber: 9
                             }, this),
                             amountToPay !== null && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30108,7 +30109,18 @@ function Calendar() {
                                         ]
                                     }, void 0, true, {
                                         fileName: "components/Calendar.js",
-                                        lineNumber: 102,
+                                        lineNumber: 103,
+                                        columnNumber: 11
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        children: [
+                                            "Number of Days: ",
+                                            numberOfDays,
+                                            " days"
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "components/Calendar.js",
+                                        lineNumber: 104,
                                         columnNumber: 11
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -30119,13 +30131,13 @@ function Calendar() {
                                         ]
                                     }, void 0, true, {
                                         fileName: "components/Calendar.js",
-                                        lineNumber: 104,
+                                        lineNumber: 105,
                                         columnNumber: 11
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "components/Calendar.js",
-                                lineNumber: 101,
+                                lineNumber: 102,
                                 columnNumber: 9
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30136,7 +30148,7 @@ function Calendar() {
                                         children: "Email:"
                                     }, void 0, false, {
                                         fileName: "components/Calendar.js",
-                                        lineNumber: 109,
+                                        lineNumber: 110,
                                         columnNumber: 9
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -30147,13 +30159,13 @@ function Calendar() {
                                         placeholder: "Enter your email"
                                     }, void 0, false, {
                                         fileName: "components/Calendar.js",
-                                        lineNumber: 110,
+                                        lineNumber: 111,
                                         columnNumber: 9
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "components/Calendar.js",
-                                lineNumber: 108,
+                                lineNumber: 109,
                                 columnNumber: 7
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30163,30 +30175,30 @@ function Calendar() {
                                     children: "Buy"
                                 }, void 0, false, {
                                     fileName: "components/Calendar.js",
-                                    lineNumber: 119,
+                                    lineNumber: 120,
                                     columnNumber: 7
                                 }, this)
                             }, void 0, false, {
                                 fileName: "components/Calendar.js",
-                                lineNumber: 118,
+                                lineNumber: 119,
                                 columnNumber: 7
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "components/Calendar.js",
-                        lineNumber: 54,
+                        lineNumber: 55,
                         columnNumber: 7
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "components/Calendar.js",
-                lineNumber: 52,
+                lineNumber: 53,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "components/Calendar.js",
-        lineNumber: 49,
+        lineNumber: 50,
         columnNumber: 5
     }, this);
 }

@@ -19,7 +19,7 @@ export function SignInPrompt({
         disconnectWallet={disconnectWallet}
         onClick={onClick}
       />
-      {!isSignedIn ? (
+      {isSignedIn ? (
         <>
           <Calendar />
         </>
