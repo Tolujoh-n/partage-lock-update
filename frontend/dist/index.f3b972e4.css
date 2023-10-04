@@ -1342,6 +1342,10 @@ section {
   border-top: 5px solid #c5f801;
 }
 
+#calender-title {
+  color: #c5f801;
+}
+
 .calendar-container {
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -1376,8 +1380,9 @@ h1 {
 }
 
 .payment-details {
+  color: #f5f5f5;
   margin-bottom: 20px;
-  font-size: 16px;
+  font-size: large;
 }
 
 .calendar-container button {
@@ -1391,7 +1396,7 @@ h1 {
 }
 
 .calendar-container button:hover {
-  background-color: #6e8807;
+  background-color: #91b30c;
 }
 
 #footer {

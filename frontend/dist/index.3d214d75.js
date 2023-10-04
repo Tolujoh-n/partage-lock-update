@@ -29934,7 +29934,7 @@ function Calendar() {
     };
     const handleBuyClick = ()=>{
         // Implement your buy logic here, e.g., initiate a transaction
-        alert(`Buy button clicked.\nName: ${name}\nDescription: ${description}\nEmail: ${email}\nStart Date: ${formatDate(startDate)}\nEnd Date: ${formatDate(endDate)}\nAmount to pay: $${amountToPay}`);
+        alert(`Buy button clicked.\nName: ${name}\nDescription: ${description}\nEmail: ${email}\nStart Date: ${formatDate(startDate)}\nEnd Date: ${formatDate(endDate)}\nAmount to pay: ${amountToPay}NEAR`);
     };
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         id: "about-boxes",
@@ -29948,172 +29948,237 @@ function Calendar() {
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "container calenderly",
                 "data-aos": "fade-up",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "calendar-container",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                            children: "Booking Calendar"
-                        }, void 0, false, {
-                            fileName: "components/Calendar.js",
-                            lineNumber: 54,
-                            columnNumber: 7
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "date-inputs",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
-                                    htmlFor: "name",
-                                    children: "Name:"
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "components/Calendar.js",
+                        lineNumber: 53,
+                        columnNumber: 7
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "calendar-container",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                                id: "calender-title",
+                                children: "Partage Booking Calendar"
+                            }, void 0, false, {
+                                fileName: "components/Calendar.js",
+                                lineNumber: 55,
+                                columnNumber: 7
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "date-inputs",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                                        htmlFor: "name",
+                                        children: "Name:"
+                                    }, void 0, false, {
+                                        fileName: "components/Calendar.js",
+                                        lineNumber: 57,
+                                        columnNumber: 9
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                        type: "text",
+                                        id: "name",
+                                        value: name,
+                                        onChange: (e)=>setName(e.target.value),
+                                        placeholder: "Enter your name"
+                                    }, void 0, false, {
+                                        fileName: "components/Calendar.js",
+                                        lineNumber: 58,
+                                        columnNumber: 9
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "components/Calendar.js",
+                                lineNumber: 56,
+                                columnNumber: 7
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "date-inputs",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                                        htmlFor: "description",
+                                        children: "Description:"
+                                    }, void 0, false, {
+                                        fileName: "components/Calendar.js",
+                                        lineNumber: 67,
+                                        columnNumber: 9
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("textarea", {
+                                        id: "description",
+                                        value: description,
+                                        onChange: (e)=>setDescription(e.target.value),
+                                        placeholder: "Enter a description"
+                                    }, void 0, false, {
+                                        fileName: "components/Calendar.js",
+                                        lineNumber: 68,
+                                        columnNumber: 9
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "components/Calendar.js",
+                                lineNumber: 66,
+                                columnNumber: 7
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "date-inputs",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                                        htmlFor: "start-date",
+                                        children: "Start Date:"
+                                    }, void 0, false, {
+                                        fileName: "components/Calendar.js",
+                                        lineNumber: 76,
+                                        columnNumber: 9
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                        type: "date",
+                                        id: "start-date",
+                                        onChange: (e)=>handleStartDateChange(new Date(e.target.value)),
+                                        value: formatDate(startDate),
+                                        placeholder: "Start Date"
+                                    }, void 0, false, {
+                                        fileName: "components/Calendar.js",
+                                        lineNumber: 77,
+                                        columnNumber: 9
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                                        htmlFor: "end-date",
+                                        children: "End Date:"
+                                    }, void 0, false, {
+                                        fileName: "components/Calendar.js",
+                                        lineNumber: 84,
+                                        columnNumber: 9
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                        type: "date",
+                                        id: "end-date",
+                                        onChange: (e)=>handleEndDateChange(new Date(e.target.value)),
+                                        value: formatDate(endDate),
+                                        placeholder: "End Date"
+                                    }, void 0, false, {
+                                        fileName: "components/Calendar.js",
+                                        lineNumber: 85,
+                                        columnNumber: 9
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "components/Calendar.js",
+                                lineNumber: 75,
+                                columnNumber: 7
+                            }, this),
+                            amountToPay === null && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "payment-details",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        children: "Daily Price:"
+                                    }, void 0, false, {
+                                        fileName: "components/Calendar.js",
+                                        lineNumber: 95,
+                                        columnNumber: 11
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        children: "Number of Days:"
+                                    }, void 0, false, {
+                                        fileName: "components/Calendar.js",
+                                        lineNumber: 96,
+                                        columnNumber: 11
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        children: "Total Price:"
+                                    }, void 0, false, {
+                                        fileName: "components/Calendar.js",
+                                        lineNumber: 97,
+                                        columnNumber: 11
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "components/Calendar.js",
+                                lineNumber: 94,
+                                columnNumber: 9
+                            }, this),
+                            amountToPay !== null && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "payment-details",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        children: [
+                                            "Daily Price: ",
+                                            dailyPrice,
+                                            " NEAR"
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "components/Calendar.js",
+                                        lineNumber: 102,
+                                        columnNumber: 11
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        children: [
+                                            "Total Price: ",
+                                            amountToPay,
+                                            " NEAR"
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "components/Calendar.js",
+                                        lineNumber: 104,
+                                        columnNumber: 11
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "components/Calendar.js",
+                                lineNumber: 101,
+                                columnNumber: 9
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "date-inputs",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                                        htmlFor: "email",
+                                        children: "Email:"
+                                    }, void 0, false, {
+                                        fileName: "components/Calendar.js",
+                                        lineNumber: 109,
+                                        columnNumber: 9
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                        type: "email",
+                                        id: "email",
+                                        onChange: handleEmailChange,
+                                        value: email,
+                                        placeholder: "Enter your email"
+                                    }, void 0, false, {
+                                        fileName: "components/Calendar.js",
+                                        lineNumber: 110,
+                                        columnNumber: 9
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "components/Calendar.js",
+                                lineNumber: 108,
+                                columnNumber: 7
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "text-center",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                    onClick: handleBuyClick,
+                                    children: "Buy"
                                 }, void 0, false, {
                                     fileName: "components/Calendar.js",
-                                    lineNumber: 56,
-                                    columnNumber: 9
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                                    type: "text",
-                                    id: "name",
-                                    value: name,
-                                    onChange: (e)=>setName(e.target.value),
-                                    placeholder: "Enter your name"
-                                }, void 0, false, {
-                                    fileName: "components/Calendar.js",
-                                    lineNumber: 57,
-                                    columnNumber: 9
+                                    lineNumber: 119,
+                                    columnNumber: 7
                                 }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "components/Calendar.js",
-                            lineNumber: 55,
-                            columnNumber: 7
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "date-inputs",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
-                                    htmlFor: "description",
-                                    children: "Description:"
-                                }, void 0, false, {
-                                    fileName: "components/Calendar.js",
-                                    lineNumber: 66,
-                                    columnNumber: 9
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("textarea", {
-                                    id: "description",
-                                    value: description,
-                                    onChange: (e)=>setDescription(e.target.value),
-                                    placeholder: "Enter a description"
-                                }, void 0, false, {
-                                    fileName: "components/Calendar.js",
-                                    lineNumber: 67,
-                                    columnNumber: 9
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "components/Calendar.js",
-                            lineNumber: 65,
-                            columnNumber: 7
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "date-inputs",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
-                                    htmlFor: "start-date",
-                                    children: "Start Date:"
-                                }, void 0, false, {
-                                    fileName: "components/Calendar.js",
-                                    lineNumber: 75,
-                                    columnNumber: 9
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                                    type: "date",
-                                    id: "start-date",
-                                    onChange: (e)=>handleStartDateChange(new Date(e.target.value)),
-                                    value: formatDate(startDate),
-                                    placeholder: "Start Date"
-                                }, void 0, false, {
-                                    fileName: "components/Calendar.js",
-                                    lineNumber: 76,
-                                    columnNumber: 9
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
-                                    htmlFor: "end-date",
-                                    children: "End Date:"
-                                }, void 0, false, {
-                                    fileName: "components/Calendar.js",
-                                    lineNumber: 83,
-                                    columnNumber: 9
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                                    type: "date",
-                                    id: "end-date",
-                                    onChange: (e)=>handleEndDateChange(new Date(e.target.value)),
-                                    value: formatDate(endDate),
-                                    placeholder: "End Date"
-                                }, void 0, false, {
-                                    fileName: "components/Calendar.js",
-                                    lineNumber: 84,
-                                    columnNumber: 9
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "components/Calendar.js",
-                            lineNumber: 74,
-                            columnNumber: 7
-                        }, this),
-                        amountToPay !== null && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                            className: "amount-to-pay",
-                            children: [
-                                "Amount to pay: $",
-                                amountToPay
-                            ]
-                        }, void 0, true, {
-                            fileName: "components/Calendar.js",
-                            lineNumber: 92,
-                            columnNumber: 32
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "date-inputs",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
-                                    htmlFor: "email",
-                                    children: "Email:"
-                                }, void 0, false, {
-                                    fileName: "components/Calendar.js",
-                                    lineNumber: 95,
-                                    columnNumber: 9
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                                    type: "email",
-                                    id: "email",
-                                    onChange: handleEmailChange,
-                                    value: email,
-                                    placeholder: "Enter your email"
-                                }, void 0, false, {
-                                    fileName: "components/Calendar.js",
-                                    lineNumber: 96,
-                                    columnNumber: 9
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "components/Calendar.js",
-                            lineNumber: 94,
-                            columnNumber: 7
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                            onClick: handleBuyClick,
-                            children: "Buy"
-                        }, void 0, false, {
-                            fileName: "components/Calendar.js",
-                            lineNumber: 104,
-                            columnNumber: 7
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "components/Calendar.js",
-                    lineNumber: 53,
-                    columnNumber: 7
-                }, this)
-            }, void 0, false, {
+                            }, void 0, false, {
+                                fileName: "components/Calendar.js",
+                                lineNumber: 118,
+                                columnNumber: 7
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "components/Calendar.js",
+                        lineNumber: 54,
+                        columnNumber: 7
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "components/Calendar.js",
                 lineNumber: 52,
                 columnNumber: 7

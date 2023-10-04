@@ -42,7 +42,7 @@ function Calendar() {
 
   const handleBuyClick = () => {
     // Implement your buy logic here, e.g., initiate a transaction
-    alert(`Buy button clicked.\nName: ${name}\nDescription: ${description}\nEmail: ${email}\nStart Date: ${formatDate(startDate)}\nEnd Date: ${formatDate(endDate)}\nAmount to pay: $${amountToPay}`);
+    alert(`Buy button clicked.\nName: ${name}\nDescription: ${description}\nEmail: ${email}\nStart Date: ${formatDate(startDate)}\nEnd Date: ${formatDate(endDate)}\nAmount to pay: ${amountToPay}NEAR`);
   };
 
   return (
@@ -50,8 +50,9 @@ function Calendar() {
 
       <br></br>
       <div className="container calenderly" data-aos="fade-up">
+      <br></br>
       <div className="calendar-container">
-      <h1>Booking Calendar</h1>
+      <h1 id='calender-title'>Partage Booking Calendar</h1>
       <div className="date-inputs">
         <label htmlFor="name">Name:</label>
         <input
@@ -89,7 +90,20 @@ function Calendar() {
           placeholder="End Date"
         />
       </div>
-      {amountToPay !== null && <p className="amount-to-pay">Amount to pay: ${amountToPay}</p>}
+      {amountToPay === null && (
+        <div className="payment-details">
+          <p>Daily Price:</p>
+          <p>Number of Days:</p>
+          <p>Total Price:</p>
+        </div>
+      )}
+      {amountToPay !== null && (
+        <div className="payment-details">
+          <p>Daily Price: {dailyPrice} NEAR</p>
+          {/* <p>Number of Days: {startDate && endDate ? calculateAmount(startDate, endDate) : 0}</p> */}
+          <p>Total Price: {amountToPay} NEAR</p>
+        </div>
+      )}
 
       <div className="date-inputs">
         <label htmlFor="email">Email:</label>
@@ -101,7 +115,10 @@ function Calendar() {
           placeholder="Enter your email"
         />
       </div>
+      <div className='text-center'>
       <button onClick={handleBuyClick}>Buy</button>
+
+      </div>
     </div>
       </div>
     </section>
