@@ -1461,6 +1461,69 @@ section {
   }
 }
 
+/* Calendar component styles */
+.calenderly {
+  border-top: 5px solid #c5f801;
+}
+#calender-title {
+  color: #c5f801;
+}
+.calendar-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: whitesmoke;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.date-inputs {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.date-inputs label {
+  margin-bottom: 5px;
+  color: whitesmoke;
+}
+
+.date-inputs input[type="text"],
+.date-inputs textarea,
+.date-inputs input[type="date"],
+.date-inputs input[type="email"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.payment-details {
+  font-size: large;
+  color: whitesmoke;
+  margin-bottom: 20px;
+}
+
+.calendar-container button {
+  background-color: #c5f801;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.calendar-container button:hover {
+  background-color: #91b30c;
+}
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/

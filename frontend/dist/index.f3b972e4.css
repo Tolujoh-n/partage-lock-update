@@ -1338,6 +1338,67 @@ section {
   }
 }
 
+.calenderly {
+  border-top: 5px solid #c5f801;
+}
+
+#calender-title {
+  color: #c5f801;
+}
+
+.calendar-container {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 0 10px #0000001a;
+}
+
+h1 {
+  color: #f5f5f5;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.date-inputs {
+  flex-direction: column;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.date-inputs label {
+  color: #f5f5f5;
+  margin-bottom: 5px;
+}
+
+.date-inputs input[type="text"], .date-inputs textarea, .date-inputs input[type="date"], .date-inputs input[type="email"] {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.payment-details {
+  color: #f5f5f5;
+  margin-bottom: 20px;
+  font-size: large;
+}
+
+.calendar-container button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #c5f801;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.calendar-container button:hover {
+  background-color: #91b30c;
+}
+
 #footer {
   color: #fff;
   background: #0c1318;
