@@ -22,7 +22,7 @@ const Header = ({ onClick, accountId }) => {
               <li>
                 <a
                   className="nav-link scrollto"
-                  href="https://medium.com/@juliencarbonnell/democratizing-access-to-utilities-blockchain-for-smart-cities-25eefb0348e7"
+                  href="https://juliencarbonnell.medium.com/blockchain-for-smart-cities-tutorial-building-a-blockchain-controlled-smart-lock-on-near-100-d97b19ca7a86"
                 >
                   Documentation
                 </a>

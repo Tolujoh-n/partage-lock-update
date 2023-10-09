@@ -17,6 +17,8 @@
     "near-cli": "^3.3.0"
   },
   "dependencies": {
+    "aos": "^2.3.4",
+    "erase": "^1.0.2",
     "parcel": "^2.9.3",
     "react-calendar": "^4.6.0"
   }
