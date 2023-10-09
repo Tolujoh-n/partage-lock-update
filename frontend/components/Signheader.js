@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { initHeaderScrolled } from "../assets/js/headerScrolled";
 import SignOutButton from "../ui-components";
 
-const Header = ({ onClick, accountId }) => {
+const Signheader = ({ onClick, accountId }) => {
   useEffect(() => {
     initHeaderScrolled();
   }, []);
@@ -28,8 +28,14 @@ const Header = ({ onClick, accountId }) => {
                 </a>
               </li>
               <li>
+                <a className="">
+                  {accountId}
+                </a>
+              </li>
+
+              <li>
                 <a onClick={onClick} className="getstarted scrollto">
-                  Connect Wallet
+                  Disconnect
                 </a>
               </li>
             </ul>
@@ -39,21 +45,9 @@ const Header = ({ onClick, accountId }) => {
           {/* .navbar */}
         </div>
       </header>
-      {/* <section id="hero">
-        <div className="hero-container" data-aos="fade-up" data-aos-delay="150">
-          <iframe
-            src="https://docs.google.com/presentation/d/e/2PACX-1vSnHUCBGG0FRNgRNH3WAFI243y7XK6w63WugnmzjhmGW2EKvgHgnmgDtzzismnvsDjPIbjLbjZfsWzm/embed?start=false&loop=false&delayms=3000"
-            frameborder="0"
-            id="heroiframe"
-            allowfullscreen="true"
-            mozallowfullscreen="true"
-            webkitallowfullscreen="true"
-            style={{ height: "100%" }} // Set the height of the iframe to 100%
-          ></iframe>
-        </div>
-      </section> */}
+      
     </>
   );
 };
 
-export default Header;
+export default Signheader;
