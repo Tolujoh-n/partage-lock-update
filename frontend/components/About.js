@@ -32,7 +32,7 @@ const About = () => {
             >
               <iframe
                 height="500"
-                src="https://www.youtube.com/embed/MKt_rHBYrPw"
+                src="https://www.youtube.com/embed/jfPbW9NzRSQ?si=GTq3oB1PJZ0DAa3J"
               ></iframe>
             </div>
             <div

@@ -32,6 +32,22 @@ iframe {
   margin-top: 3%;
 }
 
+.pin-display {
+  text-align: center;
+  padding: 20px;
+}
+
+.pin-display h2 {
+  color: #e1eed6;
+  font-size: 20px;
+}
+
+.pin-display p {
+  color: #c5f801;
+  font-size: 36px;
+  font-weight: bold;
+}
+
 #usebutcases {
   color: #c5f801;
   background-color: #0000;
@@ -5325,27 +5341,22 @@ textarea.form-control-lg {
   padding-bottom: .625rem;
 }
 
-:-moz-any(.form-floating > .form-control-plaintext:not(:-moz-placeholder-shown), .form-floating > .form-control:not(:-moz-placeholder-shown)), .form-floating > .form-control-plaintext:focus, .form-floating > .form-control-plaintext:not(:placeholder-shown), .form-floating > .form-control:focus, .form-floating > .form-control:not(:placeholder-shown), :-moz-any(.form-floating > .form-control-plaintext:autofill, .form-floating > .form-control:autofill), .form-floating > .form-select {
-  padding-top: 1.625rem;
-  padding-bottom: .625rem;
-}
-
 :is(.form-floating > .form-control-plaintext:not(:placeholder-shown), .form-floating > .form-control:not(:placeholder-shown)), .form-floating > .form-control-plaintext:focus, .form-floating > .form-control-plaintext:not(:placeholder-shown), .form-floating > .form-control:focus, .form-floating > .form-control:not(:placeholder-shown), :is(.form-floating > .form-control-plaintext:autofill, .form-floating > .form-control:autofill), .form-floating > .form-select {
   padding-top: 1.625rem;
   padding-bottom: .625rem;
 }
 
-.form-floating > .form-control:not(:-moz-placeholder-shown) ~ label, .form-floating > .form-control-plaintext ~ label, .form-floating > .form-control:focus ~ label, .form-floating > .form-control:not(:placeholder-shown) ~ label, .form-floating > .form-select ~ label {
+.form-floating > .form-control:not(:-moz-placeholder-shown) ~ label {
   color: rgba(var(--bs-body-color-rgb), .65);
   transform: scale(.85)translateY(-.5rem)translateX(.15rem);
 }
 
-.form-floating > .form-control:not(:placeholder-shown) ~ label, .form-floating > .form-control-plaintext ~ label, .form-floating > .form-control:focus ~ label, .form-floating > .form-control:not(:placeholder-shown) ~ label, .form-floating > .form-select ~ label {
+.form-floating > .form-control-plaintext ~ label, .form-floating > .form-control:focus ~ label, .form-floating > .form-control:not(:placeholder-shown) ~ label, .form-floating > .form-select ~ label {
   color: rgba(var(--bs-body-color-rgb), .65);
   transform: scale(.85)translateY(-.5rem)translateX(.15rem);
 }
 
-.form-floating > .form-control:not(:-moz-placeholder-shown) ~ label:after, .form-floating > .form-control-plaintext ~ label:after, .form-floating > .form-control:focus ~ label:after, .form-floating > .form-control:not(:placeholder-shown) ~ label:after, .form-floating > .form-select ~ label:after {
+.form-floating > .form-control:not(:-moz-placeholder-shown) ~ label:after {
   z-index: -1;
   content: "";
   background-color: var(--bs-body-bg);
@@ -5355,7 +5366,7 @@ textarea.form-control-lg {
   inset: 1rem .375rem;
 }
 
-.form-floating > .form-control:not(:placeholder-shown) ~ label:after, .form-floating > .form-control-plaintext ~ label:after, .form-floating > .form-control:focus ~ label:after, .form-floating > .form-control:not(:placeholder-shown) ~ label:after, .form-floating > .form-select ~ label:after {
+.form-floating > .form-control-plaintext ~ label:after, .form-floating > .form-control:focus ~ label:after, .form-floating > .form-control:not(:placeholder-shown) ~ label:after, .form-floating > .form-select ~ label:after {
   z-index: -1;
   content: "";
   background-color: var(--bs-body-bg);

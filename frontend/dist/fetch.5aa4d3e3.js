@@ -142,7 +142,7 @@
       this[globalName] = mainExports;
     }
   }
-})({"kXIp0":[function(require,module,exports) {
+})({"4X3w7":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
@@ -227,9 +227,15 @@ if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== "undefined") {
     var hostname = getHostname();
     var port = getPort();
     var protocol = HMR_SECURE || location.protocol == "https:" && !/localhost|127.0.0.1|0.0.0.0/.test(hostname) ? "wss" : "ws";
-    var ws = new WebSocket(protocol + "://" + hostname + (port ? ":" + port : "") + "/");
+    var ws;
+    try {
+        ws = new WebSocket(protocol + "://" + hostname + (port ? ":" + port : "") + "/");
+    } catch (err) {
+        if (err.message) console.error(err.message);
+        ws = {};
+    }
     // Web extension context
-    var extCtx = typeof chrome === "undefined" ? typeof browser === "undefined" ? null : browser : chrome;
+    var extCtx = typeof browser === "undefined" ? typeof chrome === "undefined" ? null : chrome : browser;
     // Safari doesn't support sourceURL in error stacks.
     // eval may also be disabled via CSP, so do a quick check.
     var supportsSourceURL = false;
@@ -293,7 +299,7 @@ if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== "undefined") {
         }
     };
     ws.onerror = function(e) {
-        console.error(e.message);
+        if (e.message) console.error(e.message);
     };
     ws.onclose = function() {
         console.warn("[parcel] \uD83D\uDEA8 Connection to the HMR server was lost");
@@ -303,7 +309,7 @@ function removeErrorOverlay() {
     var overlay = document.getElementById(OVERLAY_ID);
     if (overlay) {
         overlay.remove();
-        console.log("[parcel] ✨ Error resolved");
+        console.log("[parcel] \u2728 Error resolved");
     }
 }
 function createErrorOverlay(diagnostics) {
@@ -319,13 +325,13 @@ ${frame.code}`;
         errorHTML += `
       <div>
         <div style="font-size: 18px; font-weight: bold; margin-top: 20px;">
-          🚨 ${diagnostic.message}
+          \u{1F6A8} ${diagnostic.message}
         </div>
         <pre>${stack}</pre>
         <div>
           ${diagnostic.hints.map((hint)=>"<div>\uD83D\uDCA1 " + hint + "</div>").join("")}
         </div>
-        ${diagnostic.documentation ? `<div>📝 <a style="color: violet" href="${diagnostic.documentation}" target="_blank">Learn more</a></div>` : ""}
+        ${diagnostic.documentation ? `<div>\u{1F4DD} <a style="color: violet" href="${diagnostic.documentation}" target="_blank">Learn more</a></div>` : ""}
       </div>
     `;
     }
@@ -421,15 +427,10 @@ async function hmrApplyUpdates(assets) {
             let promises = assets.map((asset)=>{
                 var _hmrDownload;
                 return (_hmrDownload = hmrDownload(asset)) === null || _hmrDownload === void 0 ? void 0 : _hmrDownload.catch((err)=>{
-                    // Web extension bugfix for Chromium
-                    // https://bugs.chromium.org/p/chromium/issues/detail?id=1255412#c12
-                    if (extCtx && extCtx.runtime && extCtx.runtime.getManifest().manifest_version == 3) {
-                        if (typeof ServiceWorkerGlobalScope != "undefined" && global instanceof ServiceWorkerGlobalScope) {
-                            extCtx.runtime.reload();
-                            return;
-                        }
-                        asset.url = extCtx.runtime.getURL("/__parcel_hmr_proxy__?url=" + encodeURIComponent(asset.url + "?t=" + Date.now()));
-                        return hmrDownload(asset);
+                    // Web extension fix
+                    if (extCtx && extCtx.runtime && extCtx.runtime.getManifest().manifest_version == 3 && typeof ServiceWorkerGlobalScope != "undefined" && global instanceof ServiceWorkerGlobalScope) {
+                        extCtx.runtime.reload();
+                        return;
                     }
                     throw err;
                 });
@@ -2122,7 +2123,7 @@ function indexOf(xs, x) {
     return -1;
 }
 
-},{"896ff8d56553f7a":"d5jf4","16782d660ac22e0c":"1VQLm","9a34f23fa53f83f7":"60BLS","fb95ecaa88342eae":"fCgem","a4a723b7297c7152":"j6g3b","7a14cc1689b8c63e":"hf3P2","efa8155386cc4283":"YI8DF","994c984d08c7bbf2":"61BRN","8de60461b822641b":"aJlwj","19affa8ce41f090d":"bRL3M","f1c95f846e94e4eb":"kKNA3","6392acd10886f115":"3vmkr","830c56f840811f05":"k019Y","7451b8c4bf72370":"ak0YH"}],"60BLS":[function(require,module,exports) {
+},{"896ff8d56553f7a":"d5jf4","16782d660ac22e0c":"1VQLm","9a34f23fa53f83f7":"60BLS","fb95ecaa88342eae":"fCgem","a4a723b7297c7152":"jhUEF","7a14cc1689b8c63e":"hf3P2","efa8155386cc4283":"YI8DF","994c984d08c7bbf2":"61BRN","8de60461b822641b":"aJlwj","19affa8ce41f090d":"bRL3M","f1c95f846e94e4eb":"kKNA3","6392acd10886f115":"3vmkr","830c56f840811f05":"k019Y","7451b8c4bf72370":"ak0YH"}],"60BLS":[function(require,module,exports) {
 module.exports = require("ed88fc9aa73f911").EventEmitter;
 
 },{"ed88fc9aa73f911":"1VQLm"}],"hf3P2":[function(require,module,exports) {
@@ -2371,7 +2372,7 @@ module.exports = /*#__PURE__*/ function() {
     return BufferList;
 }();
 
-},{"59f5d0111b7fa075":"fCgem","eef6a677577349b8":"j6g3b"}],"YI8DF":[function(require,module,exports) {
+},{"59f5d0111b7fa075":"fCgem","eef6a677577349b8":"jhUEF"}],"YI8DF":[function(require,module,exports) {
 var process = require("4284522496af5dfb");
 "use strict";
 // undocumented cb() API, needed for core, not for public API
@@ -3478,17 +3479,17 @@ function utf8CheckIncomplete(self, buf, i) {
 function utf8CheckExtraBytes(self, buf, p) {
     if ((buf[0] & 0xC0) !== 0x80) {
         self.lastNeed = 0;
-        return "�";
+        return "\uFFFD";
     }
     if (self.lastNeed > 1 && buf.length > 1) {
         if ((buf[1] & 0xC0) !== 0x80) {
             self.lastNeed = 1;
-            return "�";
+            return "\uFFFD";
         }
         if (self.lastNeed > 2 && buf.length > 2) {
             if ((buf[2] & 0xC0) !== 0x80) {
                 self.lastNeed = 2;
-                return "�";
+                return "\uFFFD";
             }
         }
     }
@@ -3520,7 +3521,7 @@ function utf8Text(buf, i) {
 // character.
 function utf8End(buf) {
     var r = buf && buf.length ? this.write(buf) : "";
-    if (this.lastNeed) return r + "�";
+    if (this.lastNeed) return r + "\uFFFD";
     return r;
 }
 // UTF-16LE typically needs two bytes per character, but even if we have an even
@@ -5447,7 +5448,7 @@ module.exports = function getSideChannel() {
 
 },{"7911ec51a2dc9f3e":"dZb05","125062ab9035288f":"5yYiF","9f4f5a92d8c6543":"kS3SE"}],"dZb05":[function(require,module,exports) {
 "use strict";
-var undefined;
+var undefined1;
 var $SyntaxError = SyntaxError;
 var $Function = Function;
 var $TypeError = TypeError;
@@ -6416,7 +6417,7 @@ function arrObjKeys(obj, inspect) {
     return xs;
 }
 
-},{"faefcb1694f2ad90":"j6g3b"}],"chmkc":[function(require,module,exports) {
+},{"faefcb1694f2ad90":"jhUEF"}],"chmkc":[function(require,module,exports) {
 "use strict";
 var formats = require("7adf3674f81a2c87");
 var has = Object.prototype.hasOwnProperty;
@@ -6815,6 +6816,6 @@ function validateParams(params) {
     return params;
 }
 
-},{"c0383d0f5be55d6b":"5y8Jo","23c94c23cc2fc416":"7qjc7"}]},["kXIp0"], null, "parcelRequiref931")
+},{"c0383d0f5be55d6b":"5y8Jo","23c94c23cc2fc416":"7qjc7"}]},["4X3w7"], null, "parcelRequire726c")
 
 //# sourceMappingURL=fetch.5aa4d3e3.js.map

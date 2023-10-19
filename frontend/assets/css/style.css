@@ -51,6 +51,22 @@ iframe {
   margin-top: 3%;
 }
 
+.pin-display {
+  text-align: center;
+  padding: 20px;
+}
+
+.pin-display h2 {
+  color: #e1eed6;
+  font-size: 20px;
+}
+
+.pin-display p {
+  font-size: 36px;
+  color: #c5f801;
+  font-weight: bold;
+}
+
 #usebutcases {
   padding-left: 20px;
   padding-right: 20px;

@@ -1,14 +1,18 @@
 [package]
-name = "hello_near"
-version = "1.0.0"
-authors = ["Near Inc <hello@near.org>"]
+name = "partage-lock"
+version = "0.1.0"
+authors = ["JCarbonnell <julien.carbonnell@gmail.com>"]
 edition = "2021"
 
 [lib]
 crate-type = ["cdylib"]
 
 [dependencies]
+chrono = { version = "0.4", features = ["unstable-locales"] }
+getrandom = { version = "0.2", features = ["js"] }
 near-sdk = "4.0.0"
+pwhash = "1"
+rand = "0.8.5"
 uint = { version = "0.9.3", default-features = false }
 
 [profile.release]
