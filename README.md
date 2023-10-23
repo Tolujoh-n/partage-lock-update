@@ -8,13 +8,14 @@ A video demo of the Partage Lock is available on our YouTube channel: https://ww
 
 A slide deck presenting the teammates and our proof of concept is available at: https://docs.google.com/presentation/d/1NSlpmjlvIirzLaNsZy6ndhA5ZV40h5ATqszn9FavYn8/edit?usp=sharing.
 
-You can reach us on our Discord: https://discord.gg/aKBB8WgC9V or telegram group: https://t.me/partagebtc.
-And follow our activities on:  
+You can reach us at:  
+Discord: https://discord.gg/aKBB8WgC9V  
+Telegram: https://t.me/partagebtc.
 
-twitter: https://twitter.com/partage_btc  
-
-instagram: https://www.instagram.com/partage.btc/  
-
-tiktok: https://www.tiktok.com/@partage.btc  
+And follow our activities at:  
+Twitter: https://twitter.com/partage_btc  
+Instagram: https://www.instagram.com/partage.btc/  
+Tiktok: https://www.tiktok.com/@partage.btc  
+LinkedIn: https://www.linkedin.com/company/partagebtc  
 
 medium publication: https://medium.com/partage-btc
