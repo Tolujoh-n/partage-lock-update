@@ -10,6 +10,7 @@ use crate::utils::{
 
 #[derive(Clone, Serialize, Deserialize, BorshDeserialize, BorshSerialize)]
 #[serde(crate = "near_sdk::serde")]
+#[derive(Debug)]
 
 pub struct Booking {
     id: i32,
@@ -19,18 +20,18 @@ pub struct Booking {
     nbr_days: u128,
     total_price: u128,
     description: String,
-    pub password: String
+    pub password: String,
 }
+
 
 impl Booking {
     pub fn new(
         id:i32, 
-        name: String,
+        name: String, 
         nbr_days:u128, 
         total_price:u128, 
-        description: String, 
-        password: String
-    ) -> Self {   
+        description: String
+    ) -> Self {
         Booking {
             id,
             creator: env::signer_account_id().to_string(),
@@ -39,7 +40,8 @@ impl Booking {
             nbr_days,
             total_price,
             description,
-            password,
+            password: "tba".to_string(),
         }
     }
 }
+
