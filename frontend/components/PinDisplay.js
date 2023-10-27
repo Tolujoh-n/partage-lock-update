@@ -7,11 +7,10 @@ function PinDisplay( /*{ pin }*/ ) {
   
   return (
     <section id="about-boxes" className="about-boxes">
-      <br></br>
       <div className="container calenderly" data-aos="fade-up">
       <br></br>
       <div className="calendar-container">
-      <h1 id='calender-title'>Your Partage Pin</h1>
+      <h1 id='calender-title'>Unique Access Pin</h1>
       <div className="pin-display">
       <p>{pin}</p>
       <h2>Save this Pin or take a screenshot of it as your access may be lost if you lose your pin</h2>
@@ -19,8 +18,6 @@ function PinDisplay( /*{ pin }*/ ) {
     </div>
     </div>
     </section>
-    
-    
     
   );
 }

@@ -1377,6 +1377,12 @@ h1 {
   font-size: 24px;
 }
 
+p {
+  color: #e1eed6;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
 .date-inputs {
   flex-direction: column;
   margin-bottom: 20px;
@@ -1402,7 +1408,7 @@ h1 {
 }
 
 .calendar-container button {
-  color: #fff;
+  color: #1e1e1e;
   cursor: pointer;
   background-color: #c5f801;
   border: none;

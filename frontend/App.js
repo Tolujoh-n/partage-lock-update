@@ -1,18 +1,18 @@
 import "regenerator-runtime/runtime";
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 
-// import './assets/vendor/purecounter/purecounter_vanilla.js';
-// import './assets/vendor/aos/aos.js';
-// import './assets/vendor/bootstrap/js/bootstrap.bundle.min.js';
-// import './assets/vendor/glightbox/js/glightbox.min.js';
-// import './assets/vendor/swiper/swiper-bundle.min.js';
-// import './assets/js/main.js';
+import About from "./components/About"
+import Calendar from "./components/Calendar";
+import Contact from "./components/contact";
+import Footer from "./components/footer";
+import Header from "./components/header";
+import Services from "./components/Services";
+
 import GLightbox from "glightbox";
 import Swiper from "swiper";
 import Isotope from "isotope-layout";
 import AOS from "aos";
 
-// import './assets/global.css';
 import "./assets/css/style.css";
 import "./assets/vendor/aos/aos.css";
 import "./assets/vendor/bootstrap/css/bootstrap.min.css";
@@ -22,9 +22,8 @@ import "./assets/vendor/glightbox/css/glightbox.min.css";
 import "./assets/vendor/remixicon/remixicon.css";
 import "./assets/vendor/swiper/swiper-bundle.min.css";
 
-import { SignInPrompt, SignOutButton } from "./ui-components";
 
-export default function App({ isSignedIn, contractId, wallet }) {
+const App = ({ isSignedIn, lockCalendar, wallet }) => {
   AOS.init({
     duration: 1000,
     easing: "ease-in-out",
@@ -35,65 +34,63 @@ export default function App({ isSignedIn, contractId, wallet }) {
     selector: ".glightbox",
   });
 
-  const [valueFromBlockchain, setValueFromBlockchain] = React.useState();
+  const [bookings, setBookings] = useState([]);
 
-  const [uiPleaseWait, setUiPleaseWait] = React.useState(true);
-
-  // Get blockchian state once on component load
-  React.useEffect(() => {
-    getGreeting()
-      .then(setValueFromBlockchain)
-      .catch(alert)
-      .finally(() => {
-        setUiPleaseWait(false);
-      });
+  useEffect(() => {
+    lockCalendar.getBookings().then(setBookings);
   }, []);
 
-  /// If user not signed-in with wallet - show prompt
+  // add booking function
+  async function addBooking (e) {
+    e.preventDefault();
+    const { name, numberOfDays, totalPrice, description, pin } = e.target.elements;
+
+    // use the wallet to send the booking to the contract
+    await lockCalendar.addBooking(
+        name.value,
+        numberOfDays.value,
+        totalPrice.value,
+        description.value,
+        pin.value
+        )
+    const bookings = await lockCalendar.getBookings()
+
+    setBookings(bookings);
+    name.value = '';
+    numberOfDays.value = '';
+    totalPrice.value = '0';
+    description.value = '';
+    pin.value = '';
+    name.focus();
+    numberOfDays.focus();
+    totalPrice.focus();
+    description.focus();
+    pin.focus();
+  };
+
+  // If user not signed-in show landingpage
   if (!isSignedIn) {
     // Sign-in flow will reload the page later
     return (
-      <SignInPrompt
-        greeting={valueFromBlockchain}
-        onClick={() => wallet.signIn()}
-      />
+      <main>
+        <Header onClick={() => wallet.signIn()} />
+        <About />
+        <Services />
+        <Contact />
+        <Footer />
+      </main>
     );
   }
 
-  function changeGreeting(e) {
-    e.preventDefault();
-    setUiPleaseWait(true);
-    const { greetingInput } = e.target.elements;
-
-    // use the wallet to send the greeting to the contract
-    wallet
-      .callMethod({
-        method: "set_greeting",
-        args: { message: greetingInput.value },
-        contractId,
-      })
-      .then(async () => {
-        return getGreeting();
-      })
-      .then(setValueFromBlockchain)
-      .finally(() => {
-        setUiPleaseWait(false);
-      });
-  }
-
-  function getGreeting() {
-    // use the wallet to query the contract's greeting
-    return wallet.viewMethod({ method: "get_greeting", contractId });
-  }
-
+  // If user signed-in show booking calendar
   return (
-    <>
-      <SignOutButton
-        accountId={wallet.accountId}
-        onClick={() => wallet.signOut()}
-      />
-      
-      
-    </>
+    <main>
+      <Header onClick={() => wallet.signOut()} />
+      <Calendar onSubmit={addBooking} currentAccountId={wallet.accountId} />
+      { !!bookings.length && <Bookings bookings={bookings}/> }
+      <Footer />
+    </main>
   );
 }
+
+export default App;

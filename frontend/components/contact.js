@@ -23,7 +23,7 @@ const Contact = () => {
                   <i className="bx bx-envelope"></i>
                   <h3>Email</h3>
                   <p>
-                    support@hellopartage.xyz
+                    support @ hellopartage.xyz
                     <br />
                   </p>
                 </div>

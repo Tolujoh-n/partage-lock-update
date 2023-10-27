@@ -72,9 +72,9 @@ const Services = () => {
                 <i className="ri-movie-2-line"></i>
               </div>
               <div className="card-body">
-                <h5 className="card-title"><a href="">Receive password</a></h5>
+                <h5 className="card-title"><a href="">Collect password</a></h5>
                 <p className="card-text">
-                  Receive a secret password in your email and type it on the Partage lock to access the locked utility you chose.
+                  Collect your unique password and type it on the lock to access the utility of your choice.
                 </p>
               </div>
             </div>
