@@ -27172,6 +27172,8 @@ var _footer = require("./components/footer");
 var _footerDefault = parcelHelpers.interopDefault(_footer);
 var _header = require("./components/header");
 var _headerDefault = parcelHelpers.interopDefault(_header);
+var _hero = require("./components/Hero");
+var _heroDefault = parcelHelpers.interopDefault(_hero);
 var _services = require("./components/Services");
 var _servicesDefault = parcelHelpers.interopDefault(_services);
 var _glightbox = require("glightbox");
@@ -27233,33 +27235,38 @@ const App = ({ isSignedIn, lockCalendar, wallet })=>{
                 onClick: ()=>wallet.signIn()
             }, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 76,
-                columnNumber: 9
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutDefault.default), {}, void 0, false, {
-                fileName: "App.js",
                 lineNumber: 77,
                 columnNumber: 9
             }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _servicesDefault.default), {}, void 0, false, {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _heroDefault.default), {}, void 0, false, {
                 fileName: "App.js",
                 lineNumber: 78,
                 columnNumber: 9
             }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _contactDefault.default), {}, void 0, false, {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutDefault.default), {}, void 0, false, {
                 fileName: "App.js",
                 lineNumber: 79,
                 columnNumber: 9
             }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerDefault.default), {}, void 0, false, {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _servicesDefault.default), {}, void 0, false, {
                 fileName: "App.js",
                 lineNumber: 80,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _contactDefault.default), {}, void 0, false, {
+                fileName: "App.js",
+                lineNumber: 81,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerDefault.default), {}, void 0, false, {
+                fileName: "App.js",
+                lineNumber: 82,
                 columnNumber: 9
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "App.js",
-        lineNumber: 75,
+        lineNumber: 76,
         columnNumber: 7
     }, undefined);
     // If user signed-in show booking calendar
@@ -27269,7 +27276,7 @@ const App = ({ isSignedIn, lockCalendar, wallet })=>{
                 onClick: ()=>wallet.signOut()
             }, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 88,
+                lineNumber: 90,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _calendarDefault.default), {
@@ -27277,25 +27284,25 @@ const App = ({ isSignedIn, lockCalendar, wallet })=>{
                 currentAccountId: wallet.accountId
             }, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 89,
+                lineNumber: 91,
                 columnNumber: 7
             }, undefined),
             !!bookings.length && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Bookings, {
                 bookings: bookings
             }, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 90,
+                lineNumber: 92,
                 columnNumber: 30
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerDefault.default), {}, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 91,
+                lineNumber: 93,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "App.js",
-        lineNumber: 87,
+        lineNumber: 89,
         columnNumber: 5
     }, undefined);
 };
@@ -27310,7 +27317,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","regenerator-runtime/runtime":"dXNgZ","react":"21dqq","./components/About":"hGILx","./components/Calendar":"9iZ3i","./components/contact":"6sEDB","./components/footer":"4psvf","./components/header":"gMwGB","./components/Services":"kWUM6","glightbox":"kBGcU","swiper":"iM6UL","isotope-layout":"aHntc","aos":"eRzTM","./assets/css/style.css":"8r2D8","./assets/vendor/aos/aos.css":"8LmR1","./assets/vendor/bootstrap/css/bootstrap.min.css":"C1LtY","./assets/vendor/bootstrap-icons/bootstrap-icons.css":"9VyyL","./assets/vendor/boxicons/css/boxicons.min.css":"mlhn4","./assets/vendor/glightbox/css/glightbox.min.css":"irvEs","./assets/vendor/remixicon/remixicon.css":"erQec","./assets/vendor/swiper/swiper-bundle.min.css":"58byD","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"dXNgZ":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","regenerator-runtime/runtime":"dXNgZ","react":"21dqq","./components/About":"hGILx","./components/Calendar":"9iZ3i","./components/contact":"6sEDB","./components/footer":"4psvf","./components/header":"gMwGB","./components/Services":"kWUM6","glightbox":"kBGcU","swiper":"iM6UL","isotope-layout":"aHntc","aos":"eRzTM","./assets/css/style.css":"8r2D8","./assets/vendor/aos/aos.css":"8LmR1","./assets/vendor/bootstrap/css/bootstrap.min.css":"C1LtY","./assets/vendor/bootstrap-icons/bootstrap-icons.css":"9VyyL","./assets/vendor/boxicons/css/boxicons.min.css":"mlhn4","./assets/vendor/glightbox/css/glightbox.min.css":"irvEs","./assets/vendor/remixicon/remixicon.css":"erQec","./assets/vendor/swiper/swiper-bundle.min.css":"58byD","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./components/Hero":"6jaDj"}],"dXNgZ":[function(require,module,exports) {
 /**
  * Copyright (c) 2014-present, Facebook, Inc.
  *
@@ -27922,53 +27929,28 @@ const About = ()=>{
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                     id: "aboutmore",
                     className: "row",
+                    style: {
+                        padding: "20px"
+                    },
                     children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
-                            id: "hero",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "hero-container",
-                                "data-aos": "fade-up",
-                                "data-aos-delay": "150",
-                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("iframe", {
-                                    src: "https://docs.google.com/presentation/d/e/2PACX-1vSnHUCBGG0FRNgRNH3WAFI243y7XK6w63WugnmzjhmGW2EKvgHgnmgDtzzismnvsDjPIbjLbjZfsWzm/embed?start=false&loop=false&delayms=3000",
-                                    frameborder: "0",
-                                    id: "heroiframe",
-                                    allowfullscreen: "true",
-                                    mozallowfullscreen: "true",
-                                    webkitallowfullscreen: "true",
-                                    style: {
-                                        height: "100%"
-                                    }
-                                }, void 0, false, {
-                                    fileName: "components/About.js",
-                                    lineNumber: 16,
-                                    columnNumber: 17
-                                }, undefined)
-                            }, void 0, false, {
-                                fileName: "components/About.js",
-                                lineNumber: 11,
-                                columnNumber: 15
-                            }, undefined)
-                        }, void 0, false, {
-                            fileName: "components/About.js",
-                            lineNumber: 10,
-                            columnNumber: 13
-                        }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                             className: "col-lg-6 order-1 order-lg-2",
                             "data-aos": "fade-left",
                             "data-aos-delay": "100",
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("iframe", {
-                                height: "500",
+                                style: {
+                                    borderRadius: "10px",
+                                    minHeight: "300px"
+                                },
                                 src: "https://www.youtube.com/embed/jfPbW9NzRSQ?si=GTq3oB1PJZ0DAa3J"
                             }, void 0, false, {
                                 fileName: "components/About.js",
-                                lineNumber: 33,
+                                lineNumber: 15,
                                 columnNumber: 15
                             }, undefined)
                         }, void 0, false, {
                             fileName: "components/About.js",
-                            lineNumber: 28,
+                            lineNumber: 10,
                             columnNumber: 13
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27982,31 +27964,31 @@ const About = ()=>{
                                         children: "What is Partage Lock?"
                                     }, void 0, false, {
                                         fileName: "components/About.js",
-                                        lineNumber: 44,
+                                        lineNumber: 26,
                                         columnNumber: 17
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "components/About.js",
-                                    lineNumber: 43,
+                                    lineNumber: 25,
                                     columnNumber: 15
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
                                     children: "A Blockchain-controlled smart lock for Utility NFTs"
                                 }, void 0, false, {
                                     fileName: "components/About.js",
-                                    lineNumber: 46,
+                                    lineNumber: 28,
                                     columnNumber: 15
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                     fileName: "components/About.js",
-                                    lineNumber: 47,
+                                    lineNumber: 29,
                                     columnNumber: 15
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                     children: "Owners, providers, remotely manage users' access to real-world asset NFTs safely locked in a vault, a garage, or a house."
                                 }, void 0, false, {
                                     fileName: "components/About.js",
-                                    lineNumber: 48,
+                                    lineNumber: 30,
                                     columnNumber: 15
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -28017,7 +27999,7 @@ const About = ()=>{
                                                     className: "ri-check-double-line"
                                                 }, void 0, false, {
                                                     fileName: "components/About.js",
-                                                    lineNumber: 54,
+                                                    lineNumber: 36,
                                                     columnNumber: 19
                                                 }, undefined),
                                                 " ",
@@ -28025,14 +28007,14 @@ const About = ()=>{
                                                     children: "Secured:"
                                                 }, void 0, false, {
                                                     fileName: "components/About.js",
-                                                    lineNumber: 54,
+                                                    lineNumber: 36,
                                                     columnNumber: 60
                                                 }, undefined),
                                                 " Only the smart contract owner can control the lock."
                                             ]
                                         }, void 0, true, {
                                             fileName: "components/About.js",
-                                            lineNumber: 53,
+                                            lineNumber: 35,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -28041,7 +28023,7 @@ const About = ()=>{
                                                     className: "ri-check-double-line"
                                                 }, void 0, false, {
                                                     fileName: "components/About.js",
-                                                    lineNumber: 58,
+                                                    lineNumber: 40,
                                                     columnNumber: 19
                                                 }, undefined),
                                                 " ",
@@ -28049,7 +28031,7 @@ const About = ()=>{
                                                     children: "Decentralized:"
                                                 }, void 0, false, {
                                                     fileName: "components/About.js",
-                                                    lineNumber: 58,
+                                                    lineNumber: 40,
                                                     columnNumber: 60
                                                 }, undefined),
                                                 " ",
@@ -28057,7 +28039,7 @@ const About = ()=>{
                                             ]
                                         }, void 0, true, {
                                             fileName: "components/About.js",
-                                            lineNumber: 57,
+                                            lineNumber: 39,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -28066,7 +28048,7 @@ const About = ()=>{
                                                     className: "ri-check-double-line"
                                                 }, void 0, false, {
                                                     fileName: "components/About.js",
-                                                    lineNumber: 62,
+                                                    lineNumber: 44,
                                                     columnNumber: 19
                                                 }, undefined),
                                                 " ",
@@ -28074,7 +28056,7 @@ const About = ()=>{
                                                     children: "Trustworthy:"
                                                 }, void 0, false, {
                                                     fileName: "components/About.js",
-                                                    lineNumber: 62,
+                                                    lineNumber: 44,
                                                     columnNumber: 60
                                                 }, undefined),
                                                 " ",
@@ -28082,19 +28064,19 @@ const About = ()=>{
                                             ]
                                         }, void 0, true, {
                                             fileName: "components/About.js",
-                                            lineNumber: 61,
+                                            lineNumber: 43,
                                             columnNumber: 17
                                         }, undefined)
                                     ]
                                 }, void 0, true, {
                                     fileName: "components/About.js",
-                                    lineNumber: 52,
+                                    lineNumber: 34,
                                     columnNumber: 15
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "components/About.js",
-                            lineNumber: 38,
+                            lineNumber: 20,
                             columnNumber: 13
                         }, undefined)
                     ]
@@ -38410,7 +38392,47 @@ function elementOuterSize(el, size, includeMargins) {
     ]);
 });
 
-},{}],"8r2D8":[function() {},{}],"8LmR1":[function() {},{}],"C1LtY":[function() {},{}],"9VyyL":[function() {},{}],"mlhn4":[function() {},{}],"irvEs":[function() {},{}],"erQec":[function() {},{}],"58byD":[function() {},{}],"aahG8":[function(require,module,exports) {
+},{}],"8r2D8":[function() {},{}],"8LmR1":[function() {},{}],"C1LtY":[function() {},{}],"9VyyL":[function() {},{}],"mlhn4":[function() {},{}],"irvEs":[function() {},{}],"erQec":[function() {},{}],"58byD":[function() {},{}],"6jaDj":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$301e = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$301e.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+const Hero = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
+        id: "hero",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "hero-container",
+            "data-aos": "fade-up",
+            "data-aos-delay": "150"
+        }, void 0, false, {
+            fileName: "components/Hero.js",
+            lineNumber: 6,
+            columnNumber: 7
+        }, undefined)
+    }, void 0, false, {
+        fileName: "components/Hero.js",
+        lineNumber: 5,
+        columnNumber: 5
+    }, undefined);
+};
+_c = Hero;
+exports.default = Hero;
+var _c;
+$RefreshReg$(_c, "Hero");
+
+  $parcel$ReactRefreshHelpers$301e.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"aahG8":[function(require,module,exports) {
 /* Talking with a contract often involves transforming data, we recommend you to encapsulate that logic into a class */ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "LockCalendar", ()=>LockCalendar);
