@@ -12,7 +12,7 @@ const Header = ({ onClick, accountId }) => {
         <div className="container d-flex align-items-center justify-content-between">
           <h1 className="logo">
             <a style={{ color: "#c5f801" }} href="">
-              <b>PARTAGE LOCK</b>
+              <b>PARTAGE</b>
             </a>
           </h1>
 
