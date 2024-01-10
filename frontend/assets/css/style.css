@@ -13,6 +13,10 @@ hover-color: #c5f801;
 hover-backgroung: black;
 input: #586a77 or #0c1318 or #15222b
  */
+
+html {
+  background: #000;
+}
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;

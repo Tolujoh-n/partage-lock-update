@@ -27317,7 +27317,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","regenerator-runtime/runtime":"dXNgZ","react":"21dqq","./components/About":"hGILx","./components/Calendar":"9iZ3i","./components/contact":"6sEDB","./components/footer":"4psvf","./components/header":"gMwGB","./components/Services":"kWUM6","glightbox":"kBGcU","swiper":"iM6UL","isotope-layout":"aHntc","aos":"eRzTM","./assets/css/style.css":"8r2D8","./assets/vendor/aos/aos.css":"8LmR1","./assets/vendor/bootstrap/css/bootstrap.min.css":"C1LtY","./assets/vendor/bootstrap-icons/bootstrap-icons.css":"9VyyL","./assets/vendor/boxicons/css/boxicons.min.css":"mlhn4","./assets/vendor/glightbox/css/glightbox.min.css":"irvEs","./assets/vendor/remixicon/remixicon.css":"erQec","./assets/vendor/swiper/swiper-bundle.min.css":"58byD","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./components/Hero":"6jaDj"}],"dXNgZ":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","regenerator-runtime/runtime":"dXNgZ","react":"21dqq","./components/About":"hGILx","./components/Calendar":"9iZ3i","./components/contact":"6sEDB","./components/footer":"4psvf","./components/header":"gMwGB","./components/Hero":"6jaDj","./components/Services":"kWUM6","glightbox":"kBGcU","swiper":"iM6UL","isotope-layout":"aHntc","aos":"eRzTM","./assets/css/style.css":"8r2D8","./assets/vendor/aos/aos.css":"8LmR1","./assets/vendor/bootstrap/css/bootstrap.min.css":"C1LtY","./assets/vendor/bootstrap-icons/bootstrap-icons.css":"9VyyL","./assets/vendor/boxicons/css/boxicons.min.css":"mlhn4","./assets/vendor/glightbox/css/glightbox.min.css":"irvEs","./assets/vendor/remixicon/remixicon.css":"erQec","./assets/vendor/swiper/swiper-bundle.min.css":"58byD","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"dXNgZ":[function(require,module,exports) {
 /**
  * Copyright (c) 2014-present, Facebook, Inc.
  *
@@ -30195,7 +30195,7 @@ const Header = ({ onClick, accountId })=>{
                             },
                             href: "",
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("b", {
-                                children: "PARTAGE LOCK"
+                                children: "PARTAGE"
                             }, void 0, false, {
                                 fileName: "components/header.js",
                                 lineNumber: 15,
@@ -30340,7 +30340,47 @@ const initHeaderScrolled = ()=>{
     }
 };
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"kWUM6":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"6jaDj":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$301e = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$301e.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+const Hero = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
+        id: "hero",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "hero-container",
+            "data-aos": "fade-up",
+            "data-aos-delay": "150"
+        }, void 0, false, {
+            fileName: "components/Hero.js",
+            lineNumber: 6,
+            columnNumber: 7
+        }, undefined)
+    }, void 0, false, {
+        fileName: "components/Hero.js",
+        lineNumber: 5,
+        columnNumber: 5
+    }, undefined);
+};
+_c = Hero;
+exports.default = Hero;
+var _c;
+$RefreshReg$(_c, "Hero");
+
+  $parcel$ReactRefreshHelpers$301e.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"kWUM6":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$ffd5 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -38392,47 +38432,7 @@ function elementOuterSize(el, size, includeMargins) {
     ]);
 });
 
-},{}],"8r2D8":[function() {},{}],"8LmR1":[function() {},{}],"C1LtY":[function() {},{}],"9VyyL":[function() {},{}],"mlhn4":[function() {},{}],"irvEs":[function() {},{}],"erQec":[function() {},{}],"58byD":[function() {},{}],"6jaDj":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$301e = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$301e.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-const Hero = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
-        id: "hero",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "hero-container",
-            "data-aos": "fade-up",
-            "data-aos-delay": "150"
-        }, void 0, false, {
-            fileName: "components/Hero.js",
-            lineNumber: 6,
-            columnNumber: 7
-        }, undefined)
-    }, void 0, false, {
-        fileName: "components/Hero.js",
-        lineNumber: 5,
-        columnNumber: 5
-    }, undefined);
-};
-_c = Hero;
-exports.default = Hero;
-var _c;
-$RefreshReg$(_c, "Hero");
-
-  $parcel$ReactRefreshHelpers$301e.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"aahG8":[function(require,module,exports) {
+},{}],"8r2D8":[function() {},{}],"8LmR1":[function() {},{}],"C1LtY":[function() {},{}],"9VyyL":[function() {},{}],"mlhn4":[function() {},{}],"irvEs":[function() {},{}],"erQec":[function() {},{}],"58byD":[function() {},{}],"aahG8":[function(require,module,exports) {
 /* Talking with a contract often involves transforming data, we recommend you to encapsulate that logic into a class */ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "LockCalendar", ()=>LockCalendar);
