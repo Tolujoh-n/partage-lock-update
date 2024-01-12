@@ -2,7 +2,7 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-/* 
+/* hero-container
 id="reserve" for downwest a tag
 id='usebutcases'  for contact nutton
 golbal colour:
@@ -13,6 +13,10 @@ hover-color: #c5f801;
 hover-backgroung: black;
 input: #586a77 or #0c1318 or #15222b
  */
+
+html {
+  background: #000;
+}
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -469,13 +473,36 @@ iframe {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/partage.png") top center;
+  background: url("../img/partagex.png") top center;
   background-size: cover;
   position: relative;
   padding: 0;
-  margin-bottom: 40px;
 }
 
+#hero:before {
+  content: "";
+  /* background: rgba(13, 20, 26, 0.7); */
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+/* #hero .hero-container {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+} */
+
+/* 
 #hero:before {
   content: "";
   background: rgba(13, 20, 26, 0.7);
@@ -497,7 +524,7 @@ iframe {
   align-items: center;
   flex-direction: column;
   text-align: center;
-}
+} */
 
 #hero h1 {
   margin: 0 0 10px 0;
@@ -557,11 +584,11 @@ iframe {
   color: #c5f801;
 }
 
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
   }
-}
+} */
 
 @media (max-width: 768px) {
   #hero h1 {

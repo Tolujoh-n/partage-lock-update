@@ -6,32 +6,14 @@ const About = () => {
     <>
       <section id="about" className="about">
         <div className="container" data-aos="fade-up">
-          <div id="aboutmore" className="row">
-            <section id="hero">
-              <div
-                className="hero-container"
-                data-aos="fade-up"
-                data-aos-delay="150"
-              >
-                <iframe
-                  src="https://docs.google.com/presentation/d/e/2PACX-1vSnHUCBGG0FRNgRNH3WAFI243y7XK6w63WugnmzjhmGW2EKvgHgnmgDtzzismnvsDjPIbjLbjZfsWzm/embed?start=false&loop=false&delayms=3000"
-                  frameborder="0"
-                  id="heroiframe"
-                  allowfullscreen="true"
-                  mozallowfullscreen="true"
-                  webkitallowfullscreen="true"
-                  style={{ height: "100%" }} // Set the height of the iframe to 100%
-                ></iframe>
-              </div>
-            </section>
-
+          <div id="aboutmore" className="row" style={{ padding: "20px" }}>
             <div
               className="col-lg-6 order-1 order-lg-2"
               data-aos="fade-left"
               data-aos-delay="100"
             >
               <iframe
-                height="500"
+                style={{ borderRadius: "10px", minHeight: "300px" }}
                 src="https://www.youtube.com/embed/jfPbW9NzRSQ?si=GTq3oB1PJZ0DAa3J"
               ></iframe>
             </div>

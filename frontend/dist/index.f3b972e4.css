@@ -1,4 +1,8 @@
 @import "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&display=swap";
+html {
+  background: #000;
+}
+
 body {
   color: #444;
   font-family: Open Sans, sans-serif;
@@ -398,27 +402,15 @@ iframe {
 }
 
 #hero {
-  background: url("partage.a493f1d7.png") top / cover;
+  background: url("partagex.6cfa0fee.png") top / cover;
   width: 100%;
   height: 100vh;
-  margin-bottom: 40px;
   padding: 0;
   position: relative;
 }
 
 #hero:before {
   content: "";
-  background: #0d141ab3;
-  position: absolute;
-  inset: 0;
-}
-
-#hero .hero-container {
-  text-align: center;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  display: flex;
   position: absolute;
   inset: 0;
 }
@@ -478,12 +470,6 @@ iframe {
 
 #hero .btn-watch-video:hover i {
   color: #c5f801;
-}
-
-@media (width >= 1024px) {
-  #hero {
-    background-attachment: fixed;
-  }
 }
 
 @media (width <= 768px) {

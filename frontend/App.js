@@ -6,6 +6,7 @@ import Calendar from "./components/Calendar";
 import Contact from "./components/contact";
 import Footer from "./components/footer";
 import Header from "./components/header";
+import Hero from "./components/Hero";
 import Services from "./components/Services";
 
 import GLightbox from "glightbox";
@@ -74,6 +75,7 @@ const App = ({ isSignedIn, lockCalendar, wallet }) => {
     return (
       <main>
         <Header onClick={() => wallet.signIn()} />
+        <Hero />
         <About />
         <Services />
         <Contact />

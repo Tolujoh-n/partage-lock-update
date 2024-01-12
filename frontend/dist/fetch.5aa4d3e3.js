@@ -5795,7 +5795,7 @@ var LEGACY_ALIASES = {
     ]
 };
 var bind = require("7c5e688e48cd07b0");
-var hasOwn = require("b03d0058935d00bf");
+var hasOwn = require("af36d49b4b8c6c7c");
 var $concat = bind.call(Function.call, Array.prototype.concat);
 var $spliceApply = bind.call(Function.apply, Array.prototype.splice);
 var $replace = bind.call(Function.call, String.prototype.replace);
@@ -5887,7 +5887,7 @@ module.exports = function GetIntrinsic(name, allowMissing) {
     return value;
 };
 
-},{"1f00f712d594ccf":"3dK91","23730654306aa64c":"6eZiF","7c5e688e48cd07b0":"6J4ob","b03d0058935d00bf":"ksyoO"}],"3dK91":[function(require,module,exports) {
+},{"1f00f712d594ccf":"3dK91","23730654306aa64c":"6eZiF","7c5e688e48cd07b0":"6J4ob","af36d49b4b8c6c7c":"9Wb6f"}],"3dK91":[function(require,module,exports) {
 "use strict";
 var origSymbol = typeof Symbol !== "undefined" && Symbol;
 var hasSymbolSham = require("3fb25678c62d2fce");
@@ -5954,25 +5954,45 @@ module.exports = Function.prototype.bind || implementation;
 },{"12e173b4dbaee960":"jwaxQ"}],"jwaxQ":[function(require,module,exports) {
 "use strict";
 /* eslint no-invalid-this: 1 */ var ERROR_MESSAGE = "Function.prototype.bind called on incompatible ";
-var slice = Array.prototype.slice;
 var toStr = Object.prototype.toString;
+var max = Math.max;
 var funcType = "[object Function]";
+var concatty = function concatty(a, b) {
+    var arr = [];
+    for(var i = 0; i < a.length; i += 1)arr[i] = a[i];
+    for(var j = 0; j < b.length; j += 1)arr[j + a.length] = b[j];
+    return arr;
+};
+var slicy = function slicy(arrLike, offset) {
+    var arr = [];
+    for(var i = offset || 0, j = 0; i < arrLike.length; i += 1, j += 1)arr[j] = arrLike[i];
+    return arr;
+};
+var joiny = function(arr, joiner) {
+    var str = "";
+    for(var i = 0; i < arr.length; i += 1){
+        str += arr[i];
+        if (i + 1 < arr.length) str += joiner;
+    }
+    return str;
+};
 module.exports = function bind(that) {
     var target = this;
-    if (typeof target !== "function" || toStr.call(target) !== funcType) throw new TypeError(ERROR_MESSAGE + target);
-    var args = slice.call(arguments, 1);
+    if (typeof target !== "function" || toStr.apply(target) !== funcType) throw new TypeError(ERROR_MESSAGE + target);
+    var args = slicy(arguments, 1);
     var bound;
     var binder = function() {
         if (this instanceof bound) {
-            var result = target.apply(this, args.concat(slice.call(arguments)));
+            var result = target.apply(this, concatty(args, arguments));
             if (Object(result) === result) return result;
             return this;
-        } else return target.apply(that, args.concat(slice.call(arguments)));
+        }
+        return target.apply(that, concatty(args, arguments));
     };
-    var boundLength = Math.max(0, target.length - args.length);
+    var boundLength = max(0, target.length - args.length);
     var boundArgs = [];
-    for(var i = 0; i < boundLength; i++)boundArgs.push("$" + i);
-    bound = Function("binder", "return function (" + boundArgs.join(",") + "){ return binder.apply(this,arguments); }")(binder);
+    for(var i = 0; i < boundLength; i++)boundArgs[i] = "$" + i;
+    bound = Function("binder", "return function (" + joiny(boundArgs, ",") + "){ return binder.apply(this,arguments); }")(binder);
     if (target.prototype) {
         var Empty = function Empty() {};
         Empty.prototype = target.prototype;
@@ -5982,12 +6002,14 @@ module.exports = function bind(that) {
     return bound;
 };
 
-},{}],"ksyoO":[function(require,module,exports) {
+},{}],"9Wb6f":[function(require,module,exports) {
 "use strict";
-var bind = require("ec4f1e1d3f29fa3e");
-module.exports = bind.call(Function.call, Object.prototype.hasOwnProperty);
+var call = Function.prototype.call;
+var $hasOwn = Object.prototype.hasOwnProperty;
+var bind = require("126cb75e62f8e17b");
+/** @type {(o: {}, p: PropertyKey) => p is keyof o} */ module.exports = bind.call(call, $hasOwn);
 
-},{"ec4f1e1d3f29fa3e":"6J4ob"}],"5yYiF":[function(require,module,exports) {
+},{"126cb75e62f8e17b":"6J4ob"}],"5yYiF":[function(require,module,exports) {
 "use strict";
 var GetIntrinsic = require("8b08ecb81cf4de17");
 var callBind = require("266fc50410cfc4a");
@@ -6002,10 +6024,11 @@ module.exports = function callBoundIntrinsic(name, allowMissing) {
 "use strict";
 var bind = require("4f9d84d5de4909bc");
 var GetIntrinsic = require("68d2ad3775278f43");
+var setFunctionLength = require("f4b53071c102d4e");
+var $TypeError = GetIntrinsic("%TypeError%");
 var $apply = GetIntrinsic("%Function.prototype.apply%");
 var $call = GetIntrinsic("%Function.prototype.call%");
 var $reflectApply = GetIntrinsic("%Reflect.apply%", true) || bind.call($call, $apply);
-var $gOPD = GetIntrinsic("%Object.getOwnPropertyDescriptor%", true);
 var $defineProperty = GetIntrinsic("%Object.defineProperty%", true);
 var $max = GetIntrinsic("%Math.max%");
 if ($defineProperty) try {
@@ -6017,15 +6040,9 @@ if ($defineProperty) try {
     $defineProperty = null;
 }
 module.exports = function callBind(originalFunction) {
+    if (typeof originalFunction !== "function") throw new $TypeError("a function is required");
     var func = $reflectApply(bind, $call, arguments);
-    if ($gOPD && $defineProperty) {
-        var desc = $gOPD(func, "length");
-        if (desc.configurable) // original length, plus the receiver, minus any additional arguments (after the receiver)
-        $defineProperty(func, "length", {
-            value: 1 + $max(0, originalFunction.length - (arguments.length - 1))
-        });
-    }
-    return func;
+    return setFunctionLength(func, 1 + $max(0, originalFunction.length - (arguments.length - 1)), true);
 };
 var applyBind = function applyBind() {
     return $reflectApply(bind, $apply, arguments);
@@ -6035,7 +6052,114 @@ if ($defineProperty) $defineProperty(module.exports, "apply", {
 });
 else module.exports.apply = applyBind;
 
-},{"4f9d84d5de4909bc":"6J4ob","68d2ad3775278f43":"dZb05"}],"kS3SE":[function(require,module,exports) {
+},{"4f9d84d5de4909bc":"6J4ob","68d2ad3775278f43":"dZb05","f4b53071c102d4e":"9IKoX"}],"9IKoX":[function(require,module,exports) {
+"use strict";
+var GetIntrinsic = require("8b1c9107ef1524f2");
+var define = require("37dd1486f0f556ef");
+var hasDescriptors = require("6a9d2b46085df706")();
+var gOPD = require("2d412b0f532d1834");
+var $TypeError = GetIntrinsic("%TypeError%");
+var $floor = GetIntrinsic("%Math.floor%");
+module.exports = function setFunctionLength(fn, length) {
+    if (typeof fn !== "function") throw new $TypeError("`fn` is not a function");
+    if (typeof length !== "number" || length < 0 || length > 0xFFFFFFFF || $floor(length) !== length) throw new $TypeError("`length` must be a positive 32-bit integer");
+    var loose = arguments.length > 2 && !!arguments[2];
+    var functionLengthIsConfigurable = true;
+    var functionLengthIsWritable = true;
+    if ("length" in fn && gOPD) {
+        var desc = gOPD(fn, "length");
+        if (desc && !desc.configurable) functionLengthIsConfigurable = false;
+        if (desc && !desc.writable) functionLengthIsWritable = false;
+    }
+    if (functionLengthIsConfigurable || functionLengthIsWritable || !loose) {
+        if (hasDescriptors) define(fn, "length", length, true, true);
+        else define(fn, "length", length);
+    }
+    return fn;
+};
+
+},{"8b1c9107ef1524f2":"dZb05","37dd1486f0f556ef":"6cEff","6a9d2b46085df706":"esBLZ","2d412b0f532d1834":"eOTQB"}],"6cEff":[function(require,module,exports) {
+"use strict";
+var hasPropertyDescriptors = require("1ed580143eb408b3")();
+var GetIntrinsic = require("971d0ad91a472750");
+var $defineProperty = hasPropertyDescriptors && GetIntrinsic("%Object.defineProperty%", true);
+if ($defineProperty) try {
+    $defineProperty({}, "a", {
+        value: 1
+    });
+} catch (e) {
+    // IE 8 has a broken defineProperty
+    $defineProperty = false;
+}
+var $SyntaxError = GetIntrinsic("%SyntaxError%");
+var $TypeError = GetIntrinsic("%TypeError%");
+var gopd = require("3f9bd39335781ec7");
+/** @type {(obj: Record<PropertyKey, unknown>, property: PropertyKey, value: unknown, nonEnumerable?: boolean | null, nonWritable?: boolean | null, nonConfigurable?: boolean | null, loose?: boolean) => void} */ module.exports = function defineDataProperty(obj, property, value) {
+    if (!obj || typeof obj !== "object" && typeof obj !== "function") throw new $TypeError("`obj` must be an object or a function`");
+    if (typeof property !== "string" && typeof property !== "symbol") throw new $TypeError("`property` must be a string or a symbol`");
+    if (arguments.length > 3 && typeof arguments[3] !== "boolean" && arguments[3] !== null) throw new $TypeError("`nonEnumerable`, if provided, must be a boolean or null");
+    if (arguments.length > 4 && typeof arguments[4] !== "boolean" && arguments[4] !== null) throw new $TypeError("`nonWritable`, if provided, must be a boolean or null");
+    if (arguments.length > 5 && typeof arguments[5] !== "boolean" && arguments[5] !== null) throw new $TypeError("`nonConfigurable`, if provided, must be a boolean or null");
+    if (arguments.length > 6 && typeof arguments[6] !== "boolean") throw new $TypeError("`loose`, if provided, must be a boolean");
+    var nonEnumerable = arguments.length > 3 ? arguments[3] : null;
+    var nonWritable = arguments.length > 4 ? arguments[4] : null;
+    var nonConfigurable = arguments.length > 5 ? arguments[5] : null;
+    var loose = arguments.length > 6 ? arguments[6] : false;
+    /* @type {false | TypedPropertyDescriptor<unknown>} */ var desc = !!gopd && gopd(obj, property);
+    if ($defineProperty) $defineProperty(obj, property, {
+        configurable: nonConfigurable === null && desc ? desc.configurable : !nonConfigurable,
+        enumerable: nonEnumerable === null && desc ? desc.enumerable : !nonEnumerable,
+        value: value,
+        writable: nonWritable === null && desc ? desc.writable : !nonWritable
+    });
+    else if (loose || !nonEnumerable && !nonWritable && !nonConfigurable) // must fall back to [[Set]], and was not explicitly asked to make non-enumerable, non-writable, or non-configurable
+    obj[property] = value; // eslint-disable-line no-param-reassign
+    else throw new $SyntaxError("This environment does not support defining a property as non-configurable, non-writable, or non-enumerable.");
+};
+
+},{"1ed580143eb408b3":"esBLZ","971d0ad91a472750":"dZb05","3f9bd39335781ec7":"eOTQB"}],"esBLZ":[function(require,module,exports) {
+"use strict";
+var GetIntrinsic = require("b0bf8b8435d3abc");
+var $defineProperty = GetIntrinsic("%Object.defineProperty%", true);
+var hasPropertyDescriptors = function hasPropertyDescriptors() {
+    if ($defineProperty) try {
+        $defineProperty({}, "a", {
+            value: 1
+        });
+        return true;
+    } catch (e) {
+        // IE 8 has a broken defineProperty
+        return false;
+    }
+    return false;
+};
+hasPropertyDescriptors.hasArrayLengthDefineBug = function hasArrayLengthDefineBug() {
+    // node v0.6 has a bug where array lengths can be Set but not Defined
+    if (!hasPropertyDescriptors()) return null;
+    try {
+        return $defineProperty([], "length", {
+            value: 1
+        }).length !== 1;
+    } catch (e) {
+        // In Firefox 4-22, defining length on an array throws an exception.
+        return true;
+    }
+};
+module.exports = hasPropertyDescriptors;
+
+},{"b0bf8b8435d3abc":"dZb05"}],"eOTQB":[function(require,module,exports) {
+"use strict";
+var GetIntrinsic = require("693e651525841e04");
+var $gOPD = GetIntrinsic("%Object.getOwnPropertyDescriptor%", true);
+if ($gOPD) try {
+    $gOPD([], "length");
+} catch (e) {
+    // IE 8 has a broken gOPD
+    $gOPD = null;
+}
+module.exports = $gOPD;
+
+},{"693e651525841e04":"dZb05"}],"kS3SE":[function(require,module,exports) {
 var hasMap = typeof Map === "function" && Map.prototype;
 var mapSizeDescriptor = Object.getOwnPropertyDescriptor && hasMap ? Object.getOwnPropertyDescriptor(Map.prototype, "size") : null;
 var mapSize = hasMap && mapSizeDescriptor && typeof mapSizeDescriptor.get === "function" ? mapSizeDescriptor.get : null;
