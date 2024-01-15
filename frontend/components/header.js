@@ -27,6 +27,14 @@ const Header = ({ onClick, accountId }) => {
                 </a>
               </li>
               <li>
+                <a
+                  className="getstarted scrollto"
+                  href="https://www.masterlock.com/products/bluetooth-electronic-locks"
+                >
+                  Buy
+                </a>
+              </li>
+              {/* <li>
                 <a className="">
                   {accountId}
                 </a>
@@ -35,7 +43,7 @@ const Header = ({ onClick, accountId }) => {
                 <a onClick={onClick} className="getstarted scrollto">
                   Connect Wallet
                 </a>
-              </li>
+              </li> */}
             </ul>
             <i className="bi bi-list mobile-nav-toggle"></i>
             <br></br>
