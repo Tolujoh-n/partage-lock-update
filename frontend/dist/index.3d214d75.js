@@ -30221,6 +30221,7 @@ const Header = ({ onClick, accountId })=>{
                                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                             className: "nav-link scrollto",
                                             href: "https://juliencarbonnell.medium.com/blockchain-for-smart-cities-tutorial-building-a-blockchain-controlled-smart-lock-on-near-100-d97b19ca7a86",
+                                            target: "_blank",
                                             children: "Documentation"
                                         }, void 0, false, {
                                             fileName: "components/header.js",
@@ -30234,8 +30235,10 @@ const Header = ({ onClick, accountId })=>{
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                            className: "",
-                                            children: accountId
+                                            className: "getstarted scrollto",
+                                            href: "https://www.masterlock.com/products/bluetooth-electronic-locks",
+                                            target: "_blank",
+                                            children: "Buy"
                                         }, void 0, false, {
                                             fileName: "components/header.js",
                                             lineNumber: 30,
@@ -30244,21 +30247,6 @@ const Header = ({ onClick, accountId })=>{
                                     }, void 0, false, {
                                         fileName: "components/header.js",
                                         lineNumber: 29,
-                                        columnNumber: 15
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                            onClick: onClick,
-                                            className: "getstarted scrollto",
-                                            children: "Connect Wallet"
-                                        }, void 0, false, {
-                                            fileName: "components/header.js",
-                                            lineNumber: 35,
-                                            columnNumber: 17
-                                        }, undefined)
-                                    }, void 0, false, {
-                                        fileName: "components/header.js",
-                                        lineNumber: 34,
                                         columnNumber: 15
                                     }, undefined)
                                 ]
@@ -30271,12 +30259,12 @@ const Header = ({ onClick, accountId })=>{
                                 className: "bi bi-list mobile-nav-toggle"
                             }, void 0, false, {
                                 fileName: "components/header.js",
-                                lineNumber: 40,
+                                lineNumber: 48,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                 fileName: "components/header.js",
-                                lineNumber: 41,
+                                lineNumber: 49,
                                 columnNumber: 13
                             }, undefined)
                         ]
