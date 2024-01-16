@@ -10,19 +10,19 @@ const Footer = () => {
               <div className="col-lg-3 col-md-6">
                 <div className="footer-info">
                   <h3>PARTAGE</h3>
-                  <p>Shared Utilities on Bitcoin</p>
+                  <p>Keyless Solutions for Seamless Sharing</p>
                   <p>Join our social medias</p>
                   <div className="social-links mt-3">
-                    <a href="https://discord.gg/4t4AX9GVUf" className="Discord">
+                    <a href="https://discord.gg/4t4AX9GVUf" target="_blank" className="Discord">
                       <i className="bx bxl-discord"></i>
                     </a>
-                    <a href="https://www.youtube.com/@partage_btc" className="Youtube">
+                    <a href="https://www.youtube.com/@partage_xyz" target="_blank" className="Youtube">
                       <i className="bx bxl-youtube"></i>
                     </a>
-                    <a href="https://twitter.com/partage_btc" className="twitter">
+                    <a href="https://twitter.com/partage_xyz" target="_blank" className="twitter">
                       <i className="bx bxl-twitter"></i>
                     </a>
-                    <a href="https://www.instagram.com/partage.btc/" className="instagram">
+                    <a href="https://www.instagram.com/partage.btc/" target="_blank" className="instagram">
                       <i className="bx bxl-instagram"></i>
                     </a>
                   </div>
@@ -34,19 +34,19 @@ const Footer = () => {
                 <ul>
                   <li>
                     <i className="bx bx-chevron-right"></i>{" "}
-                    <a href="https://hellopartage.xyz/nfts">Marketplace</a>
+                    <a href="https://hellopartage.xyz/nfts" target="_blank">Marketplace</a>
                   </li>
                   <li>
                     <i className="bx bx-chevron-right"></i>{" "}
-                    <a href="https://medium.com/partage-btc/partages-white-paper-347674063de7">White Paper</a>
+                    <a href="https://medium.com/partage-btc/partages-white-paper-347674063de7" target="_blank">White Paper</a>
                   </li>
                   <li>
                     <i className="bx bx-chevron-right"></i>{" "}
-                    <a href="https://medium.com/partage-btc/partage-tutorials-8e1f6868716d">Tutorials</a>
+                    <a href="https://medium.com/partage-btc/partage-tutorials-8e1f6868716d" target="_blank">Tutorials</a>
                   </li>
                   <li>
                     <i className="bx bx-chevron-right"></i>{" "}
-                    <a href="https://docs.google.com/document/d/1-ZoP8lExQZ_LDxBG0ZXdbFr7i8Ie0ymcMn6Uh-XfpZc/edit#heading=h.8do1cn1ic47h">Privacy Policy</a>
+                    <a href="https://docs.google.com/document/d/1-ZoP8lExQZ_LDxBG0ZXdbFr7i8Ie0ymcMn6Uh-XfpZc/edit#heading=h.8do1cn1ic47h" target="_blank">Privacy Policy</a>
                   </li>
                 </ul>
               </div>

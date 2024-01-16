@@ -29820,7 +29820,7 @@ const Footer = ()=>{
                                                     columnNumber: 19
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                                    children: "Shared Utilities on Bitcoin"
+                                                    children: "Keyless Solutions for Seamless Sharing"
                                                 }, void 0, false, {
                                                     fileName: "components/footer.js",
                                                     lineNumber: 13,
@@ -29838,6 +29838,7 @@ const Footer = ()=>{
                                                     children: [
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                                             href: "https://discord.gg/4t4AX9GVUf",
+                                                            target: "_blank",
                                                             className: "Discord",
                                                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
                                                                 className: "bx bxl-discord"
@@ -29852,7 +29853,8 @@ const Footer = ()=>{
                                                             columnNumber: 21
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                            href: "https://www.youtube.com/@partage_btc",
+                                                            href: "https://www.youtube.com/@partage_xyz",
+                                                            target: "_blank",
                                                             className: "Youtube",
                                                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
                                                                 className: "bx bxl-youtube"
@@ -29867,7 +29869,8 @@ const Footer = ()=>{
                                                             columnNumber: 21
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                            href: "https://twitter.com/partage_btc",
+                                                            href: "https://twitter.com/partage_xyz",
+                                                            target: "_blank",
                                                             className: "twitter",
                                                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
                                                                 className: "bx bxl-twitter"
@@ -29883,6 +29886,7 @@ const Footer = ()=>{
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                                             href: "https://www.instagram.com/partage.btc/",
+                                                            target: "_blank",
                                                             className: "instagram",
                                                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
                                                                 className: "bx bxl-instagram"
@@ -29937,6 +29941,7 @@ const Footer = ()=>{
                                                             " ",
                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                                                 href: "https://hellopartage.xyz/nfts",
+                                                                target: "_blank",
                                                                 children: "Marketplace"
                                                             }, void 0, false, {
                                                                 fileName: "components/footer.js",
@@ -29961,6 +29966,7 @@ const Footer = ()=>{
                                                             " ",
                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                                                 href: "https://medium.com/partage-btc/partages-white-paper-347674063de7",
+                                                                target: "_blank",
                                                                 children: "White Paper"
                                                             }, void 0, false, {
                                                                 fileName: "components/footer.js",
@@ -29985,6 +29991,7 @@ const Footer = ()=>{
                                                             " ",
                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                                                 href: "https://medium.com/partage-btc/partage-tutorials-8e1f6868716d",
+                                                                target: "_blank",
                                                                 children: "Tutorials"
                                                             }, void 0, false, {
                                                                 fileName: "components/footer.js",
@@ -30009,6 +30016,7 @@ const Footer = ()=>{
                                                             " ",
                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                                                 href: "https://docs.google.com/document/d/1-ZoP8lExQZ_LDxBG0ZXdbFr7i8Ie0ymcMn6Uh-XfpZc/edit#heading=h.8do1cn1ic47h",
+                                                                target: "_blank",
                                                                 children: "Privacy Policy"
                                                             }, void 0, false, {
                                                                 fileName: "components/footer.js",
@@ -30221,6 +30229,7 @@ const Header = ({ onClick, accountId })=>{
                                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                             className: "nav-link scrollto",
                                             href: "https://juliencarbonnell.medium.com/blockchain-for-smart-cities-tutorial-building-a-blockchain-controlled-smart-lock-on-near-100-d97b19ca7a86",
+                                            target: "_blank",
                                             children: "Documentation"
                                         }, void 0, false, {
                                             fileName: "components/header.js",
@@ -30234,8 +30243,10 @@ const Header = ({ onClick, accountId })=>{
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                            className: "",
-                                            children: accountId
+                                            className: "getstarted scrollto",
+                                            href: "https://www.masterlock.com/products/bluetooth-electronic-locks",
+                                            target: "_blank",
+                                            children: "Buy Lock"
                                         }, void 0, false, {
                                             fileName: "components/header.js",
                                             lineNumber: 30,
@@ -30248,17 +30259,18 @@ const Header = ({ onClick, accountId })=>{
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                            onClick: onClick,
                                             className: "getstarted scrollto",
-                                            children: "Connect Wallet"
+                                            href: "https://www.masterlock.com/products/bluetooth-electronic-locks",
+                                            target: "_blank",
+                                            children: "Download App"
                                         }, void 0, false, {
                                             fileName: "components/header.js",
-                                            lineNumber: 35,
+                                            lineNumber: 38,
                                             columnNumber: 17
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "components/header.js",
-                                        lineNumber: 34,
+                                        lineNumber: 37,
                                         columnNumber: 15
                                     }, undefined)
                                 ]
@@ -30271,12 +30283,12 @@ const Header = ({ onClick, accountId })=>{
                                 className: "bi bi-list mobile-nav-toggle"
                             }, void 0, false, {
                                 fileName: "components/header.js",
-                                lineNumber: 40,
+                                lineNumber: 56,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                 fileName: "components/header.js",
-                                lineNumber: 41,
+                                lineNumber: 57,
                                 columnNumber: 13
                             }, undefined)
                         ]
