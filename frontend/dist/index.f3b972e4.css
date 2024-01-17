@@ -70,6 +70,20 @@ iframe {
   color: #c9ff04;
 }
 
+.buybut, .buybut:focus {
+  color: #c5f801;
+  border: 2px solid #c5f801;
+  border-radius: 20px;
+  padding: 8px 25px;
+  font-size: larger;
+}
+
+.buybut:hover, .buybut:focus:hover {
+  color: #000;
+  background: #97bd00;
+  border-color: #c5f801;
+}
+
 .back-to-top {
   visibility: hidden;
   opacity: 0;
