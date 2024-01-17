@@ -87,6 +87,21 @@ iframe {
 #reserve {
   color: #c9ff04;
 }
+.buybut,
+.buybut:focus {
+  padding: 8px 25px;
+  border-radius: 20px;
+  color: #c5f801;
+  border: 2px solid #c5f801;
+  font-size: larger;
+}
+
+.buybut:hover,
+.buybut:focus:hover {
+  color: #000;
+  background: #97bd00;
+  border-color: #c5f801;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/

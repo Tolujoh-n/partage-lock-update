@@ -45,6 +45,14 @@ const About = () => {
                   Code is law. Once deployed on blockchain, code is forever.
                 </li>
               </ul>
+              <br></br>
+              <a
+                className="buybut"
+                href="https://www.masterlock.com/products/bluetooth-electronic-locks"
+                target="_blank"
+              >
+                BUY LOCK
+              </a>
             </div>
           </div>
         </div>

@@ -28072,6 +28072,21 @@ const About = ()=>{
                                     fileName: "components/About.js",
                                     lineNumber: 34,
                                     columnNumber: 15
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                    fileName: "components/About.js",
+                                    lineNumber: 48,
+                                    columnNumber: 15
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                    className: "buybut",
+                                    href: "https://www.masterlock.com/products/bluetooth-electronic-locks",
+                                    target: "_blank",
+                                    children: "BUY LOCK"
+                                }, void 0, false, {
+                                    fileName: "components/About.js",
+                                    lineNumber: 49,
+                                    columnNumber: 15
                                 }, undefined)
                             ]
                         }, void 0, true, {
@@ -30228,7 +30243,7 @@ const Header = ({ onClick, accountId })=>{
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                             className: "nav-link scrollto",
-                                            href: "https://juliencarbonnell.medium.com/blockchain-for-smart-cities-tutorial-building-a-blockchain-controlled-smart-lock-on-near-100-d97b19ca7a86",
+                                            href: "https://medium.com/partage_xyz/partage-white-paper-v2-c0cbea46e2f8",
                                             target: "_blank",
                                             children: "Documentation"
                                         }, void 0, false, {
@@ -30239,22 +30254,6 @@ const Header = ({ onClick, accountId })=>{
                                     }, void 0, false, {
                                         fileName: "components/header.js",
                                         lineNumber: 21,
-                                        columnNumber: 15
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                            className: "getstarted scrollto",
-                                            href: "https://www.masterlock.com/products/bluetooth-electronic-locks",
-                                            target: "_blank",
-                                            children: "Buy Lock"
-                                        }, void 0, false, {
-                                            fileName: "components/header.js",
-                                            lineNumber: 30,
-                                            columnNumber: 17
-                                        }, undefined)
-                                    }, void 0, false, {
-                                        fileName: "components/header.js",
-                                        lineNumber: 29,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {

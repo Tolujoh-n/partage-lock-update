@@ -21,19 +21,19 @@ const Header = ({ onClick, accountId }) => {
               <li>
                 <a
                   className="nav-link scrollto"
-                  href="https://juliencarbonnell.medium.com/blockchain-for-smart-cities-tutorial-building-a-blockchain-controlled-smart-lock-on-near-100-d97b19ca7a86" target="_blank"
+                  href="https://medium.com/partage_xyz/partage-white-paper-v2-c0cbea46e2f8" target="_blank"
                 >
                   Documentation
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a
                   className="getstarted scrollto"
                   href="https://www.masterlock.com/products/bluetooth-electronic-locks" target="_blank"
                 >
                   Buy Lock
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a
                   className="getstarted scrollto"
