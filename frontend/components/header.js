@@ -50,10 +50,12 @@ const Header = ({ onClick, accountId }) => {
                 </a>
               </li>
             </ul>
+
             <i
               className="bi bi-list mobile-nav-toggle"
               onClick={handleMobileNavToggle}
             ></i>
+
             <br></br>
           </nav>
         </div>

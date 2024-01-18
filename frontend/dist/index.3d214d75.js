@@ -29924,11 +29924,11 @@ const Footer = ()=>{
                                                             columnNumber: 21
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                            href: "https://www.instagram.com/partage.btc/",
+                                                            href: "https://t.me/partagexyz",
                                                             target: "_blank",
-                                                            className: "instagram",
+                                                            className: "telegram",
                                                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                                className: "bx bxl-instagram"
+                                                                className: "bx bxl-telegram"
                                                             }, void 0, false, {
                                                                 fileName: "components/footer.js",
                                                                 lineNumber: 26,
@@ -30313,12 +30313,12 @@ const Header = ({ onClick, accountId })=>{
                                 onClick: handleMobileNavToggle
                             }, void 0, false, {
                                 fileName: "components/header.js",
-                                lineNumber: 53,
+                                lineNumber: 54,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                 fileName: "components/header.js",
-                                lineNumber: 57,
+                                lineNumber: 59,
                                 columnNumber: 13
                             }, undefined)
                         ]

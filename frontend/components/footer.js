@@ -22,8 +22,8 @@ const Footer = () => {
                     <a href="https://twitter.com/partage_xyz" target="_blank" className="twitter">
                       <i className="bx bxl-twitter"></i>
                     </a>
-                    <a href="https://www.instagram.com/partage.btc/" target="_blank" className="instagram">
-                      <i className="bx bxl-instagram"></i>
+                    <a href="https://t.me/partagexyz" target="_blank" className="telegram">
+                      <i className="bx bxl-telegram"></i>
                     </a>
                   </div>
                 </div>
