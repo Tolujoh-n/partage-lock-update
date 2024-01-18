@@ -51,10 +51,17 @@ const Header = ({ onClick, accountId }) => {
               </li>
             </ul>
 
-            <i
+            {/* <i
               className="bi bi-list mobile-nav-toggle"
               onClick={handleMobileNavToggle}
-            ></i>
+            ></i> */}
+            <a
+              className="getstarted scrollto custom-hidden-on-large"
+              href="https://www.masterlock.com/products/bluetooth-electronic-locks"
+              target="_blank"
+            >
+              Download App
+            </a>
 
             <br></br>
           </nav>

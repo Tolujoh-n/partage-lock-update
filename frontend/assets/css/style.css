@@ -481,6 +481,11 @@ iframe {
 .navbar-mobile .dropdown>.dropdown-active {
   display: block;
 }
+@media (min-width: 990px) {
+  .custom-hidden-on-large {
+    display: none !important;
+  }
+}
 
 /*--------------------------------------------------------------
 # Hero Section

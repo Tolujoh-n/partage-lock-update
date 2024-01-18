@@ -30308,17 +30308,19 @@ const Header = ({ onClick, accountId })=>{
                                 lineNumber: 30,
                                 columnNumber: 13
                             }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                className: "bi bi-list mobile-nav-toggle",
-                                onClick: handleMobileNavToggle
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                className: "getstarted scrollto custom-hidden-on-large",
+                                href: "https://www.masterlock.com/products/bluetooth-electronic-locks",
+                                target: "_blank",
+                                children: "Download App"
                             }, void 0, false, {
                                 fileName: "components/header.js",
-                                lineNumber: 54,
+                                lineNumber: 58,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                 fileName: "components/header.js",
-                                lineNumber: 59,
+                                lineNumber: 66,
                                 columnNumber: 13
                             }, undefined)
                         ]
