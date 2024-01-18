@@ -16,10 +16,10 @@ const Footer = () => {
                     <a href="https://discord.gg/4t4AX9GVUf" target="_blank" className="Discord">
                       <i className="bx bxl-discord"></i>
                     </a>
-                    <a href="https://www.youtube.com/@partage_xyz" target="_blank" className="Youtube">
+                    <a href="https://www.youtube.com/@partagexyz" target="_blank" className="Youtube">
                       <i className="bx bxl-youtube"></i>
                     </a>
-                    <a href="https://twitter.com/partage_xyz" target="_blank" className="twitter">
+                    <a href="https://twitter.com/partagexyz" target="_blank" className="twitter">
                       <i className="bx bxl-twitter"></i>
                     </a>
                     <a href="https://t.me/partagexyz" target="_blank" className="telegram">
@@ -34,11 +34,11 @@ const Footer = () => {
                 <ul>
                   <li>
                     <i className="bx bx-chevron-right"></i>{" "}
-                    <a href="https://hellopartage.xyz/nfts" target="_blank">Marketplace</a>
+                    <a href="https://hellopartage.xyz" target="_blank">Marketplace</a>
                   </li>
                   <li>
                     <i className="bx bx-chevron-right"></i>{" "}
-                    <a href="https://medium.com/partage-btc/partages-white-paper-347674063de7" target="_blank">White Paper</a>
+                    <a href="https://medium.com/partage_xyz/partage-white-paper-v2-c0cbea46e2f8" target="_blank">White Paper</a>
                   </li>
                   <li>
                     <i className="bx bx-chevron-right"></i>{" "}
@@ -72,7 +72,7 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            All rights reserved {` Ⓒ CivicTech OÜ, 2023`}
+            All rights reserved {` Ⓒ CivicTech OÜ, 2024`}
           </a>
           </div>
         </div>
