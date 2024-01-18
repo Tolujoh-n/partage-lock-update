@@ -2949,6 +2949,8 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _reactDom = require("react-dom");
 var _reactDomDefault = parcelHelpers.interopDefault(_reactDom);
+var _client = require("react-dom/client");
+var _clientDefault = parcelHelpers.interopDefault(_client);
 var _app = require("./App");
 var _appDefault = parcelHelpers.interopDefault(_app);
 // NEAR
@@ -2967,15 +2969,16 @@ const lockCalendar = new (0, _nearInterface.LockCalendar)({
 // Setup on page load
 window.onload = async ()=>{
     const isSignedIn = await wallet.startUp();
-    (0, _reactDomDefault.default).render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _appDefault.default), {
+    const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
+    root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _appDefault.default), {
         isSignedIn: isSignedIn,
         lockCalendar: lockCalendar,
         wallet: wallet
     }, void 0, false, {
         fileName: "index.js",
-        lineNumber: 22,
+        lineNumber: 27,
         columnNumber: 5
-    }, undefined), document.getElementById("root"));
+    }, undefined));
 };
 
   $parcel$ReactRefreshHelpers$e4e3.postlude(module);
@@ -2983,7 +2986,7 @@ window.onload = async ()=>{
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom":"j6uA9","./App":"2Ew96","./near-interface":"aahG8","./near-wallet":"dg9wB","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom":"j6uA9","react-dom/client":"lOjBx","./App":"2Ew96","./near-interface":"aahG8","./near-wallet":"dg9wB","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("ee51401569654d91");
 
@@ -27149,7 +27152,28 @@ module.exports = require("ef03b89c8fe2794e");
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
 })();
 
-},{}],"2Ew96":[function(require,module,exports) {
+},{}],"lOjBx":[function(require,module,exports) {
+"use strict";
+var m = require("aaccff5d309d9239");
+var i = m.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+exports.createRoot = function(c, o) {
+    i.usingClientEntryPoint = true;
+    try {
+        return m.createRoot(c, o);
+    } finally{
+        i.usingClientEntryPoint = false;
+    }
+};
+exports.hydrateRoot = function(c, h, o) {
+    i.usingClientEntryPoint = true;
+    try {
+        return m.hydrateRoot(c, h, o);
+    } finally{
+        i.usingClientEntryPoint = false;
+    }
+};
+
+},{"aaccff5d309d9239":"j6uA9"}],"2Ew96":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$c1db = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -30200,9 +30224,14 @@ var _headerScrolled = require("../assets/js/headerScrolled");
 var _s = $RefreshSig$();
 const Header = ({ onClick, accountId })=>{
     _s();
+    const [isMobileNavOpen, setIsMobileNavOpen] = (0, _react.useState)(false);
     (0, _react.useEffect)(()=>{
         (0, _headerScrolled.initHeaderScrolled)();
     }, []);
+    const handleMobileNavToggle = ()=>{
+        setIsMobileNavOpen(!isMobileNavOpen);
+        console.log("Mobile nav toggled. State:", isMobileNavOpen);
+    };
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("header", {
             id: "header",
@@ -30221,24 +30250,25 @@ const Header = ({ onClick, accountId })=>{
                                 children: "PARTAGE"
                             }, void 0, false, {
                                 fileName: "components/header.js",
-                                lineNumber: 15,
+                                lineNumber: 22,
                                 columnNumber: 15
                             }, undefined)
                         }, void 0, false, {
                             fileName: "components/header.js",
-                            lineNumber: 14,
+                            lineNumber: 21,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "components/header.js",
-                        lineNumber: 13,
+                        lineNumber: 20,
                         columnNumber: 11
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
                         id: "navbar",
-                        className: "navbar",
+                        className: `navbar ${isMobileNavOpen ? "navbar-mobile" : ""}`,
                         children: [
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                                className: `nav-list ${isMobileNavOpen ? "mobile-nav-open" : ""}`,
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -30248,12 +30278,12 @@ const Header = ({ onClick, accountId })=>{
                                             children: "Documentation"
                                         }, void 0, false, {
                                             fileName: "components/header.js",
-                                            lineNumber: 22,
+                                            lineNumber: 34,
                                             columnNumber: 17
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "components/header.js",
-                                        lineNumber: 21,
+                                        lineNumber: 33,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -30264,25 +30294,26 @@ const Header = ({ onClick, accountId })=>{
                                             children: "Download App"
                                         }, void 0, false, {
                                             fileName: "components/header.js",
-                                            lineNumber: 38,
+                                            lineNumber: 44,
                                             columnNumber: 17
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "components/header.js",
-                                        lineNumber: 37,
+                                        lineNumber: 43,
                                         columnNumber: 15
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "components/header.js",
-                                lineNumber: 20,
+                                lineNumber: 30,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                className: "bi bi-list mobile-nav-toggle"
+                                className: "bi bi-list mobile-nav-toggle",
+                                onClick: handleMobileNavToggle
                             }, void 0, false, {
                                 fileName: "components/header.js",
-                                lineNumber: 56,
+                                lineNumber: 53,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
@@ -30293,23 +30324,23 @@ const Header = ({ onClick, accountId })=>{
                         ]
                     }, void 0, true, {
                         fileName: "components/header.js",
-                        lineNumber: 19,
+                        lineNumber: 26,
                         columnNumber: 11
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "components/header.js",
-                lineNumber: 12,
+                lineNumber: 19,
                 columnNumber: 9
             }, undefined)
         }, void 0, false, {
             fileName: "components/header.js",
-            lineNumber: 11,
+            lineNumber: 18,
             columnNumber: 7
         }, undefined)
     }, void 0, false);
 };
-_s(Header, "OD7bBpZva5O2jO+Puf00hKivP7c=");
+_s(Header, "1KSOY1N0EMMS9gq0q94UnPQKB90=");
 _c = Header;
 exports.default = Header;
 var _c;
@@ -67408,28 +67439,7 @@ module.exports = require("c4c10cbba9862d5f");
     exports.jsxs = jsxs;
 })();
 
-},{"593632ccebda0d3a":"21dqq"}],"lOjBx":[function(require,module,exports) {
-"use strict";
-var m = require("aaccff5d309d9239");
-var i = m.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
-exports.createRoot = function(c, o) {
-    i.usingClientEntryPoint = true;
-    try {
-        return m.createRoot(c, o);
-    } finally{
-        i.usingClientEntryPoint = false;
-    }
-};
-exports.hydrateRoot = function(c, h, o) {
-    i.usingClientEntryPoint = true;
-    try {
-        return m.hydrateRoot(c, h, o);
-    } finally{
-        i.usingClientEntryPoint = false;
-    }
-};
-
-},{"aaccff5d309d9239":"j6uA9"}],"eEY3a":[function(require,module,exports) {
+},{"593632ccebda0d3a":"21dqq"}],"eEY3a":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "EventEmitter", ()=>EventEmitter);

@@ -6160,6 +6160,7 @@ if ($gOPD) try {
 module.exports = $gOPD;
 
 },{"693e651525841e04":"dZb05"}],"kS3SE":[function(require,module,exports) {
+var global = arguments[3];
 var hasMap = typeof Map === "function" && Map.prototype;
 var mapSizeDescriptor = Object.getOwnPropertyDescriptor && hasMap ? Object.getOwnPropertyDescriptor(Map.prototype, "size") : null;
 var mapSize = hasMap && mapSizeDescriptor && typeof mapSizeDescriptor.get === "function" ? mapSizeDescriptor.get : null;
@@ -6313,6 +6314,9 @@ module.exports = function inspect_(obj, options, depth, seen) {
     if (isBigInt(obj)) return markBoxed(inspect(bigIntValueOf.call(obj)));
     if (isBoolean(obj)) return markBoxed(booleanValueOf.call(obj));
     if (isString(obj)) return markBoxed(inspect(String(obj)));
+    // note: in IE 8, sometimes `global !== window` but both are the prototypes of each other
+    /* eslint-env browser */ if (typeof window !== "undefined" && obj === window) return "{ [object Window] }";
+    if (obj === global) return "{ [object globalThis] }";
     if (!isDate(obj) && !isRegExp(obj)) {
         var ys = arrObjKeys(obj, inspect);
         var isPlainObject = gPO ? gPO(obj) === Object.prototype : obj instanceof Object || obj.constructor === Object;
