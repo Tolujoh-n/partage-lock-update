@@ -1,14 +1,14 @@
 import React from 'react';
-import boxImage1 from '../assets/img/connect-wallet.jpg';
-import boxImage2 from '../assets/img/send-payment.jpg';
-import boxImage3 from '../assets/img/receive-password.jpg';
+import boxImage1 from '../assets/img/mllocks.png';
+import boxImage2 from '../assets/img/gglplay.png';
+import boxImage3 from '../assets/img/dashboard.png';
 
 const Services = () => {
   return (
     <section id="about-boxes" className="about-boxes">
       <div className="container" data-aos="fade-up">
         <div className="section-title">
-          <h2>How It Works</h2>
+          <h2>How It Works?</h2>
         </div>
 
         <div className="row">
@@ -27,10 +27,9 @@ const Services = () => {
                 <i className="ri-brush-4-line"></i>
               </div>
               <div className="card-body">
-                <h5 className="card-title"><a href="">Connect Your Wallet</a></h5>
+                <h5 className="card-title"><a href="">Get a Bluetooth Lock</a></h5>
                 <p className="card-text">
-                  Connect your preferred Near wallet by clicking the Connect
-                  Wallet button at the top of this page.
+                  Get yourself the most convenient Bluetooth lock device from our reknowned partner Master Lock.
                 </p>
               </div>
             </div>
@@ -50,9 +49,9 @@ const Services = () => {
                 <i className="ri-calendar-check-line"></i>
               </div>
               <div className="card-body">
-                <h5 className="card-title"><a href="">Send payment</a></h5>
+                <h5 className="card-title"><a href="">Download our App</a></h5>
                 <p className="card-text">
-                  Browse all available locked Utilities in the Partage Marketplace, and send payment for your desired use time.
+                  Visit the link in navbar or look for Partage Lock app in Google Play and install it on our phone.
                 </p>
               </div>
             </div>
@@ -72,9 +71,9 @@ const Services = () => {
                 <i className="ri-movie-2-line"></i>
               </div>
               <div className="card-body">
-                <h5 className="card-title"><a href="">Collect password</a></h5>
+                <h5 className="card-title"><a href="">List items for share</a></h5>
                 <p className="card-text">
-                  Collect your unique password and type it on the lock to access the utility of your choice.
+                  Connect your near wallet and list your underused assets to generate a yield out of selling temporary access on our marketplace.
                 </p>
               </div>
             </div>
