@@ -27942,7 +27942,7 @@ const About = ()=>{
                                     borderRadius: "10px",
                                     minHeight: "300px"
                                 },
-                                src: "https://www.youtube.com/embed/jfPbW9NzRSQ?si=GTq3oB1PJZ0DAa3J"
+                                src: "https://www.youtube.com/embed/qaH6ZEW59FA?si=foZV10yH5MCR5rk6"
                             }, void 0, false, {
                                 fileName: "components/About.js",
                                 lineNumber: 15,
@@ -27961,7 +27961,7 @@ const About = ()=>{
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                     className: "section-title",
                                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                                        children: "What is Partage Lock?"
+                                        children: "What is Partage?"
                                     }, void 0, false, {
                                         fileName: "components/About.js",
                                         lineNumber: 26,
@@ -27973,7 +27973,7 @@ const About = ()=>{
                                     columnNumber: 15
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                    children: "A Blockchain-controlled smart lock for Utility NFTs"
+                                    children: "A network of blockchain-controlled smart locks on the Near Protocol"
                                 }, void 0, false, {
                                     fileName: "components/About.js",
                                     lineNumber: 28,
@@ -27985,7 +27985,7 @@ const About = ()=>{
                                     columnNumber: 15
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                    children: "Owners, providers, remotely manage users' access to real-world asset NFTs safely locked in a vault, a garage, or a house."
+                                    children: "For owners to generate a yield out of selling temporary access to their underused assets."
                                 }, void 0, false, {
                                     fileName: "components/About.js",
                                     lineNumber: 30,
@@ -27999,7 +27999,7 @@ const About = ()=>{
                                                     className: "ri-check-double-line"
                                                 }, void 0, false, {
                                                     fileName: "components/About.js",
-                                                    lineNumber: 36,
+                                                    lineNumber: 35,
                                                     columnNumber: 19
                                                 }, undefined),
                                                 " ",
@@ -28007,14 +28007,14 @@ const About = ()=>{
                                                     children: "Secured:"
                                                 }, void 0, false, {
                                                     fileName: "components/About.js",
-                                                    lineNumber: 36,
+                                                    lineNumber: 35,
                                                     columnNumber: 60
                                                 }, undefined),
-                                                " Only the smart contract owner can control the lock."
+                                                " Owner-only functions in the smart-contract."
                                             ]
                                         }, void 0, true, {
                                             fileName: "components/About.js",
-                                            lineNumber: 35,
+                                            lineNumber: 34,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -28023,7 +28023,7 @@ const About = ()=>{
                                                     className: "ri-check-double-line"
                                                 }, void 0, false, {
                                                     fileName: "components/About.js",
-                                                    lineNumber: 40,
+                                                    lineNumber: 38,
                                                     columnNumber: 19
                                                 }, undefined),
                                                 " ",
@@ -28031,15 +28031,15 @@ const About = ()=>{
                                                     children: "Decentralized:"
                                                 }, void 0, false, {
                                                     fileName: "components/About.js",
-                                                    lineNumber: 40,
+                                                    lineNumber: 38,
                                                     columnNumber: 60
                                                 }, undefined),
                                                 " ",
-                                                "The owner is independent from any third party platform."
+                                                "No middleman server between the owner and the user."
                                             ]
                                         }, void 0, true, {
                                             fileName: "components/About.js",
-                                            lineNumber: 39,
+                                            lineNumber: 37,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -28048,7 +28048,7 @@ const About = ()=>{
                                                     className: "ri-check-double-line"
                                                 }, void 0, false, {
                                                     fileName: "components/About.js",
-                                                    lineNumber: 44,
+                                                    lineNumber: 42,
                                                     columnNumber: 19
                                                 }, undefined),
                                                 " ",
@@ -28056,36 +28056,36 @@ const About = ()=>{
                                                     children: "Trustworthy:"
                                                 }, void 0, false, {
                                                     fileName: "components/About.js",
-                                                    lineNumber: 44,
+                                                    lineNumber: 42,
                                                     columnNumber: 60
                                                 }, undefined),
                                                 " ",
-                                                "Code is law. Once deployed on blockchain, code is forever."
+                                                "Code is law, forever encrypted in the blockchain."
                                             ]
                                         }, void 0, true, {
                                             fileName: "components/About.js",
-                                            lineNumber: 43,
+                                            lineNumber: 41,
                                             columnNumber: 17
                                         }, undefined)
                                     ]
                                 }, void 0, true, {
                                     fileName: "components/About.js",
-                                    lineNumber: 34,
+                                    lineNumber: 33,
                                     columnNumber: 15
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                     fileName: "components/About.js",
-                                    lineNumber: 48,
+                                    lineNumber: 46,
                                     columnNumber: 15
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                     className: "buybut",
                                     href: "https://www.masterlock.com/products/bluetooth-electronic-locks",
                                     target: "_blank",
-                                    children: "BUY LOCK"
+                                    children: "COMPATIBLE LOCKS"
                                 }, void 0, false, {
                                     fileName: "components/About.js",
-                                    lineNumber: 49,
+                                    lineNumber: 47,
                                     columnNumber: 15
                                 }, undefined)
                             ]
@@ -29868,7 +29868,7 @@ const Footer = ()=>{
                                                             columnNumber: 21
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                            href: "https://www.youtube.com/@partage_xyz",
+                                                            href: "https://www.youtube.com/@partagexyz",
                                                             target: "_blank",
                                                             className: "Youtube",
                                                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
@@ -29884,7 +29884,7 @@ const Footer = ()=>{
                                                             columnNumber: 21
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                            href: "https://twitter.com/partage_xyz",
+                                                            href: "https://twitter.com/partagexyz",
                                                             target: "_blank",
                                                             className: "twitter",
                                                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
@@ -29900,7 +29900,7 @@ const Footer = ()=>{
                                                             columnNumber: 21
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                            href: "https://www.instagram.com/partage.btc/",
+                                                            href: "https://www.instagram.com/partagexyz/",
                                                             target: "_blank",
                                                             className: "instagram",
                                                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
@@ -29955,7 +29955,7 @@ const Footer = ()=>{
                                                             }, undefined),
                                                             " ",
                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                href: "https://hellopartage.xyz/nfts",
+                                                                href: "https://hellopartage.xyz",
                                                                 target: "_blank",
                                                                 children: "Marketplace"
                                                             }, void 0, false, {
@@ -29980,7 +29980,7 @@ const Footer = ()=>{
                                                             }, undefined),
                                                             " ",
                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                href: "https://medium.com/partage-btc/partages-white-paper-347674063de7",
+                                                                href: "https://medium.com/partage_xyz/partage-white-paper-v2-c0cbea46e2f8",
                                                                 target: "_blank",
                                                                 children: "White Paper"
                                                             }, void 0, false, {
@@ -30133,7 +30133,7 @@ const Footer = ()=>{
                                 rel: "noopener noreferrer",
                                 children: [
                                     "All rights reserved ",
-                                    ` \u{24B8} CivicTech O\xdc, 2023`
+                                    ` \u{24B8} CivicTech O\xdc, 2024`
                                 ]
                             }, void 0, true, {
                                 fileName: "components/footer.js",
@@ -30403,12 +30403,12 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-var _connectWalletJpg = require("../assets/img/connect-wallet.jpg");
-var _connectWalletJpgDefault = parcelHelpers.interopDefault(_connectWalletJpg);
-var _sendPaymentJpg = require("../assets/img/send-payment.jpg");
-var _sendPaymentJpgDefault = parcelHelpers.interopDefault(_sendPaymentJpg);
-var _receivePasswordJpg = require("../assets/img/receive-password.jpg");
-var _receivePasswordJpgDefault = parcelHelpers.interopDefault(_receivePasswordJpg);
+var _mllocksPng = require("../assets/img/mllocks.png");
+var _mllocksPngDefault = parcelHelpers.interopDefault(_mllocksPng);
+var _gglplayPng = require("../assets/img/gglplay.png");
+var _gglplayPngDefault = parcelHelpers.interopDefault(_gglplayPng);
+var _dashboardPng = require("../assets/img/dashboard.png");
+var _dashboardPngDefault = parcelHelpers.interopDefault(_dashboardPng);
 const Services = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         id: "about-boxes",
@@ -30420,7 +30420,7 @@ const Services = ()=>{
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                     className: "section-title",
                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                        children: "How It Works"
+                        children: "How It Works?"
                     }, void 0, false, {
                         fileName: "components/Services.js",
                         lineNumber: 11,
@@ -30442,7 +30442,7 @@ const Services = ()=>{
                                 className: "card",
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                        src: (0, _connectWalletJpgDefault.default),
+                                        src: (0, _mllocksPngDefault.default),
                                         className: "card-img-top",
                                         alt: "..."
                                     }, void 0, false, {
@@ -30471,7 +30471,7 @@ const Services = ()=>{
                                                 className: "card-title",
                                                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                                     href: "",
-                                                    children: "Connect Your Wallet"
+                                                    children: "Get a Bluetooth Lock"
                                                 }, void 0, false, {
                                                     fileName: "components/Services.js",
                                                     lineNumber: 30,
@@ -30484,7 +30484,7 @@ const Services = ()=>{
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                                 className: "card-text",
-                                                children: "Connect your preferred Near wallet by clicking the Connect Wallet button at the top of this page."
+                                                children: "Get yourself the most convenient Bluetooth lock device from our reknowned partner Master Lock."
                                             }, void 0, false, {
                                                 fileName: "components/Services.js",
                                                 lineNumber: 31,
@@ -30515,12 +30515,12 @@ const Services = ()=>{
                                 className: "card",
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                        src: (0, _sendPaymentJpgDefault.default),
+                                        src: (0, _gglplayPngDefault.default),
                                         className: "card-img-top",
                                         alt: "..."
                                     }, void 0, false, {
                                         fileName: "components/Services.js",
-                                        lineNumber: 44,
+                                        lineNumber: 43,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30529,12 +30529,12 @@ const Services = ()=>{
                                             className: "ri-calendar-check-line"
                                         }, void 0, false, {
                                             fileName: "components/Services.js",
-                                            lineNumber: 50,
+                                            lineNumber: 49,
                                             columnNumber: 17
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "components/Services.js",
-                                        lineNumber: 49,
+                                        lineNumber: 48,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30544,40 +30544,40 @@ const Services = ()=>{
                                                 className: "card-title",
                                                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                                     href: "",
-                                                    children: "Send payment"
+                                                    children: "Download our App"
                                                 }, void 0, false, {
                                                     fileName: "components/Services.js",
-                                                    lineNumber: 53,
+                                                    lineNumber: 52,
                                                     columnNumber: 44
                                                 }, undefined)
                                             }, void 0, false, {
                                                 fileName: "components/Services.js",
-                                                lineNumber: 53,
+                                                lineNumber: 52,
                                                 columnNumber: 17
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                                 className: "card-text",
-                                                children: "Browse all available locked Utilities in the Partage Marketplace, and send payment for your desired use time."
+                                                children: "Visit the link in navbar or look for Partage Lock app in Google Play and install it on our phone."
                                             }, void 0, false, {
                                                 fileName: "components/Services.js",
-                                                lineNumber: 54,
+                                                lineNumber: 53,
                                                 columnNumber: 17
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "components/Services.js",
-                                        lineNumber: 52,
+                                        lineNumber: 51,
                                         columnNumber: 15
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "components/Services.js",
-                                lineNumber: 43,
+                                lineNumber: 42,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "components/Services.js",
-                            lineNumber: 38,
+                            lineNumber: 37,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30588,12 +30588,12 @@ const Services = ()=>{
                                 className: "card",
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                        src: (0, _receivePasswordJpgDefault.default),
+                                        src: (0, _dashboardPngDefault.default),
                                         className: "card-img-top",
                                         alt: "..."
                                     }, void 0, false, {
                                         fileName: "components/Services.js",
-                                        lineNumber: 66,
+                                        lineNumber: 65,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30602,12 +30602,12 @@ const Services = ()=>{
                                             className: "ri-movie-2-line"
                                         }, void 0, false, {
                                             fileName: "components/Services.js",
-                                            lineNumber: 72,
+                                            lineNumber: 71,
                                             columnNumber: 17
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "components/Services.js",
-                                        lineNumber: 71,
+                                        lineNumber: 70,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30617,40 +30617,40 @@ const Services = ()=>{
                                                 className: "card-title",
                                                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                                     href: "",
-                                                    children: "Collect password"
+                                                    children: "List items for share"
                                                 }, void 0, false, {
                                                     fileName: "components/Services.js",
-                                                    lineNumber: 75,
+                                                    lineNumber: 74,
                                                     columnNumber: 44
                                                 }, undefined)
                                             }, void 0, false, {
                                                 fileName: "components/Services.js",
-                                                lineNumber: 75,
+                                                lineNumber: 74,
                                                 columnNumber: 17
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                                 className: "card-text",
-                                                children: "Collect your unique password and type it on the lock to access the utility of your choice."
+                                                children: "Connect your near wallet and list your underused assets to generate a yield out of selling temporary access on our marketplace."
                                             }, void 0, false, {
                                                 fileName: "components/Services.js",
-                                                lineNumber: 76,
+                                                lineNumber: 75,
                                                 columnNumber: 17
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "components/Services.js",
-                                        lineNumber: 74,
+                                        lineNumber: 73,
                                         columnNumber: 15
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "components/Services.js",
-                                lineNumber: 65,
+                                lineNumber: 64,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "components/Services.js",
-                            lineNumber: 60,
+                            lineNumber: 59,
                             columnNumber: 11
                         }, undefined)
                     ]
@@ -30681,16 +30681,16 @@ $RefreshReg$(_c, "Services");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../assets/img/connect-wallet.jpg":"8EkwD","../assets/img/send-payment.jpg":"5V67e","../assets/img/receive-password.jpg":"bxlg9","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"8EkwD":[function(require,module,exports) {
-module.exports = require("18b155ef857eabc4").getBundleURL("UckoE") + "connect-wallet.2b771d86.jpg" + "?" + Date.now();
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../assets/img/mllocks.png":"jXkxL","../assets/img/gglplay.png":"gIBLg","../assets/img/dashboard.png":"a0PEO"}],"jXkxL":[function(require,module,exports) {
+module.exports = require("1b0b2a5080c1d6ff").getBundleURL("UckoE") + "mllocks.8d8d2ed3.png" + "?" + Date.now();
 
-},{"18b155ef857eabc4":"lgJ39"}],"5V67e":[function(require,module,exports) {
-module.exports = require("24a21002d59734e9").getBundleURL("UckoE") + "send-payment.6afce8c8.jpg" + "?" + Date.now();
+},{"1b0b2a5080c1d6ff":"lgJ39"}],"gIBLg":[function(require,module,exports) {
+module.exports = require("4acbc0103d4bfa8").getBundleURL("UckoE") + "gglplay.9d52e7b6.png" + "?" + Date.now();
 
-},{"24a21002d59734e9":"lgJ39"}],"bxlg9":[function(require,module,exports) {
-module.exports = require("1a18b13726d6bb4").getBundleURL("UckoE") + "receive-password.af5862f0.jpg" + "?" + Date.now();
+},{"4acbc0103d4bfa8":"lgJ39"}],"a0PEO":[function(require,module,exports) {
+module.exports = require("522224f2f222dec4").getBundleURL("UckoE") + "dashboard.6b22ee61.png" + "?" + Date.now();
 
-},{"1a18b13726d6bb4":"lgJ39"}],"kBGcU":[function(require,module,exports) {
+},{"522224f2f222dec4":"lgJ39"}],"kBGcU":[function(require,module,exports) {
 !function(e, t) {
     module.exports = t();
 }(this, function() {

@@ -1,0 +1,3 @@
+cargo:rerun-if-changed=build/main.rs
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/Users/juliencarbonnell/near/partage-lock-pr/partage-lock/contract/target/wasm32-unknown-unknown/release/build/typenum-1eb35a5848306c66/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=/Users/juliencarbonnell/near/partage-lock-pr/partage-lock/contract/target/wasm32-unknown-unknown/release/build/typenum-1eb35a5848306c66/out/op.rs
