@@ -1,1 +1,0 @@
-/Users/juliencarbonnell/near/partage-lock-pr/partage-lock/contract/target/wasm32-unknown-unknown/release/partage_lock.wasm: /Users/juliencarbonnell/near/partage-lock-pr/partage-lock/contract/src/lib.rs /Users/juliencarbonnell/near/partage-lock-pr/partage-lock/contract/src/models.rs /Users/juliencarbonnell/near/partage-lock-pr/partage-lock/contract/src/utils.rs
